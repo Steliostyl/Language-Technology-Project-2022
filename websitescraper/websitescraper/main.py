@@ -1,3 +1,6 @@
 import functions
 
-functions.readJSON('cnbc_spider.json').printArticle()
+articles = functions.readJSON('cnbc_spider.json')
+
+for article in articles:
+    article.printArticle()
