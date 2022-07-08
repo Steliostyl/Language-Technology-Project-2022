@@ -16,5 +16,7 @@ class CnbcSpider(scrapy.Spider):
             'article_datetime': response.css('time::attr(datetime)').get(),
             'next_paragraphs_topic': response.xpath('//h3[contains(@class,"ArticleBody")]//text()').extract(),
             'first_par_after_top_change': response.xpath('//h2[contains(@class,"ArticleBody")]/following-sibling::div[@class="group"]/p/text()').extract_first(),
-            'paragraphs': response.xpath('//div[@class="ArticleBody-articleBody"]/div[@class="group"]/p').extract()
+            'paragraphs': response.xpath('//div[@class="ArticleBody-articleBody"]/div[@class="group"]/p').extract(),
+            'url': response.url,
+            'id': response.meta
         }

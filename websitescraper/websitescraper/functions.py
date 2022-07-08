@@ -3,13 +3,15 @@ from datetime import datetime
 from html_text import extract_text
 
 class Article:
-    def __init__(self, title, tag, date, author, next_paragraphs_topic, first_par_after_top_change, unprocessed_text):
+    def __init__(self, title, tag, date, author, next_paragraphs_topic, first_par_after_top_change, unprocessed_text, url, id):
         self.title = title
+        self.url = url
         self.tag = tag
         self.date = date
         self.author = author
         self.next_paragraphs_topic = next_paragraphs_topic
         self.first_par_after_top_change = first_par_after_top_change
+        self.id = id
         
         # Initialize paragraphs variables
         final_paragraphs = []
@@ -37,6 +39,8 @@ class Article:
         self.paragraphs = final_paragraphs
 
     def printArticle(self):
+        print(self.id)
+        print(self.url)
         print(self.title)
         print(self.tag)
         print(self.date.strftime("%A, %d %B %Y %H:%M:%S"))
@@ -59,12 +63,12 @@ def readJSON(filename):
     article_list = []
     file = open(filename)
     init_dict = json.load(file)
-    for article in init_dict:
+    for index, article in enumerate(init_dict):
         if len(article['paragraphs']) > 0:
             paragraphs = []
             for paragraph in article['paragraphs']:
                 paragraphs.append(extract_text(paragraph))
-            new_article =  Article(article['article_title'], article['article_tag'], readDateTimeFromString(article['article_datetime']), article['author'],article['next_paragraphs_topic'],article['first_par_after_top_change'],paragraphs)
+            new_article =  Article(article['article_title'], article['article_tag'], readDateTimeFromString(article['article_datetime']), article['author'],article['next_paragraphs_topic'],article['first_par_after_top_change'],paragraphs,article['url'], index)
             file.close()
             article_list.append(new_article)
     return article_list
