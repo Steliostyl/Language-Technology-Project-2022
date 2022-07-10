@@ -1,3 +1,4 @@
+import functions
 import nltk
 from nltk.corpus import stopwords, state_union
 from nltk.tokenize import sent_tokenize, word_tokenize, PunktSentenceTokenizer as punkt_sent_tok
@@ -20,15 +21,23 @@ def filter_stop_words(tokenized_sentence):
 
 # PoS Tagging
 def pos_tag(article):
-    tokenized = sent_tokenize(article)
-    tagged = process_content(tokenized)
-    print(tagged)
-    return tagged
+    #for par in article.paragraphs:
+        #print(type(par['Paragraphs']), par['Paragraphs'])
+        #sentences = ' '.join([str(item) for item in par['Paragraphs']])
+        #tokenized = sent_tokenize(sentences)
+        #article.pos_tags.append(process_content(tokenized))
+        #print(tagged)
+        #functions.saveEntryToCSV(article)
+    tokenized = sent_tokenize(' '.join([str(item) for item in article.paragraphs]))
+    article.pos_tags.append(process_content(tokenized))
+    functions.saveEntryToJSON(article)
+    #article.printArticle()
+    #return article
 
 def process_content(tokenized):
     tagged = []
     try:
-        for i in tokenized[:100]:
+        for i in tokenized:
             words = nltk.word_tokenize(i)
             tagged.append(nltk.pos_tag(words))
             #print(tagged)
@@ -37,4 +46,4 @@ def process_content(tokenized):
     except Exception as ex:
         print(str(ex))
 
-pos_tag(example_text)
+#pos_tag(example_text)

@@ -1,6 +1,9 @@
+# Need to simplify paragraphs (remove topics etc)
+
 import json
 from datetime import datetime
 from html_text import extract_text
+import csv
 
 class Article:
     def __init__(self, title, tag, date, author, next_paragraphs_topic, first_par_after_top_change, unprocessed_text, url, id):
@@ -12,6 +15,7 @@ class Article:
         self.next_paragraphs_topic = next_paragraphs_topic
         self.first_par_after_top_change = first_par_after_top_change
         self.id = id
+        self.pos_tags = []
         
         # Initialize paragraphs variables
         final_paragraphs = []
@@ -37,6 +41,8 @@ class Article:
         final_paragraphs.append({'Topic': new_topic, 'Paragraphs': new_paragraphs})
 
         self.paragraphs = final_paragraphs
+        #self.paragraphs = ' '.join([str(item) for item in new_paragraphs])
+        #self.paragraphs = new_paragraphs
 
     def printArticle(self):
         print(self.id)
@@ -72,3 +78,7 @@ def readJSON(filename):
             file.close()
             article_list.append(new_article)
     return article_list
+
+def saveEntryToJSON(article):
+    with open('processed_articles.json', 'a') as outfile:
+        json.dump(article.__dict__, outfile, indent=4, default=str)
