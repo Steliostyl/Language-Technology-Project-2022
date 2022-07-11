@@ -20,16 +20,15 @@ def filter_stop_words(tokenized_sentence):
 # PoS Tagging
 def pos_tag(article):
     tokenized = sent_tokenize(article.paragraphs)
-    article.pos_tags.append(process_content(tokenized))
+    article.pos_tags = process_content(tokenized)
     functions.saveEntryToJSON(article)
 
 def process_content(tokenized):
-    tagged = []
     try:
+        tagged = []
         for i in tokenized:
             words = nltk.word_tokenize(i)
             tagged.append(nltk.pos_tag(words))
-            #print(tagged)
         return(tagged)
 
     except Exception as ex:

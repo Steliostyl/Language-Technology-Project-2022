@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
 from html_text import extract_text
-import csv
+import os
 
 class Article:
     def __init__(self, title, tag, date, author, unprocessed_text, url, id):
@@ -12,12 +12,7 @@ class Article:
         self.author = author
         self.paragraphs = ''
         self.id = id
-        self.pos_tags = []
-        
-        # Initialize paragraphs variables
-        final_paragraphs = []
-        new_topic = ''
-        t = 0
+        self.pos_tags = [] # List of tagged sentences
 
         # Join the text of the article into 1 string
         self.paragraphs = ''.join(unprocessed_text)
@@ -30,6 +25,7 @@ class Article:
         print(self.date.strftime("%A, %d %B %Y %H:%M:%S"))
         print(self.author)
         print(self.paragraphs)
+        print(self.pos_tags)
         print("\n")
 
 # Turns datetime string (mainly from html element attribute) into datetime objects
@@ -54,3 +50,9 @@ def readJSON(filename):
 def saveEntryToJSON(article):
     with open('processed_articles.json', 'a') as outfile:
         json.dump(article.__dict__, outfile, indent=4, default=str)
+
+def deleteFile(filename):
+    # Check if the file exists
+    if(os.path.isfile(filename)):
+        # Remove file
+        os.remove(filename)
