@@ -5,7 +5,7 @@ from nltk.tokenize import sent_tokenize, word_tokenize, PunktSentenceTokenizer a
 
 # Probably not useful
 def tokenize_articles(articles):
-    for index, article in enumerate(articles):
+    for article in articles:
         # Get separate sentences in each article
         sentences = sent_tokenize(articles)
     return sentences
@@ -19,9 +19,8 @@ def filter_stop_words(tokenized_sentence):
 
 # PoS Tagging
 def pos_tag(article):
-    tokenized = sent_tokenize(article.paragraphs)
-    article.pos_tags = process_content(tokenized)
-    functions.saveEntryToJSON(article)
+    tokenized = sent_tokenize(article['paragraphs'])
+    article['pos_tags'] = process_content(tokenized)
 
 def process_content(tokenized):
     try:
