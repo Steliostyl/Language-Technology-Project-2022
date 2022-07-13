@@ -30,19 +30,16 @@ def readScraperJSON(filename):
     return article_list
 
 def saveArticlesToJSON(articles, filename):
-    file = open(filename, 'a')
-    for article in articles:
-        json.dump(article, file, indent=4, default=str)
-        file.write(',')
-    file.close()
-
-def createNewJSON(filename):
-    # Check if the file exists
-    if(os.path.isfile(filename)):
-        # Remove file
-        os.remove(filename)
+    # Open the file with filename (if it exists, it gets 
+    # overwritten because of the use of w instead of a)
     with open(filename, 'w') as file:
         file.write('{\t"articles": [\n')
+        for index, article in enumerate(articles):
+            json.dump(article, file, indent=4, default=str)
+            if index < len(articles) - 1:
+                file.write(',\n')
+        file.write('\n]\n}')
+    file.close()
 
 def readArticlesFromJSON(filename):
     with open(filename, 'r') as file:
@@ -54,11 +51,3 @@ def readArticlesFromJSON(filename):
     #         print(key, '\n', articles[0][key], '\n')
 
     return articles
-
-def cleanupJSONfile(filename):
-    with open(filename, 'rb+') as file:
-        file.seek(-1, os.SEEK_END)
-        file.truncate()
-
-    with open(filename, 'a') as file:
-        file.write('\n]\n}')
