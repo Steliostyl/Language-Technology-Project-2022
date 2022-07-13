@@ -1,7 +1,7 @@
 import functions
 import nltk_functions
 
-articles = functions.readScraperJSON('cnbc_spider_new.json')
+articles = functions.readArticlesFromJSON('cnbc_spider_new.json')
 
 
 for article in articles:
