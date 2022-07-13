@@ -1,17 +1,9 @@
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import sent_tokenize, word_tokenize
-import functions
 
 cc_categories = ['CD', 'CC', 'DT', 'EX', 'IN', 'LS', 'MD', 'PDT',
 'POS', 'PRP', 'PRP$', 'RP', 'TO', 'UH', 'WDT', 'WP', 'WP$', 'WRB']
-
-# Probably not useful
-def filter_stop_words(tokenized_sentence):
-    # If sentence has not already been tokenized, tokenize sentence
-    if type(tokenized_sentence) != list:
-        tokenized_sentence = word_tokenize(tokenized_sentence)
-    return [w for w in tokenized_sentence if not w in set(stopwords.words("english"))]
 
 # PoS Tagging
 def pos_tag(articles):
@@ -21,7 +13,7 @@ def pos_tag(articles):
         tokenized = sent_tokenize(article['paragraphs'])
         pos_tag = process_content(tokenized)
         pos_tags.append(pos_tag)
-    pos_tags_no_s_w = filter_stop_words_2(pos_tags)
+    pos_tags_no_s_w = filter_stop_words(pos_tags)
     return pos_tags, pos_tags_no_s_w
 
 # Where the actual pos_tagging happens
@@ -37,11 +29,13 @@ def process_content(tokenized):
     except Exception as ex:
         print(str(ex))
 
-def filter_stop_words_2(pos_tags):
+def filter_stop_words(pos_tags):
     pos_no_stopwords = []
     
     for article in pos_tags:
+        article_pos_no_sw = []
         for sent in article:
-            pos_no_stopwords.append([p_t for p_t in sent if not p_t[1] in cc_categories])
+            article_pos_no_sw.append([p_t for p_t in sent if not p_t[1] in cc_categories])
+        pos_no_stopwords.append(article_pos_no_sw)
 
     return pos_no_stopwords

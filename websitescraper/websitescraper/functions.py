@@ -1,5 +1,5 @@
 import json
-from html_text import extract_text
+import nltk_functions
 
 # Function to read the articles from the JSON file
 def readJSON(filename):
@@ -18,3 +18,12 @@ def saveListToJSON(input_list, filename):
                 file.write(',\n')
         file.write('\n]')
     file.close()
+
+def posTagArticles():
+    # Read JSON created by the crawler
+    articles = readJSON('articles.json')
+    # PoS tag articles with and without stop words
+    pos_tags, pos_tags_no_sw = nltk_functions.pos_tag(articles)
+    # Save pos tags to seperate files
+    saveListToJSON(pos_tags, 'pos_tags.json')
+    saveListToJSON(pos_tags_no_sw, 'pos_tags_no_stopwords.json')
