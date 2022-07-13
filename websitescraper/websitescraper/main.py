@@ -1,16 +1,10 @@
 import functions
 import nltk_functions
 
-articles = functions.readArticlesFromJSON('cnbc_spider_new.json')
+articles = functions.readJSON('articles.json')
+pos_tags, pos_tags_no_sw = nltk_functions.pos_tag(articles)
+functions.saveListToJSON(pos_tags, 'pos_tags.json')
+functions.saveListToJSON(pos_tags_no_sw, 'pos_tags_no_stopwords.json')
 
-
-for article in articles:
-    nltk_functions.pos_tag(article)
-    
-functions.saveArticlesToJSON(articles, 'processed_articles.json')
-
-articles_from_JSON = functions.readArticlesFromJSON('processed_articles.json')
-nltk_functions.filter_stop_words_2(articles_from_JSON)
-
-functions.saveArticlesToJSON(articles_from_JSON, 'no_stop_words.json')
-#print(articles_from_JSON[0]['pos_tags_no_stopwords'])
+#for article in functions.readJSON('articles.json'):
+#    print(article['id'], article['title'],'\n')
