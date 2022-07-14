@@ -40,8 +40,8 @@ def createLemmaDict(lemmas_in_articles):
         # in the article list and pos_tags
         article_w_count.append(len(lemmas_in_articles[article_id]))
         for sentence in article:
-            for word in sentence:
-                if word not in lemmas.keys():
+            for lemma in sentence:
+                if lemma not in lemmas.keys():
                     lemmas['word'] = {
                         article_id: 1
                     }
@@ -51,13 +51,25 @@ def createLemmaDict(lemmas_in_articles):
     article_count = len(lemmas_in_articles)
 
     # Calculate weights for all words (using tf_idf)
-    for word in lemmas:
-        idf = len(lemmas[word].keys())/article_count
-        for key in lemmas[word].keys():
-            tf = lemmas[word][key]/article_w_count[key]
-            lemmas[word][key] = tf*idf
+    for lemma in lemmas:
+        idf = len(lemmas[lemma].keys())/article_count
+        for key in lemmas[lemma].keys():
+            tf = lemmas[lemma][key]/article_w_count[key]
+            lemmas[lemma][key] = tf*idf
 
     return lemmas
+
+def calculateTFidf(lemmas, article_w_count):
+    article_count = len(article_w_count)
+    # Calculate weights for all words (using tf_idf)
+    for lemma in lemmas:
+        idf = len(lemmas[lemma].keys())/article_count
+        for key in lemmas[lemma].keys():
+            tf = lemmas[lemma][key]/article_w_count[key]
+            lemmas[lemma][key] = tf*idf
+
+    return lemmas
+
 
 def createXML(lemmas_dict):
     #lemmas example
@@ -86,8 +98,7 @@ def createXML(lemmas_dict):
             new_lemma.appendChild(new_document)
         inv_index.appendChild(new_lemma)
 
-    xml_str = root.toprettyxml(indent ="\t") 
-    print(inv_index)
+    xml_str = root.toprettyxml(indent ="\t")
     
     with open('lemmas.xml', "w") as f:
         f.write(xml_str) 
