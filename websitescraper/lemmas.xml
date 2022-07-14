@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<inverted_index>
+	<lemma name="pen">
+		<document id="1" weight="0.1"/>
+		<document id="2" weight="0.2"/>
+	</lemma>
+	<lemma name="pineapple">
+		<document id="1" weight="0.3"/>
+		<document id="2" weight="0.4"/>
+	</lemma>
+</inverted_index>

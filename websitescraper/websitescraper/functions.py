@@ -1,5 +1,6 @@
 import json
 import nltk_functions
+from xml.dom import minidom
 
 # Function to read the articles from the JSON file
 def readJSON(filename):
@@ -19,11 +20,74 @@ def saveListToJSON(input_list, filename):
         file.write('\n]')
     file.close()
 
-def posTagArticles():
-    # Read JSON created by the crawler
-    articles = readJSON('articles.json')
+def readAndTagArticles(articles):
     # PoS tag articles with and without stop words
     pos_tags, pos_tags_no_sw = nltk_functions.pos_tag(articles)
     # Save pos tags to seperate files
     saveListToJSON(pos_tags, 'pos_tags.json')
     saveListToJSON(pos_tags_no_sw, 'pos_tags_no_stopwords.json')
+
+def createLemmaDict(lemmas_in_articles):
+    lemmas = {}
+    article_w_count = []
+    #article_w_count[article_id] = word count of article with id = article_id
+
+    # Calculate the appearance count for each word in each article
+    # (later to be turned into tf)
+    for article_id, article in enumerate(lemmas_in_articles):
+        # This only works because article ids are 
+        # identical with their order of appearance
+        # in the article list and pos_tags
+        article_w_count.append(len(lemmas_in_articles[article_id]))
+        for sentence in article:
+            for word in sentence:
+                if word not in lemmas.keys():
+                    lemmas['word'] = {
+                        article_id: 1
+                    }
+                else:
+                    lemmas['word'][article_id] += 1
+
+    article_count = len(lemmas_in_articles)
+
+    # Calculate weights for all words (using tf_idf)
+    for word in lemmas:
+        idf = len(lemmas[word].keys())/article_count
+        for key in lemmas[word].keys():
+            tf = lemmas[word][key]/article_w_count[key]
+            lemmas[word][key] = tf*idf
+
+    return lemmas
+
+def createXML(lemmas_dict):
+    #lemmas example
+    #lemmas = {
+    #    'pen':{
+    #        '1': 0.1,
+    #        '2': 0.2
+    #    },
+    #    'pineapple':{
+    #        '1': 0.3,
+    #        '2': 0.4
+    #    }
+    #}
+
+    root = minidom.Document()
+    inv_index = root.createElement('inverted_index')
+    root.appendChild(inv_index)
+
+    for word in lemmas_dict.keys():
+        new_lemma = root.createElement('lemma')
+        new_lemma.setAttribute('name', word)
+        for key in lemmas_dict[word].keys():
+            new_document = root.createElement('document')
+            new_document.setAttribute('id', str(key))
+            new_document.setAttribute('weight', str(lemmas_dict[word][key]))
+            new_lemma.appendChild(new_document)
+        inv_index.appendChild(new_lemma)
+
+    xml_str = root.toprettyxml(indent ="\t") 
+    print(inv_index)
+    
+    with open('lemmas.xml', "w") as f:
+        f.write(xml_str) 
