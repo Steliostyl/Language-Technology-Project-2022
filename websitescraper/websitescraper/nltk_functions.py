@@ -62,7 +62,7 @@ def filter_stop_words(pos_tags):
                     # Add tag to filtered tags
                     article_w_count += 1
                     filtered_pos.append(tag)
-                    lemma = lemmatizer.lemmatize(tag[0], pos= get_wordnet_pos(tag[1]))
+                    lemma = lemmatizer.lemmatize(tag[0], pos= get_wordnet_pos(tag[1])).lower()
                     # If lemma doesn't already exist 
                     # in the lemmas dict, create it
                     # and set the count for the 

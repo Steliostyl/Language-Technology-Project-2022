@@ -16,6 +16,7 @@ functions.saveListToJSON(pos_tags, 'pos_tags.json')
 functions.saveListToJSON(pos_tags_no_sw, 'pos_tags_no_stopwords.json')
 lemmas = functions.calculateTFidf(lemmas, articles_w_count)
 functions.createXML(lemmas)
+functions.readXML('lemmas.xml')
 
 #first_dict_keys = list(lemmas.keys())[:10]
 #for key in first_dict_keys:
