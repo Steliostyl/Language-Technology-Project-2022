@@ -3,7 +3,6 @@ import nltk_functions
 
 # Read JSON created by the crawler
 articles = functions.readJSON('articles.json')
-functions.readAndTagArticles(articles)
 
 # PoS tag articles with and without stop words
 pos_tags, temp = nltk_functions.pos_tag(articles)
@@ -14,9 +13,15 @@ lemmas = temp[2]
 # Save pos tags to seperate files
 functions.saveListToJSON(pos_tags, 'pos_tags.json')
 functions.saveListToJSON(pos_tags_no_sw, 'pos_tags_no_stopwords.json')
+
+# Calculate TFidf and save them as weights to the lemma dictionary
 lemmas = functions.calculateTFidf(lemmas, articles_w_count)
 functions.createXML(lemmas)
-functions.readXML('lemmas.xml')
+
+# Read lemmas XML and save it to a dictionary
+lemmas_from_file = functions.readXML('lemmas.xml')
+# Save the loaded lemmas to file to check that loading was succesful
+functions.createXML(lemmas_from_file)
 
 #first_dict_keys = list(lemmas.keys())[:10]
 #for key in first_dict_keys:

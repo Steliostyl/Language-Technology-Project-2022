@@ -1,9 +1,8 @@
 import json
-import nltk_functions
 from xml.dom import minidom
 import math
-import xmltodict
-import pprint
+
+import xml.etree.ElementTree as ET
 
 # Function to read the articles from the JSON file
 def readJSON(filename):
@@ -23,21 +22,21 @@ def saveListToJSON(input_list, filename):
         file.write('\n]')
     file.close()
 
-def readAndTagArticles(articles):
-    # PoS tag articles with and without stop words
-    pos_tags, pos_tags_no_sw = nltk_functions.pos_tag(articles)
-    # Save pos tags to seperate files
-    saveListToJSON(pos_tags, 'pos_tags.json')
-    saveListToJSON(pos_tags_no_sw, 'pos_tags_no_stopwords.json')
-
+# Calculate weights for all lemmas (using tf_idf)
 def calculateTFidf(lemmas, article_w_count):
     article_count = len(article_w_count)
-    # Calculate weights for all words (using tf_idf)
+    max_tf_idf = 0
     for lemma in lemmas:
         idf = math.log2(article_count/len(lemmas[lemma].keys()))
-        for key in lemmas[lemma].keys():
+        for index, key in enumerate(lemmas[lemma].keys()):
             tf = lemmas[lemma][key]/article_w_count[key]
-            lemmas[lemma][key] = tf*idf
+            tf_idf = tf*idf
+            lemmas[lemma][key] = tf_idf
+            # Sort documents by weight
+            #sort_index = index
+            #while(sort_index > 0 and ):
+
+
 
     return lemmas
 
@@ -62,12 +61,21 @@ def createXML(lemmas_dict):
         file.write(xml_str) 
 
 def readXML(filename):
-    with open(filename, "r") as file:
-        xml_file = file.read()
+    lemma_dict = {}
+    root_node = ET.parse(filename).getroot()
+    # Get all lemmas
+    for lemma in root_node.findall('lemma'):
+        # Get the lemma name
+        name = lemma.get('name')
+        docs = {}
+        for document in lemma.findall('document'):
+            id = document.get('id')
+            weight = document.get('weight')
+            docs[id] = weight
+            #print(id,weight)
+        #print()
+        lemma_dict[name] = docs
+    print(lemma_dict)
+    return lemma_dict
 
-    my_dict = xmltodict.parse(xml_file)
-    #for item in my_dict['inverted_index']['lemma'][:2]:
-    #    pprint.pprint(item, indent=2)
-    return my_dict
-    
-#readXML('lemmas.xml')
+readXML('lemmas.xml')
