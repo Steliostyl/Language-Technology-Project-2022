@@ -88,4 +88,15 @@ def readXML(filename):
         
     return lemma_dict
 
+def query(lemmas, word):
+    articles = []
+    for article_id in lemmas[word].keys():
+        if article_id == 'total_weight':
+            continue
+        articles.append(article_id)
+    #for key in lemmas.keys():
+    #    if key == word:
+
+    return (word, articles)
+
 #readXML('lemmas.xml')

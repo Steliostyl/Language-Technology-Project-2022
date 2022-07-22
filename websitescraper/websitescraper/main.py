@@ -1,5 +1,7 @@
+from tracemalloc import start
 import functions
 import nltk_functions
+from time import perf_counter
 
 # Read JSON created by the crawler
 articles = functions.readJSON('articles.json')
@@ -24,7 +26,19 @@ functions.createXML(lemmas)
 ## Save the loaded lemmas to file to check that loading was succesful
 #functions.createXML(lemmas_from_file)
 
-# Make querry
+query_words = [
+    "prospective", "be","have","second","fell","estate","adjustment","value","recovery","owner","midst","press","wharton"
+]
+# Make queries and benchmark time required
+query_answer = []
+start_time = perf_counter()
+for word in query_words:
+    query_answer.append(functions.query(lemmas, word))
+finish_time = perf_counter()
+e_time = finish_time - start_time
+for item in query_answer:
+    print(item)
+print("Elapsed time: %.6f" % e_time)
 
 
 #first_dict_keys = list(lemmas.keys())[:10]
