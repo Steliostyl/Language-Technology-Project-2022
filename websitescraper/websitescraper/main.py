@@ -19,10 +19,13 @@ lemmas = functions.calculateTFidf(lemmas, articles_w_count)
 #print(lemmas)
 functions.createXML(lemmas)
 
-# Load lemmas from XML file to a dictionary
-lemmas_from_file = functions.readXML('lemmas.xml')
-# Save the loaded lemmas to file to check that loading was succesful
-functions.createXML(lemmas_from_file)
+## Load lemmas from XML file to a dictionary
+#lemmas_from_file = functions.readXML('lemmas.xml')
+## Save the loaded lemmas to file to check that loading was succesful
+#functions.createXML(lemmas_from_file)
+
+# Make querry
+
 
 #first_dict_keys = list(lemmas.keys())[:10]
 #for key in first_dict_keys:
