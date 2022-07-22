@@ -16,6 +16,7 @@ functions.saveListToJSON(pos_tags_no_sw, 'pos_tags_no_stopwords.json')
 
 # Calculate TFidf and save them as weights to the lemma dictionary
 lemmas = functions.calculateTFidf(lemmas, articles_w_count)
+#print(lemmas)
 functions.createXML(lemmas)
 
 # Load lemmas from XML file to a dictionary
@@ -26,10 +27,4 @@ functions.createXML(lemmas_from_file)
 #first_dict_keys = list(lemmas.keys())[:10]
 #for key in first_dict_keys:
 #    print(key, '\n', lemmas[key])
-
-# lemmas_in_articles = lemmatized pos_tags_no_sw
-# lemmas = functions.createLemmaDict(lemmas_in_articles)
-# functions.createXML(lemmas)
-
-#for article in functions.readJSON('articles.json'):
 #    print(article['id'], article['title'],'\n')
