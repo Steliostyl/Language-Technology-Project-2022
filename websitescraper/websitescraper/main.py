@@ -18,7 +18,7 @@ functions.saveListToJSON(pos_tags_no_sw, 'pos_tags_no_stopwords.json')
 lemmas = functions.calculateTFidf(lemmas, articles_w_count)
 functions.createXML(lemmas)
 
-# Read lemmas XML and save it to a dictionary
+# Load lemmas from XML file to a dictionary
 lemmas_from_file = functions.readXML('lemmas.xml')
 # Save the loaded lemmas to file to check that loading was succesful
 functions.createXML(lemmas_from_file)

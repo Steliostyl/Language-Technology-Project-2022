@@ -1,4 +1,3 @@
-from codecs import utf_8_decode
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.stem import WordNetLemmatizer

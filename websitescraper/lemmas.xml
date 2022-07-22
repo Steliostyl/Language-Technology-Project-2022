@@ -1,76 +1,76 @@
 <?xml version="1.0" ?>
 <inverted_index>
 	<lemma name="'re">
-		<document id="0" weight="0.006587258657074243"/>
-		<document id="1" weight="0.008536935788334723"/>
-		<document id="6" weight="0.003562174645492186"/>
-		<document id="7" weight="0.0060465135434338195"/>
 		<document id="13" weight="0.016145943773589584"/>
+		<document id="1" weight="0.008536935788334723"/>
+		<document id="0" weight="0.006587258657074243"/>
+		<document id="7" weight="0.0060465135434338195"/>
+		<document id="6" weight="0.003562174645492186"/>
 	</lemma>
 	<lemma name="prospective">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="3" weight="0.006574601691001415"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="homebuyer">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="be">
 		<document id="0" weight="0.006874813555607195"/>
-		<document id="1" weight="0.006144551949224822"/>
-		<document id="2" weight="0.0008763541304632123"/>
 		<document id="3" weight="0.006760446149287638"/>
-		<document id="4" weight="0.002580711818674425"/>
-		<document id="5" weight="0.004034535996849505"/>
-		<document id="6" weight="0.003076696515583076"/>
+		<document id="1" weight="0.006144551949224822"/>
 		<document id="7" weight="0.005802724771588163"/>
-		<document id="8" weight="0.004602310102366406"/>
-		<document id="10" weight="0.003394133457667044"/>
 		<document id="11" weight="0.005597654655314759"/>
 		<document id="12" weight="0.004896879568695201"/>
+		<document id="8" weight="0.004602310102366406"/>
 		<document id="13" weight="0.004357956681379561"/>
+		<document id="5" weight="0.004034535996849505"/>
+		<document id="10" weight="0.003394133457667044"/>
+		<document id="6" weight="0.003076696515583076"/>
+		<document id="4" weight="0.002580711818674425"/>
+		<document id="2" weight="0.0008763541304632123"/>
 	</lemma>
 	<lemma name="have">
-		<document id="0" weight="0.003085794265368575"/>
+		<document id="13" weight="0.00945443759294312"/>
+		<document id="8" weight="0.008064447430272011"/>
+		<document id="7" weight="0.008025367921499615"/>
+		<document id="6" weight="0.0066747875955934155"/>
+		<document id="10" weight="0.0061362134642029414"/>
 		<document id="1" weight="0.005998677645177704"/>
 		<document id="2" weight="0.005703660711808309"/>
 		<document id="3" weight="0.004888852038692835"/>
+		<document id="0" weight="0.003085794265368575"/>
 		<document id="4" weight="0.0023994710580710816"/>
-		<document id="6" weight="0.0066747875955934155"/>
-		<document id="7" weight="0.008025367921499615"/>
-		<document id="8" weight="0.008064447430272011"/>
-		<document id="10" weight="0.0061362134642029414"/>
 		<document id="11" weight="0.0018215879760225488"/>
-		<document id="13" weight="0.00945443759294312"/>
 	</lemma>
 	<lemma name="second">
-		<document id="0" weight="0.004007438851568967"/>
-		<document id="4" weight="0.006232258351922773"/>
 		<document id="6" weight="0.013002553396097873"/>
+		<document id="4" weight="0.006232258351922773"/>
+		<document id="0" weight="0.004007438851568967"/>
 		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="thought">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="not">
-		<document id="0" weight="0.010740863708083425"/>
 		<document id="3" weight="0.011344565649521368"/>
-		<document id="6" weight="0.0019361029305937747"/>
-		<document id="7" weight="0.004381844895835029"/>
-		<document id="8" weight="0.002673360669064914"/>
-		<document id="10" weight="0.004271719164325947"/>
-		<document id="11" weight="0.00211349456036022"/>
+		<document id="0" weight="0.010740863708083425"/>
 		<document id="13" weight="0.0043877984894435005"/>
+		<document id="7" weight="0.004381844895835029"/>
+		<document id="10" weight="0.004271719164325947"/>
+		<document id="8" weight="0.002673360669064914"/>
+		<document id="11" weight="0.00211349456036022"/>
+		<document id="6" weight="0.0019361029305937747"/>
 	</lemma>
 	<lemma name="alone">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="about">
-		<document id="0" weight="0.012449467503581392"/>
 		<document id="12" weight="0.04286038048942907"/>
+		<document id="0" weight="0.012449467503581392"/>
 	</lemma>
 	<lemma name="home">
-		<document id="0" weight="0.03449389567484509"/>
 		<document id="1" weight="0.05108948095026317"/>
+		<document id="0" weight="0.03449389567484509"/>
 		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="contract">
@@ -79,85 +79,85 @@
 		<document id="10" weight="0.007839126706654138"/>
 	</lemma>
 	<lemma name="fell">
-		<document id="0" weight="0.0017901439513472374"/>
 		<document id="1" weight="0.009279941632846024"/>
-		<document id="3" weight="0.0018907609415868948"/>
 		<document id="4" weight="0.008351947469561421"/>
-		<document id="6" weight="0.0019361029305937747"/>
-		<document id="7" weight="0.0021909224479175144"/>
-		<document id="8" weight="0.002673360669064914"/>
 		<document id="12" weight="0.006163014672195451"/>
+		<document id="8" weight="0.002673360669064914"/>
+		<document id="7" weight="0.0021909224479175144"/>
+		<document id="6" weight="0.0019361029305937747"/>
+		<document id="3" weight="0.0018907609415868948"/>
+		<document id="0" weight="0.0017901439513472374"/>
 	</lemma>
 	<lemma name="june">
-		<document id="0" weight="0.0014133701122290283"/>
-		<document id="4" weight="0.0021980342090182478"/>
-		<document id="5" weight="0.00400899321141693"/>
-		<document id="6" weight="0.001528608922338829"/>
-		<document id="7" weight="0.0051893887702737455"/>
 		<document id="9" weight="0.03749587768325246"/>
-		<document id="10" weight="0.0022484300550803943"/>
-		<document id="11" weight="0.0050059941409577886"/>
 		<document id="13" weight="0.005196439570233357"/>
+		<document id="7" weight="0.0051893887702737455"/>
+		<document id="11" weight="0.0050059941409577886"/>
+		<document id="5" weight="0.00400899321141693"/>
+		<document id="10" weight="0.0022484300550803943"/>
+		<document id="4" weight="0.0021980342090182478"/>
+		<document id="6" weight="0.001528608922338829"/>
+		<document id="0" weight="0.0014133701122290283"/>
 	</lemma>
 	<lemma name="mark">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="7" weight="0.007618330860400553"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="high">
-		<document id="0" weight="0.004240110336687085"/>
-		<document id="1" weight="0.010990171045091238"/>
-		<document id="3" weight="0.0029856202370739664"/>
-		<document id="4" weight="0.0043960684180364955"/>
-		<document id="6" weight="0.010700262456371805"/>
-		<document id="7" weight="0.0043244906418947885"/>
-		<document id="8" weight="0.0021106951013751384"/>
 		<document id="11" weight="0.015017982422873367"/>
+		<document id="1" weight="0.010990171045091238"/>
+		<document id="6" weight="0.010700262456371805"/>
+		<document id="4" weight="0.0043960684180364955"/>
+		<document id="7" weight="0.0043244906418947885"/>
+		<document id="0" weight="0.004240110336687085"/>
 		<document id="13" weight="0.003464293046822238"/>
+		<document id="3" weight="0.0029856202370739664"/>
+		<document id="8" weight="0.0021106951013751384"/>
 	</lemma>
 	<lemma name="share">
-		<document id="0" weight="0.0066518847006651885"/>
-		<document id="3" weight="0.00234192037470726"/>
+		<document id="12" weight="0.030534351145038167"/>
 		<document id="4" weight="0.020689655172413793"/>
+		<document id="0" weight="0.0066518847006651885"/>
 		<document id="6" weight="0.004796163069544364"/>
 		<document id="8" weight="0.0033112582781456954"/>
+		<document id="3" weight="0.00234192037470726"/>
 		<document id="10" weight="0.001763668430335097"/>
-		<document id="12" weight="0.030534351145038167"/>
 	</lemma>
 	<lemma name="cancellation">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="6" weight="0.01065895645724915"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="march">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="1" weight="0.012772370237565793"/>
+		<document id="0" weight="0.004927699382120727"/>
 		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="start">
 		<document id="0" weight="0.014783098146362183"/>
-		<document id="6" weight="0.01065895645724915"/>
 		<document id="8" weight="0.01471783060487714"/>
+		<document id="6" weight="0.01065895645724915"/>
 	</lemma>
 	<lemma name="pandemic">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="6" weight="0.01065895645724915"/>
 		<document id="7" weight="0.006030915661699995"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="accord">
-		<document id="0" weight="0.0021526688566307836"/>
-		<document id="1" weight="0.0027898093515531133"/>
-		<document id="3" weight="0.0011368309769794888"/>
-		<document id="4" weight="0.003347771221863736"/>
-		<document id="6" weight="0.001164093110720004"/>
-		<document id="7" weight="0.00263460964542872"/>
-		<document id="8" weight="0.0016073735999014625"/>
-		<document id="10" weight="0.0008561319703178866"/>
 		<document id="11" weight="0.007624505138799607"/>
 		<document id="13" weight="0.003957283917148709"/>
+		<document id="4" weight="0.003347771221863736"/>
+		<document id="1" weight="0.0027898093515531133"/>
+		<document id="7" weight="0.00263460964542872"/>
+		<document id="0" weight="0.0021526688566307836"/>
+		<document id="8" weight="0.0016073735999014625"/>
+		<document id="6" weight="0.001164093110720004"/>
+		<document id="3" weight="0.0011368309769794888"/>
+		<document id="10" weight="0.0008561319703178866"/>
 	</lemma>
 	<lemma name="real">
-		<document id="0" weight="0.009855398764241454"/>
 		<document id="3" weight="0.010409332184245659"/>
+		<document id="0" weight="0.009855398764241454"/>
 		<document id="13" weight="0.006039109840588174"/>
 	</lemma>
 	<lemma name="estate">
@@ -171,21 +171,21 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="year">
-		<document id="0" weight="0.0032290032849461754"/>
-		<document id="1" weight="0.00836942805465934"/>
-		<document id="3" weight="0.0011368309769794888"/>
-		<document id="5" weight="0.0030529989130203884"/>
-		<document id="6" weight="0.008148651775040028"/>
-		<document id="7" weight="0.00395191446814308"/>
-		<document id="8" weight="0.003214747199802925"/>
 		<document id="9" weight="0.05710903849061667"/>
 		<document id="11" weight="0.010166006851732811"/>
+		<document id="1" weight="0.00836942805465934"/>
+		<document id="6" weight="0.008148651775040028"/>
 		<document id="13" weight="0.006595473195247849"/>
+		<document id="7" weight="0.00395191446814308"/>
+		<document id="0" weight="0.0032290032849461754"/>
+		<document id="8" weight="0.003214747199802925"/>
+		<document id="5" weight="0.0030529989130203884"/>
+		<document id="3" weight="0.0011368309769794888"/>
 	</lemma>
 	<lemma name="ago">
-		<document id="0" weight="0.006587258657074243"/>
 		<document id="1" weight="0.017073871576669446"/>
 		<document id="6" weight="0.014248698581968745"/>
+		<document id="0" weight="0.006587258657074243"/>
 		<document id="7" weight="0.0060465135434338195"/>
 		<document id="8" weight="0.004918631878047158"/>
 	</lemma>
@@ -209,67 +209,67 @@
 		<document id="0" weight="0.04221014326006214"/>
 	</lemma>
 	<lemma name="deal">
-		<document id="0" weight="0.0066518847006651885"/>
 		<document id="2" weight="0.03278688524590164"/>
+		<document id="12" weight="0.015267175572519083"/>
+		<document id="10" weight="0.014109347442680775"/>
+		<document id="0" weight="0.0066518847006651885"/>
 		<document id="4" weight="0.0034482758620689655"/>
 		<document id="8" weight="0.0033112582781456954"/>
-		<document id="10" weight="0.014109347442680775"/>
 		<document id="11" weight="0.002617801047120419"/>
-		<document id="12" weight="0.015267175572519083"/>
 	</lemma>
 	<lemma name="progress">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="6" weight="0.006732266000138139"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="'s">
-		<document id="0" weight="0.0066518847006651885"/>
-		<document id="3" weight="0.00468384074941452"/>
-		<document id="6" weight="0.004796163069544364"/>
-		<document id="7" weight="0.004070556309362279"/>
-		<document id="10" weight="0.001763668430335097"/>
-		<document id="11" weight="0.002617801047120419"/>
 		<document id="13" weight="0.008152173913043478"/>
+		<document id="0" weight="0.0066518847006651885"/>
+		<document id="6" weight="0.004796163069544364"/>
+		<document id="3" weight="0.00468384074941452"/>
+		<document id="7" weight="0.004070556309362279"/>
+		<document id="11" weight="0.002617801047120419"/>
+		<document id="10" weight="0.001763668430335097"/>
 	</lemma>
 	<lemma name="important">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="5" weight="0.013977310826015398"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="consider">
-		<document id="0" weight="0.004927699382120727"/>
-		<document id="8" weight="0.00735891530243857"/>
 		<document id="10" weight="0.011758690059981206"/>
+		<document id="8" weight="0.00735891530243857"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="cost">
+		<document id="7" weight="0.013568521031207599"/>
+		<document id="6" weight="0.011990407673860911"/>
+		<document id="13" weight="0.010869565217391304"/>
 		<document id="0" weight="0.0066518847006651885"/>
 		<document id="4" weight="0.0034482758620689655"/>
-		<document id="6" weight="0.011990407673860911"/>
-		<document id="7" weight="0.013568521031207599"/>
 		<document id="8" weight="0.0033112582781456954"/>
 		<document id="10" weight="0.001763668430335097"/>
-		<document id="13" weight="0.010869565217391304"/>
 	</lemma>
 	<lemma name="do">
+		<document id="13" weight="0.005276378556198279"/>
 		<document id="0" weight="0.004305337713261567"/>
-		<document id="1" weight="0.0027898093515531133"/>
 		<document id="2" weight="0.003978908419428211"/>
+		<document id="7" weight="0.00395191446814308"/>
+		<document id="1" weight="0.0027898093515531133"/>
+		<document id="10" weight="0.0025683959109536595"/>
 		<document id="3" weight="0.0022736619539589775"/>
 		<document id="4" weight="0.001673885610931868"/>
-		<document id="6" weight="0.001164093110720004"/>
-		<document id="7" weight="0.00395191446814308"/>
 		<document id="8" weight="0.0016073735999014625"/>
-		<document id="10" weight="0.0025683959109536595"/>
-		<document id="13" weight="0.005276378556198279"/>
+		<document id="6" weight="0.001164093110720004"/>
 	</lemma>
 	<lemma name="so">
 		<document id="0" weight="0.02532608595603728"/>
 	</lemma>
 	<lemma name="sign">
+		<document id="8" weight="0.014755895634141475"/>
 		<document id="0" weight="0.006587258657074243"/>
+		<document id="10" weight="0.005239600801305967"/>
 		<document id="4" weight="0.005122161473000834"/>
 		<document id="7" weight="0.00201550451447794"/>
-		<document id="8" weight="0.014755895634141475"/>
-		<document id="10" weight="0.005239600801305967"/>
 	</lemma>
 	<lemma name="initial">
 		<document id="0" weight="0.008442028652012426"/>
@@ -278,17 +278,17 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="point">
-		<document id="0" weight="0.004434589800443459"/>
 		<document id="1" weight="0.005747126436781609"/>
-		<document id="6" weight="0.002398081534772182"/>
-		<document id="7" weight="0.0027137042062415195"/>
-		<document id="8" weight="0.0033112582781456954"/>
+		<document id="0" weight="0.004434589800443459"/>
 		<document id="10" weight="0.003527336860670194"/>
+		<document id="8" weight="0.0033112582781456954"/>
+		<document id="7" weight="0.0027137042062415195"/>
 		<document id="11" weight="0.002617801047120419"/>
+		<document id="6" weight="0.002398081534772182"/>
 	</lemma>
 	<lemma name="worth">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="3" weight="0.006574601691001415"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="know">
 		<document id="0" weight="0.02532608595603728"/>
@@ -297,25 +297,25 @@
 		<document id="0" weight="0.01688405730402485"/>
 	</lemma>
 	<lemma name="way">
-		<document id="0" weight="0.002710404481898998"/>
 		<document id="3" weight="0.008588237152246709"/>
-		<document id="8" weight="0.004047657024292875"/>
-		<document id="10" weight="0.0021558949229919717"/>
-		<document id="11" weight="0.0031999801605666184"/>
 		<document id="13" weight="0.006643437072480696"/>
+		<document id="8" weight="0.004047657024292875"/>
+		<document id="11" weight="0.0031999801605666184"/>
+		<document id="0" weight="0.002710404481898998"/>
+		<document id="10" weight="0.0021558949229919717"/>
 	</lemma>
 	<lemma name="n't">
-		<document id="0" weight="0.005420808963797996"/>
-		<document id="1" weight="0.007025243800784184"/>
-		<document id="2" weight="0.010019610010954492"/>
-		<document id="7" weight="0.0016586057277292374"/>
-		<document id="10" weight="0.0064676847689759155"/>
 		<document id="13" weight="0.013286874144961392"/>
+		<document id="2" weight="0.010019610010954492"/>
+		<document id="1" weight="0.007025243800784184"/>
+		<document id="10" weight="0.0064676847689759155"/>
+		<document id="0" weight="0.005420808963797996"/>
+		<document id="7" weight="0.0016586057277292374"/>
 	</lemma>
 	<lemma name="result">
-		<document id="0" weight="0.008014877703137933"/>
-		<document id="6" weight="0.008668368930731914"/>
 		<document id="8" weight="0.01196923789442122"/>
+		<document id="6" weight="0.008668368930731914"/>
+		<document id="0" weight="0.008014877703137933"/>
 		<document id="10" weight="0.0031875748184437462"/>
 	</lemma>
 	<lemma name="forfeit">
@@ -325,139 +325,139 @@
 		<document id="0" weight="0.05065217191207456"/>
 	</lemma>
 	<lemma name="typically">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="provide">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="5" weight="0.013977310826015398"/>
 		<document id="10" weight="0.007839126706654138"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="call">
-		<document id="0" weight="0.004007438851568967"/>
 		<document id="5" weight="0.02273402417682521"/>
 		<document id="7" weight="0.007356939981238551"/>
+		<document id="0" weight="0.004007438851568967"/>
 		<document id="10" weight="0.0031875748184437462"/>
 	</lemma>
 	<lemma name="earnest">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="money">
-		<document id="0" weight="0.008014877703137933"/>
-		<document id="3" weight="0.00846536263258831"/>
 		<document id="11" weight="0.009462591214961279"/>
+		<document id="3" weight="0.00846536263258831"/>
+		<document id="0" weight="0.008014877703137933"/>
 		<document id="13" weight="0.004911290549069577"/>
 	</lemma>
 	<lemma name="good">
-		<document id="0" weight="0.006587258657074243"/>
 		<document id="7" weight="0.01410853160134558"/>
-		<document id="11" weight="0.0038885519035870204"/>
-		<document id="12" weight="0.01133913608526902"/>
 		<document id="13" weight="0.012109457830192188"/>
+		<document id="12" weight="0.01133913608526902"/>
+		<document id="0" weight="0.006587258657074243"/>
+		<document id="11" weight="0.0038885519035870204"/>
 	</lemma>
 	<lemma name="faith">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="0" weight="0.004927699382120727"/>
 		<document id="10" weight="0.003919563353327069"/>
 	</lemma>
 	<lemma name="offer">
-		<document id="0" weight="0.009880887985611365"/>
 		<document id="2" weight="0.024351259461807242"/>
-		<document id="3" weight="0.0034787513516867487"/>
-		<document id="8" weight="0.004918631878047158"/>
+		<document id="0" weight="0.009880887985611365"/>
 		<document id="10" weight="0.007859401201958952"/>
+		<document id="8" weight="0.004918631878047158"/>
+		<document id="3" weight="0.0034787513516867487"/>
 	</lemma>
 	<lemma name="make">
-		<document id="0" weight="0.004434589800443459"/>
-		<document id="4" weight="0.0034482758620689655"/>
 		<document id="5" weight="0.006289308176100629"/>
-		<document id="6" weight="0.002398081534772182"/>
-		<document id="7" weight="0.0027137042062415195"/>
+		<document id="0" weight="0.004434589800443459"/>
 		<document id="10" weight="0.003527336860670194"/>
+		<document id="4" weight="0.0034482758620689655"/>
 		<document id="13" weight="0.002717391304347826"/>
+		<document id="7" weight="0.0027137042062415195"/>
+		<document id="6" weight="0.002398081534772182"/>
 	</lemma>
 	<lemma name="specific">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="vary">
-		<document id="0" weight="0.004927699382120727"/>
-		<document id="11" weight="0.005817781207687037"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="11" weight="0.005817781207687037"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="state">
 		<document id="0" weight="0.0337681146080497"/>
 	</lemma>
 	<lemma name="amount">
-		<document id="0" weight="0.012449467503581392"/>
 		<document id="11" weight="0.029396386618404234"/>
+		<document id="0" weight="0.012449467503581392"/>
 	</lemma>
 	<lemma name="usually">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="3" weight="0.006574601691001415"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="purchase">
-		<document id="0" weight="0.020037194257844837"/>
 		<document id="1" weight="0.04154838901281849"/>
+		<document id="0" weight="0.020037194257844837"/>
 		<document id="4" weight="0.006232258351922773"/>
 		<document id="13" weight="0.004911290549069577"/>
 	</lemma>
 	<lemma name="price">
+		<document id="7" weight="0.02081376325521639"/>
+		<document id="13" weight="0.008775596978887001"/>
+		<document id="11" weight="0.00845397824144088"/>
 		<document id="0" weight="0.00716057580538895"/>
 		<document id="3" weight="0.005672282824760684"/>
-		<document id="4" weight="0.002783982489853807"/>
-		<document id="7" weight="0.02081376325521639"/>
 		<document id="8" weight="0.005346721338129828"/>
+		<document id="4" weight="0.002783982489853807"/>
 		<document id="10" weight="0.0014239063881086491"/>
-		<document id="11" weight="0.00845397824144088"/>
-		<document id="13" weight="0.008775596978887001"/>
 	</lemma>
 	<lemma name="run">
-		<document id="0" weight="0.004007438851568967"/>
 		<document id="5" weight="0.011367012088412605"/>
-		<document id="6" weight="0.004334184465365957"/>
 		<document id="11" weight="0.0047312956074806395"/>
+		<document id="6" weight="0.004334184465365957"/>
+		<document id="0" weight="0.004007438851568967"/>
 	</lemma>
 	<lemma name="as">
-		<document id="0" weight="0.0032936293285371213"/>
-		<document id="3" weight="0.006957502703373497"/>
 		<document id="4" weight="0.0153664844190025"/>
-		<document id="7" weight="0.00201550451447794"/>
+		<document id="3" weight="0.006957502703373497"/>
 		<document id="13" weight="0.004036485943397396"/>
+		<document id="0" weight="0.0032936293285371213"/>
+		<document id="7" weight="0.00201550451447794"/>
 	</lemma>
 	<lemma name="depend">
-		<document id="0" weight="0.004007438851568967"/>
-		<document id="7" weight="0.002452313327079517"/>
-		<document id="10" weight="0.0031875748184437462"/>
 		<document id="11" weight="0.009462591214961279"/>
+		<document id="0" weight="0.004007438851568967"/>
+		<document id="10" weight="0.0031875748184437462"/>
+		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="local">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="market">
+		<document id="8" weight="0.008442780405500554"/>
 		<document id="0" weight="0.007066850561145143"/>
-		<document id="1" weight="0.003663390348363746"/>
+		<document id="10" weight="0.005621075137700986"/>
 		<document id="3" weight="0.00447843035561095"/>
+		<document id="1" weight="0.003663390348363746"/>
 		<document id="4" weight="0.0021980342090182478"/>
+		<document id="13" weight="0.001732146523411119"/>
 		<document id="6" weight="0.001528608922338829"/>
 		<document id="7" weight="0.0008648981283789577"/>
-		<document id="8" weight="0.008442780405500554"/>
-		<document id="10" weight="0.005621075137700986"/>
-		<document id="13" weight="0.001732146523411119"/>
 	</lemma>
 	<lemma name="keep">
-		<document id="0" weight="0.0032936293285371213"/>
-		<document id="7" weight="0.00201550451447794"/>
-		<document id="8" weight="0.004918631878047158"/>
 		<document id="12" weight="0.01133913608526902"/>
 		<document id="13" weight="0.008072971886794792"/>
+		<document id="8" weight="0.004918631878047158"/>
+		<document id="0" weight="0.0032936293285371213"/>
+		<document id="7" weight="0.00201550451447794"/>
 	</lemma>
 	<lemma name="escrow">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="account">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="10" weight="0.015678253413308276"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="go">
 		<document id="0" weight="0.01971079752848291"/>
@@ -465,27 +465,27 @@
 		<document id="7" weight="0.009046373492549992"/>
 	</lemma>
 	<lemma name="down">
-		<document id="0" weight="0.002710404481898998"/>
-		<document id="1" weight="0.007025243800784184"/>
-		<document id="3" weight="0.002862745717415569"/>
-		<document id="6" weight="0.0029313966938523933"/>
-		<document id="7" weight="0.004975817183187712"/>
 		<document id="12" weight="0.009331239857530137"/>
+		<document id="1" weight="0.007025243800784184"/>
+		<document id="7" weight="0.004975817183187712"/>
+		<document id="6" weight="0.0029313966938523933"/>
+		<document id="3" weight="0.002862745717415569"/>
+		<document id="0" weight="0.002710404481898998"/>
 	</lemma>
 	<lemma name="payment">
 		<document id="0" weight="0.031123668758953487"/>
 		<document id="1" weight="0.01613422368998623"/>
 	</lemma>
 	<lemma name="other">
-		<document id="0" weight="0.006587258657074243"/>
+		<document id="12" weight="0.02267827217053804"/>
 		<document id="3" weight="0.006957502703373497"/>
+		<document id="0" weight="0.006587258657074243"/>
 		<document id="6" weight="0.003562174645492186"/>
 		<document id="10" weight="0.0026198004006529837"/>
-		<document id="12" weight="0.02267827217053804"/>
 	</lemma>
 	<lemma name="closing">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="10" weight="0.009902486497557686"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="finalize">
 		<document id="0" weight="0.008442028652012426"/>
@@ -500,72 +500,72 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="agreement">
-		<document id="0" weight="0.009880887985611365"/>
-		<document id="4" weight="0.010244322946001668"/>
-		<document id="8" weight="0.004918631878047158"/>
 		<document id="10" weight="0.02357820360587685"/>
 		<document id="12" weight="0.01133913608526902"/>
+		<document id="4" weight="0.010244322946001668"/>
+		<document id="0" weight="0.009880887985611365"/>
+		<document id="8" weight="0.004918631878047158"/>
 	</lemma>
 	<lemma name="week">
-		<document id="0" weight="0.003580287902694475"/>
 		<document id="1" weight="0.037119766531384095"/>
-		<document id="4" weight="0.002783982489853807"/>
+		<document id="8" weight="0.005346721338129828"/>
 		<document id="5" weight="0.005077703912311975"/>
 		<document id="6" weight="0.0038722058611875493"/>
-		<document id="8" weight="0.005346721338129828"/>
-		<document id="10" weight="0.0014239063881086491"/>
+		<document id="0" weight="0.003580287902694475"/>
+		<document id="4" weight="0.002783982489853807"/>
 		<document id="11" weight="0.00211349456036022"/>
+		<document id="10" weight="0.0014239063881086491"/>
 	</lemma>
 	<lemma name="month">
-		<document id="0" weight="0.0066518847006651885"/>
-		<document id="4" weight="0.0034482758620689655"/>
-		<document id="5" weight="0.006289308176100629"/>
-		<document id="6" weight="0.002398081534772182"/>
-		<document id="7" weight="0.014925373134328358"/>
 		<document id="11" weight="0.01832460732984293"/>
+		<document id="7" weight="0.014925373134328358"/>
+		<document id="0" weight="0.0066518847006651885"/>
+		<document id="5" weight="0.006289308176100629"/>
+		<document id="4" weight="0.0034482758620689655"/>
 		<document id="13" weight="0.002717391304347826"/>
+		<document id="6" weight="0.002398081534772182"/>
 	</lemma>
 	<lemma name="risk">
-		<document id="0" weight="0.009855398764241454"/>
 		<document id="3" weight="0.0520466609212283"/>
+		<document id="0" weight="0.009855398764241454"/>
 		<document id="10" weight="0.003919563353327069"/>
 	</lemma>
 	<lemma name="lose">
+		<document id="5" weight="0.013977310826015398"/>
 		<document id="0" weight="0.009855398764241454"/>
 		<document id="3" weight="0.0052046660921228295"/>
-		<document id="5" weight="0.013977310826015398"/>
 	</lemma>
 	<lemma name="try">
-		<document id="0" weight="0.004927699382120727"/>
-		<document id="7" weight="0.006030915661699995"/>
 		<document id="10" weight="0.007839126706654138"/>
+		<document id="7" weight="0.006030915661699995"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="get">
+		<document id="13" weight="0.013286874144961392"/>
 		<document id="0" weight="0.008131213445696993"/>
-		<document id="3" weight="0.002862745717415569"/>
-		<document id="6" weight="0.0029313966938523933"/>
 		<document id="7" weight="0.004975817183187712"/>
 		<document id="10" weight="0.004311789845983943"/>
-		<document id="13" weight="0.013286874144961392"/>
+		<document id="6" weight="0.0029313966938523933"/>
+		<document id="3" weight="0.002862745717415569"/>
 	</lemma>
 	<lemma name="meet">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="term">
-		<document id="0" weight="0.008014877703137933"/>
 		<document id="2" weight="0.014814384607029543"/>
 		<document id="4" weight="0.012464516703845546"/>
+		<document id="0" weight="0.008014877703137933"/>
 		<document id="10" weight="0.0031875748184437462"/>
 	</lemma>
 	<lemma name="given">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="financial">
-		<document id="0" weight="0.0032936293285371213"/>
 		<document id="3" weight="0.017393756758433746"/>
 		<document id="4" weight="0.005122161473000834"/>
-		<document id="10" weight="0.0026198004006529837"/>
 		<document id="13" weight="0.004036485943397396"/>
+		<document id="0" weight="0.0032936293285371213"/>
+		<document id="10" weight="0.0026198004006529837"/>
 	</lemma>
 	<lemma name="broken">
 		<document id="0" weight="0.008442028652012426"/>
@@ -574,8 +574,8 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="ensure">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="3" weight="0.01314920338200283"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="final">
 		<document id="0" weight="0.008442028652012426"/>
@@ -584,30 +584,30 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="certain">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="3" weight="0.006574601691001415"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="aspect">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="buy">
-		<document id="0" weight="0.002710404481898998"/>
 		<document id="1" weight="0.014050487601568368"/>
 		<document id="4" weight="0.012645438841411533"/>
 		<document id="8" weight="0.004047657024292875"/>
-		<document id="10" weight="0.0021558949229919717"/>
 		<document id="13" weight="0.003321718536240348"/>
+		<document id="0" weight="0.002710404481898998"/>
+		<document id="10" weight="0.0021558949229919717"/>
 	</lemma>
 	<lemma name="house">
 		<document id="0" weight="0.016029755406275867"/>
-		<document id="7" weight="0.002452313327079517"/>
-		<document id="11" weight="0.0047312956074806395"/>
 		<document id="13" weight="0.004911290549069577"/>
+		<document id="11" weight="0.0047312956074806395"/>
+		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="common">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="12" weight="0.01696482764378968"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="contingency">
 		<document id="0" weight="0.024898935007162785"/>
@@ -615,8 +615,8 @@
 	</lemma>
 	<lemma name="relate">
 		<document id="0" weight="0.004927699382120727"/>
-		<document id="7" weight="0.0030154578308499973"/>
 		<document id="10" weight="0.003919563353327069"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="inspection">
 		<document id="0" weight="0.05065217191207456"/>
@@ -625,14 +625,14 @@
 		<document id="0" weight="0.01688405730402485"/>
 	</lemma>
 	<lemma name="financing">
+		<document id="10" weight="0.007839126706654138"/>
 		<document id="0" weight="0.004927699382120727"/>
 		<document id="7" weight="0.0030154578308499973"/>
-		<document id="10" weight="0.007839126706654138"/>
 	</lemma>
 	<lemma name="example">
-		<document id="0" weight="0.004927699382120727"/>
-		<document id="3" weight="0.0052046660921228295"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="3" weight="0.0052046660921228295"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="reveal">
 		<document id="0" weight="0.008442028652012426"/>
@@ -645,63 +645,63 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="generally">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="4" weight="0.009680534213991739"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="mean">
-		<document id="0" weight="0.006587258657074243"/>
-		<document id="3" weight="0.006957502703373497"/>
-		<document id="7" weight="0.00201550451447794"/>
-		<document id="11" weight="0.0038885519035870204"/>
 		<document id="13" weight="0.016145943773589584"/>
+		<document id="3" weight="0.006957502703373497"/>
+		<document id="0" weight="0.006587258657074243"/>
+		<document id="11" weight="0.0038885519035870204"/>
+		<document id="7" weight="0.00201550451447794"/>
 	</lemma>
 	<lemma name="back">
 		<document id="0" weight="0.00716057580538895"/>
 		<document id="1" weight="0.004639970816423012"/>
 		<document id="3" weight="0.0037815218831737897"/>
 		<document id="4" weight="0.002783982489853807"/>
-		<document id="6" weight="0.0019361029305937747"/>
-		<document id="7" weight="0.0021909224479175144"/>
 		<document id="8" weight="0.002673360669064914"/>
+		<document id="7" weight="0.0021909224479175144"/>
+		<document id="6" weight="0.0019361029305937747"/>
 		<document id="10" weight="0.0014239063881086491"/>
 	</lemma>
 	<lemma name="fall">
-		<document id="0" weight="0.0032936293285371213"/>
-		<document id="3" weight="0.006957502703373497"/>
 		<document id="5" weight="0.009342307089121017"/>
 		<document id="7" weight="0.00806201805791176"/>
+		<document id="3" weight="0.006957502703373497"/>
 		<document id="8" weight="0.004918631878047158"/>
+		<document id="0" weight="0.0032936293285371213"/>
 	</lemma>
 	<lemma name="short">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="6" weight="0.006732266000138139"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="agreed-upon">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="sale">
-		<document id="0" weight="0.004007438851568967"/>
-		<document id="4" weight="0.006232258351922773"/>
 		<document id="6" weight="0.008668368930731914"/>
+		<document id="4" weight="0.006232258351922773"/>
 		<document id="8" weight="0.00598461894721061"/>
+		<document id="0" weight="0.004007438851568967"/>
 	</lemma>
 	<lemma name="secure">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="3" weight="0.0052046660921228295"/>
+		<document id="0" weight="0.004927699382120727"/>
 		<document id="10" weight="0.003919563353327069"/>
 	</lemma>
 	<lemma name="mortgage">
-		<document id="0" weight="0.04357313626253488"/>
 		<document id="1" weight="0.12907378951988985"/>
+		<document id="0" weight="0.04357313626253488"/>
 	</lemma>
 	<lemma name="rate">
-		<document id="0" weight="0.015521064301552107"/>
 		<document id="1" weight="0.040229885057471264"/>
-		<document id="6" weight="0.002398081534772182"/>
+		<document id="13" weight="0.016304347826086956"/>
+		<document id="0" weight="0.015521064301552107"/>
 		<document id="7" weight="0.0067842605156037995"/>
 		<document id="8" weight="0.006622516556291391"/>
 		<document id="11" weight="0.002617801047120419"/>
-		<document id="13" weight="0.016304347826086956"/>
+		<document id="6" weight="0.002398081534772182"/>
 	</lemma>
 	<lemma name="specify">
 		<document id="0" weight="0.008442028652012426"/>
@@ -714,15 +714,15 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="process">
-		<document id="0" weight="0.004007438851568967"/>
-		<document id="6" weight="0.004334184465365957"/>
 		<document id="8" weight="0.00598461894721061"/>
+		<document id="6" weight="0.004334184465365957"/>
+		<document id="0" weight="0.004007438851568967"/>
 		<document id="10" weight="0.0031875748184437462"/>
 	</lemma>
 	<lemma name="condition">
-		<document id="0" weight="0.004927699382120727"/>
-		<document id="7" weight="0.006030915661699995"/>
 		<document id="10" weight="0.011758690059981206"/>
+		<document id="7" weight="0.006030915661699995"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="able">
 		<document id="0" weight="0.008442028652012426"/>
@@ -734,19 +734,19 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="say">
-		<document id="0" weight="0.0016594377548017369"/>
-		<document id="1" weight="0.0006144551949224821"/>
-		<document id="2" weight="0.0026290623913896366"/>
 		<document id="3" weight="0.0027542558385986672"/>
-		<document id="4" weight="0.0011060193508604678"/>
 		<document id="5" weight="0.002689690664566337"/>
+		<document id="2" weight="0.0026290623913896366"/>
 		<document id="6" weight="0.002563913762985897"/>
-		<document id="7" weight="0.0013056130736073365"/>
-		<document id="8" weight="0.0010620715620845553"/>
-		<document id="10" weight="0.0015085037589631306"/>
-		<document id="11" weight="0.0008396481982972137"/>
 		<document id="12" weight="0.0024484397843476005"/>
+		<document id="0" weight="0.0016594377548017369"/>
+		<document id="10" weight="0.0015085037589631306"/>
+		<document id="7" weight="0.0013056130736073365"/>
+		<document id="4" weight="0.0011060193508604678"/>
+		<document id="8" weight="0.0010620715620845553"/>
 		<document id="13" weight="0.0008715913362759122"/>
+		<document id="11" weight="0.0008396481982972137"/>
+		<document id="1" weight="0.0006144551949224821"/>
 	</lemma>
 	<lemma name="erin">
 		<document id="0" weight="0.008442028652012426"/>
@@ -759,10 +759,10 @@
 		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="economist">
-		<document id="0" weight="0.004007438851568967"/>
 		<document id="1" weight="0.010387097253204622"/>
-		<document id="7" weight="0.004904626654159034"/>
 		<document id="13" weight="0.009822581098139153"/>
+		<document id="7" weight="0.004904626654159034"/>
+		<document id="0" weight="0.004007438851568967"/>
 	</lemma>
 	<lemma name="nest">
 		<document id="0" weight="0.008442028652012426"/>
@@ -771,37 +771,37 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="international">
-		<document id="0" weight="0.004007438851568967"/>
 		<document id="3" weight="0.00846536263258831"/>
 		<document id="4" weight="0.006232258351922773"/>
+		<document id="0" weight="0.004007438851568967"/>
 		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="several">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="5" weight="0.027954621652030796"/>
 		<document id="8" weight="0.01471783060487714"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="trend">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="boost">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="canceled">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="buyers">
-		<document id="0" weight="0.012449467503581392"/>
 		<document id="1" weight="0.01613422368998623"/>
+		<document id="0" weight="0.012449467503581392"/>
 	</lemma>
 	<lemma name="put">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="give">
+		<document id="12" weight="0.01696482764378968"/>
 		<document id="0" weight="0.009855398764241454"/>
 		<document id="3" weight="0.0052046660921228295"/>
-		<document id="12" weight="0.01696482764378968"/>
 	</lemma>
 	<lemma name="stephen">
 		<document id="0" weight="0.008442028652012426"/>
@@ -810,32 +810,32 @@
 		<document id="0" weight="0.02532608595603728"/>
 	</lemma>
 	<lemma name="president">
-		<document id="0" weight="0.004007438851568967"/>
-		<document id="7" weight="0.004904626654159034"/>
-		<document id="10" weight="0.0031875748184437462"/>
 		<document id="13" weight="0.004911290549069577"/>
+		<document id="7" weight="0.004904626654159034"/>
+		<document id="0" weight="0.004007438851568967"/>
+		<document id="10" weight="0.0031875748184437462"/>
 	</lemma>
 	<lemma name="founder">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="group">
-		<document id="0" weight="0.004007438851568967"/>
-		<document id="7" weight="0.002452313327079517"/>
 		<document id="11" weight="0.009462591214961279"/>
 		<document id="13" weight="0.004911290549069577"/>
+		<document id="0" weight="0.004007438851568967"/>
+		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="broker">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="due">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="1" weight="0.03831711071269738"/>
 		<document id="11" weight="0.005817781207687037"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="fail">
-		<document id="0" weight="0.004927699382120727"/>
-		<document id="3" weight="0.0052046660921228295"/>
 		<document id="10" weight="0.011758690059981206"/>
+		<document id="3" weight="0.0052046660921228295"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="pass">
 		<document id="0" weight="0.006224733751790696"/>
@@ -849,83 +849,83 @@
 		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="pull">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="1" weight="0.03226844737997246"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="think">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="7" weight="0.019045827151001386"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="now">
-		<document id="0" weight="0.005420808963797996"/>
-		<document id="2" weight="0.010019610010954492"/>
 		<document id="5" weight="0.015376005299829536"/>
-		<document id="7" weight="0.0016586057277292374"/>
-		<document id="8" weight="0.004047657024292875"/>
+		<document id="2" weight="0.010019610010954492"/>
 		<document id="11" weight="0.006399960321133237"/>
+		<document id="0" weight="0.005420808963797996"/>
+		<document id="8" weight="0.004047657024292875"/>
+		<document id="7" weight="0.0016586057277292374"/>
 	</lemma>
 	<lemma name="then">
+		<document id="13" weight="0.004911290549069577"/>
+		<document id="11" weight="0.0047312956074806395"/>
 		<document id="0" weight="0.004007438851568967"/>
 		<document id="10" weight="0.0031875748184437462"/>
-		<document id="11" weight="0.0047312956074806395"/>
-		<document id="13" weight="0.004911290549069577"/>
 	</lemma>
 	<lemma name="property">
 		<document id="0" weight="0.01688405730402485"/>
 	</lemma>
 	<lemma name="coming">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="11" weight="0.022047289963803174"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="much">
-		<document id="0" weight="0.006587258657074243"/>
-		<document id="1" weight="0.008536935788334723"/>
-		<document id="7" weight="0.00201550451447794"/>
-		<document id="11" weight="0.007777103807174041"/>
 		<document id="13" weight="0.012109457830192188"/>
+		<document id="1" weight="0.008536935788334723"/>
+		<document id="11" weight="0.007777103807174041"/>
+		<document id="0" weight="0.006587258657074243"/>
+		<document id="7" weight="0.00201550451447794"/>
 	</lemma>
 	<lemma name="change">
-		<document id="0" weight="0.008014877703137933"/>
 		<document id="3" weight="0.00846536263258831"/>
-		<document id="6" weight="0.004334184465365957"/>
+		<document id="0" weight="0.008014877703137933"/>
 		<document id="13" weight="0.004911290549069577"/>
+		<document id="6" weight="0.004334184465365957"/>
 	</lemma>
 	<lemma name="also">
-		<document id="0" weight="0.0007714485663421437"/>
-		<document id="1" weight="0.0019995592150592345"/>
-		<document id="3" weight="0.0008148086731154726"/>
-		<document id="4" weight="0.0011997355290355408"/>
-		<document id="5" weight="0.0021881968768572755"/>
-		<document id="6" weight="0.002503045348347531"/>
-		<document id="7" weight="0.000944160931941131"/>
 		<document id="9" weight="0.020466076671782754"/>
+		<document id="6" weight="0.002503045348347531"/>
 		<document id="10" weight="0.002454485385681177"/>
-		<document id="11" weight="0.0009107939880112744"/>
+		<document id="5" weight="0.0021881968768572755"/>
+		<document id="1" weight="0.0019995592150592345"/>
+		<document id="4" weight="0.0011997355290355408"/>
 		<document id="13" weight="0.0009454437592943119"/>
+		<document id="7" weight="0.000944160931941131"/>
+		<document id="11" weight="0.0009107939880112744"/>
+		<document id="3" weight="0.0008148086731154726"/>
+		<document id="0" weight="0.0007714485663421437"/>
 	</lemma>
 	<lemma name="affordability">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="issue">
-		<document id="0" weight="0.004007438851568967"/>
 		<document id="6" weight="0.01733673786146383"/>
-		<document id="7" weight="0.002452313327079517"/>
+		<document id="0" weight="0.004007438851568967"/>
 		<document id="10" weight="0.0031875748184437462"/>
+		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="cause">
 		<document id="0" weight="0.006224733751790696"/>
 		<document id="10" weight="0.004951243248778843"/>
 	</lemma>
 	<lemma name="especially">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="4" weight="0.009680534213991739"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="new">
-		<document id="0" weight="0.006587258657074243"/>
-		<document id="6" weight="0.007124349290984372"/>
-		<document id="7" weight="0.00201550451447794"/>
 		<document id="11" weight="0.007777103807174041"/>
+		<document id="6" weight="0.007124349290984372"/>
+		<document id="0" weight="0.006587258657074243"/>
 		<document id="13" weight="0.004036485943397396"/>
+		<document id="7" weight="0.00201550451447794"/>
 	</lemma>
 	<lemma name="construction">
 		<document id="0" weight="0.01688405730402485"/>
@@ -937,8 +937,8 @@
 		<document id="0" weight="0.01688405730402485"/>
 	</lemma>
 	<lemma name="loan">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="1" weight="0.09680534213991739"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="officer">
 		<document id="0" weight="0.008442028652012426"/>
@@ -962,8 +962,8 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="face">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="6" weight="0.01065895645724915"/>
+		<document id="0" weight="0.004927699382120727"/>
 		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="material">
@@ -971,89 +971,89 @@
 		<document id="10" weight="0.004951243248778843"/>
 	</lemma>
 	<lemma name="shortage">
-		<document id="0" weight="0.004927699382120727"/>
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="6" weight="0.005329478228624575"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="take">
-		<document id="0" weight="0.002710404481898998"/>
-		<document id="4" weight="0.004215146280470511"/>
-		<document id="6" weight="0.0029313966938523933"/>
-		<document id="7" weight="0.003317211455458475"/>
-		<document id="10" weight="0.004311789845983943"/>
 		<document id="11" weight="0.006399960321133237"/>
+		<document id="10" weight="0.004311789845983943"/>
+		<document id="4" weight="0.004215146280470511"/>
+		<document id="7" weight="0.003317211455458475"/>
+		<document id="6" weight="0.0029313966938523933"/>
+		<document id="0" weight="0.002710404481898998"/>
 	</lemma>
 	<lemma name="longer">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="complete">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="12" weight="0.021430190244714535"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="current">
-		<document id="0" weight="0.004927699382120727"/>
-		<document id="11" weight="0.005817781207687037"/>
 		<document id="12" weight="0.01696482764378968"/>
+		<document id="11" weight="0.005817781207687037"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="interest">
-		<document id="0" weight="0.016029755406275867"/>
 		<document id="1" weight="0.020774194506409244"/>
-		<document id="3" weight="0.004232681316294155"/>
+		<document id="0" weight="0.016029755406275867"/>
 		<document id="7" weight="0.004904626654159034"/>
+		<document id="3" weight="0.004232681316294155"/>
 	</lemma>
 	<lemma name="available">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="ahead">
+		<document id="11" weight="0.005817781207687037"/>
 		<document id="0" weight="0.004927699382120727"/>
 		<document id="7" weight="0.0030154578308499973"/>
-		<document id="11" weight="0.005817781207687037"/>
 	</lemma>
 	<lemma name="willing">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="6" weight="0.006732266000138139"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="even">
-		<document id="0" weight="0.002710404481898998"/>
 		<document id="2" weight="0.010019610010954492"/>
-		<document id="3" weight="0.002862745717415569"/>
-		<document id="7" weight="0.003317211455458475"/>
 		<document id="8" weight="0.004047657024292875"/>
 		<document id="13" weight="0.003321718536240348"/>
+		<document id="7" weight="0.003317211455458475"/>
+		<document id="3" weight="0.002862745717415569"/>
+		<document id="0" weight="0.002710404481898998"/>
 	</lemma>
 	<lemma name="qualify">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="just">
 		<document id="0" weight="0.009855398764241454"/>
-		<document id="7" weight="0.006030915661699995"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="7" weight="0.006030915661699995"/>
 	</lemma>
 	<lemma name="afford">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="more">
-		<document id="0" weight="0.0010763344283153918"/>
-		<document id="1" weight="0.0027898093515531133"/>
-		<document id="2" weight="0.003978908419428211"/>
-		<document id="3" weight="0.0011368309769794888"/>
-		<document id="5" weight="0.006105997826040777"/>
-		<document id="6" weight="0.004656372442880016"/>
-		<document id="7" weight="0.00131730482271436"/>
-		<document id="8" weight="0.004822120799704388"/>
-		<document id="11" weight="0.0063537542823330065"/>
 		<document id="13" weight="0.007914567834297418"/>
+		<document id="11" weight="0.0063537542823330065"/>
+		<document id="5" weight="0.006105997826040777"/>
+		<document id="8" weight="0.004822120799704388"/>
+		<document id="6" weight="0.004656372442880016"/>
+		<document id="2" weight="0.003978908419428211"/>
+		<document id="1" weight="0.0027898093515531133"/>
+		<document id="7" weight="0.00131730482271436"/>
+		<document id="3" weight="0.0011368309769794888"/>
+		<document id="0" weight="0.0010763344283153918"/>
 	</lemma>
 	<lemma name="personal">
-		<document id="0" weight="0.004927699382120727"/>
-		<document id="11" weight="0.005817781207687037"/>
 		<document id="13" weight="0.036234659043529044"/>
+		<document id="11" weight="0.005817781207687037"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="finance">
-		<document id="0" weight="0.004007438851568967"/>
-		<document id="3" weight="0.004232681316294155"/>
-		<document id="11" weight="0.0047312956074806395"/>
 		<document id="13" weight="0.004911290549069577"/>
+		<document id="11" weight="0.0047312956074806395"/>
+		<document id="3" weight="0.004232681316294155"/>
+		<document id="0" weight="0.004007438851568967"/>
 	</lemma>
 	<lemma name="mid-year">
 		<document id="0" weight="0.008442028652012426"/>
@@ -1065,20 +1065,20 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="next">
-		<document id="0" weight="0.0022172949002217295"/>
-		<document id="3" weight="0.00468384074941452"/>
 		<document id="5" weight="0.012578616352201259"/>
-		<document id="6" weight="0.002398081534772182"/>
-		<document id="7" weight="0.0013568521031207597"/>
-		<document id="8" weight="0.0033112582781456954"/>
 		<document id="11" weight="0.010471204188481676"/>
+		<document id="3" weight="0.00468384074941452"/>
+		<document id="8" weight="0.0033112582781456954"/>
+		<document id="6" weight="0.002398081534772182"/>
+		<document id="0" weight="0.0022172949002217295"/>
+		<document id="7" weight="0.0013568521031207597"/>
 	</lemma>
 	<lemma name="tax">
 		<document id="0" weight="0.01688405730402485"/>
 	</lemma>
 	<lemma name="bill">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="4" weight="0.009680534213991739"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="employer">
 		<document id="0" weight="0.008442028652012426"/>
@@ -1090,51 +1090,51 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="job">
-		<document id="0" weight="0.004927699382120727"/>
-		<document id="3" weight="0.0052046660921228295"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="3" weight="0.0052046660921228295"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="still">
-		<document id="0" weight="0.002710404481898998"/>
 		<document id="2" weight="0.010019610010954492"/>
 		<document id="5" weight="0.007688002649914768"/>
-		<document id="7" weight="0.003317211455458475"/>
 		<document id="11" weight="0.006399960321133237"/>
 		<document id="13" weight="0.003321718536240348"/>
+		<document id="7" weight="0.003317211455458475"/>
+		<document id="0" weight="0.002710404481898998"/>
 	</lemma>
 	<lemma name="'red">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="hot">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="recession">
+		<document id="13" weight="0.004911290549069577"/>
+		<document id="11" weight="0.0047312956074806395"/>
 		<document id="0" weight="0.004007438851568967"/>
 		<document id="7" weight="0.002452313327079517"/>
-		<document id="11" weight="0.0047312956074806395"/>
-		<document id="13" weight="0.004911290549069577"/>
 	</lemma>
 	<lemma name="fear">
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="surge">
-		<document id="0" weight="0.0032936293285371213"/>
-		<document id="6" weight="0.003562174645492186"/>
-		<document id="7" weight="0.00403100902895588"/>
-		<document id="8" weight="0.009837263756094316"/>
 		<document id="12" weight="0.01133913608526902"/>
+		<document id="8" weight="0.009837263756094316"/>
+		<document id="7" weight="0.00403100902895588"/>
+		<document id="6" weight="0.003562174645492186"/>
+		<document id="0" weight="0.0032936293285371213"/>
 	</lemma>
 	<lemma name="rise">
-		<document id="0" weight="0.0014133701122290283"/>
-		<document id="1" weight="0.003663390348363746"/>
-		<document id="3" weight="0.0014928101185369832"/>
-		<document id="4" weight="0.0021980342090182478"/>
-		<document id="6" weight="0.004585826767016488"/>
 		<document id="7" weight="0.007784083155410619"/>
+		<document id="13" weight="0.005196439570233357"/>
+		<document id="6" weight="0.004585826767016488"/>
+		<document id="1" weight="0.003663390348363746"/>
+		<document id="4" weight="0.0021980342090182478"/>
 		<document id="8" weight="0.0021106951013751384"/>
 		<document id="11" weight="0.0016686647136525965"/>
-		<document id="13" weight="0.005196439570233357"/>
+		<document id="3" weight="0.0014928101185369832"/>
+		<document id="0" weight="0.0014133701122290283"/>
 	</lemma>
 	<lemma name="tap">
 		<document id="0" weight="0.008442028652012426"/>
@@ -1150,71 +1150,71 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="average">
-		<document id="0" weight="0.0022172949002217295"/>
 		<document id="1" weight="0.022988505747126436"/>
+		<document id="13" weight="0.016304347826086956"/>
+		<document id="11" weight="0.010471204188481676"/>
 		<document id="4" weight="0.0034482758620689655"/>
 		<document id="6" weight="0.002398081534772182"/>
+		<document id="0" weight="0.0022172949002217295"/>
 		<document id="7" weight="0.0013568521031207597"/>
-		<document id="11" weight="0.010471204188481676"/>
-		<document id="13" weight="0.016304347826086956"/>
 	</lemma>
 	<lemma name="fixed">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="1" weight="0.01613422368998623"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="30-year">
-		<document id="0" weight="0.012449467503581392"/>
 		<document id="1" weight="0.01613422368998623"/>
+		<document id="0" weight="0.012449467503581392"/>
 	</lemma>
 	<lemma name="last">
-		<document id="0" weight="0.002710404481898998"/>
 		<document id="1" weight="0.028100975203136737"/>
 		<document id="6" weight="0.0058627933877047865"/>
-		<document id="10" weight="0.0021558949229919717"/>
-		<document id="11" weight="0.0031999801605666184"/>
 		<document id="13" weight="0.003321718536240348"/>
+		<document id="11" weight="0.0031999801605666184"/>
+		<document id="0" weight="0.002710404481898998"/>
+		<document id="10" weight="0.0021558949229919717"/>
 	</lemma>
 	<lemma name="up">
-		<document id="0" weight="0.0017901439513472374"/>
 		<document id="5" weight="0.015233111736935924"/>
-		<document id="6" weight="0.0038722058611875493"/>
-		<document id="7" weight="0.005477306119793786"/>
-		<document id="8" weight="0.002673360669064914"/>
-		<document id="11" weight="0.00211349456036022"/>
 		<document id="12" weight="0.006163014672195451"/>
+		<document id="7" weight="0.005477306119793786"/>
+		<document id="6" weight="0.0038722058611875493"/>
+		<document id="8" weight="0.002673360669064914"/>
 		<document id="13" weight="0.0021938992447217503"/>
+		<document id="11" weight="0.00211349456036022"/>
+		<document id="0" weight="0.0017901439513472374"/>
 	</lemma>
 	<lemma name="early">
-		<document id="0" weight="0.004007438851568967"/>
 		<document id="5" weight="0.011367012088412605"/>
-		<document id="6" weight="0.004334184465365957"/>
 		<document id="7" weight="0.004904626654159034"/>
+		<document id="6" weight="0.004334184465365957"/>
+		<document id="0" weight="0.004007438851568967"/>
 	</lemma>
 	<lemma name="january">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="federal">
-		<document id="0" weight="0.002710404481898998"/>
-		<document id="6" weight="0.0029313966938523933"/>
 		<document id="7" weight="0.00663442291091695"/>
-		<document id="8" weight="0.004047657024292875"/>
 		<document id="11" weight="0.006399960321133237"/>
+		<document id="8" weight="0.004047657024292875"/>
 		<document id="13" weight="0.003321718536240348"/>
+		<document id="6" weight="0.0029313966938523933"/>
+		<document id="0" weight="0.002710404481898998"/>
 	</lemma>
 	<lemma name="reserve">
-		<document id="0" weight="0.004007438851568967"/>
 		<document id="7" weight="0.007356939981238551"/>
 		<document id="8" weight="0.00598461894721061"/>
 		<document id="13" weight="0.004911290549069577"/>
+		<document id="0" weight="0.004007438851568967"/>
 	</lemma>
 	<lemma name="bank">
-		<document id="0" weight="0.002710404481898998"/>
 		<document id="3" weight="0.008588237152246709"/>
 		<document id="4" weight="0.008430292560941022"/>
-		<document id="7" weight="0.0016586057277292374"/>
 		<document id="8" weight="0.004047657024292875"/>
 		<document id="13" weight="0.003321718536240348"/>
+		<document id="0" weight="0.002710404481898998"/>
+		<document id="7" weight="0.0016586057277292374"/>
 	</lemma>
 	<lemma name="st.">
 		<document id="0" weight="0.008442028652012426"/>
@@ -1226,23 +1226,23 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="fix">
-		<document id="0" weight="0.006224733751790696"/>
 		<document id="4" weight="0.019361068427983477"/>
+		<document id="0" weight="0.006224733751790696"/>
 	</lemma>
 	<lemma name="principal">
 		<document id="0" weight="0.01688405730402485"/>
 	</lemma>
 	<lemma name="monthly">
-		<document id="0" weight="0.004927699382120727"/>
-		<document id="7" weight="0.01206183132339999"/>
 		<document id="11" weight="0.01745334362306111"/>
+		<document id="7" weight="0.01206183132339999"/>
+		<document id="0" weight="0.004927699382120727"/>
 	</lemma>
 	<lemma name="include">
-		<document id="0" weight="0.006587258657074243"/>
 		<document id="1" weight="0.017073871576669446"/>
-		<document id="7" weight="0.00201550451447794"/>
-		<document id="8" weight="0.004918631878047158"/>
 		<document id="10" weight="0.007859401201958952"/>
+		<document id="0" weight="0.006587258657074243"/>
+		<document id="8" weight="0.004918631878047158"/>
+		<document id="7" weight="0.00201550451447794"/>
 	</lemma>
 	<lemma name="often">
 		<document id="0" weight="0.008442028652012426"/>
@@ -1261,32 +1261,32 @@
 		<document id="10" weight="0.004951243248778843"/>
 	</lemma>
 	<lemma name="shift">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="5" weight="0.013977310826015398"/>
+		<document id="0" weight="0.004927699382120727"/>
 		<document id="10" weight="0.003919563353327069"/>
 	</lemma>
 	<lemma name="really">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="3" weight="0.0052046660921228295"/>
+		<document id="0" weight="0.004927699382120727"/>
 		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="fast">
+		<document id="9" weight="0.07190543654920283"/>
 		<document id="0" weight="0.005420808963797996"/>
 		<document id="4" weight="0.004215146280470511"/>
-		<document id="7" weight="0.0016586057277292374"/>
-		<document id="9" weight="0.07190543654920283"/>
-		<document id="11" weight="0.0031999801605666184"/>
 		<document id="13" weight="0.003321718536240348"/>
+		<document id="11" weight="0.0031999801605666184"/>
+		<document id="7" weight="0.0016586057277292374"/>
 	</lemma>
 	<lemma name="people">
-		<document id="0" weight="0.004007438851568967"/>
-		<document id="4" weight="0.006232258351922773"/>
 		<document id="6" weight="0.008668368930731914"/>
+		<document id="4" weight="0.006232258351922773"/>
+		<document id="0" weight="0.004007438851568967"/>
 		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="ask">
-		<document id="0" weight="0.004927699382120727"/>
 		<document id="2" weight="0.018216331322429904"/>
+		<document id="0" weight="0.004927699382120727"/>
 		<document id="10" weight="0.003919563353327069"/>
 	</lemma>
 	<lemma name="waive">
@@ -1300,81 +1300,81 @@
 		<document id="0" weight="0.008442028652012426"/>
 	</lemma>
 	<lemma name="increase">
-		<document id="0" weight="0.002710404481898998"/>
-		<document id="3" weight="0.002862745717415569"/>
-		<document id="6" weight="0.0029313966938523933"/>
-		<document id="7" weight="0.014927451549563138"/>
 		<document id="11" weight="0.022399861123966323"/>
+		<document id="7" weight="0.014927451549563138"/>
 		<document id="13" weight="0.009965155608721044"/>
+		<document id="6" weight="0.0029313966938523933"/>
+		<document id="3" weight="0.002862745717415569"/>
+		<document id="0" weight="0.002710404481898998"/>
 	</lemma>
 	<lemma name="consumer">
-		<document id="1" weight="0.007025243800784184"/>
-		<document id="7" weight="0.004975817183187712"/>
-		<document id="8" weight="0.00809531404858575"/>
 		<document id="9" weight="0.07190543654920283"/>
 		<document id="11" weight="0.009599940481699853"/>
+		<document id="8" weight="0.00809531404858575"/>
+		<document id="1" weight="0.007025243800784184"/>
+		<document id="7" weight="0.004975817183187712"/>
 		<document id="13" weight="0.003321718536240348"/>
 	</lemma>
 	<lemma name="worry">
 		<document id="1" weight="0.02188135012676784"/>
 	</lemma>
 	<lemma name="inflation">
-		<document id="1" weight="0.005747126436781609"/>
-		<document id="6" weight="0.002398081534772182"/>
+		<document id="9" weight="0.058823529411764705"/>
+		<document id="13" weight="0.024456521739130436"/>
+		<document id="11" weight="0.01832460732984293"/>
 		<document id="7" weight="0.017639077340569877"/>
 		<document id="8" weight="0.009933774834437087"/>
-		<document id="9" weight="0.058823529411764705"/>
-		<document id="11" weight="0.01832460732984293"/>
-		<document id="13" weight="0.024456521739130436"/>
+		<document id="1" weight="0.005747126436781609"/>
+		<document id="6" weight="0.002398081534772182"/>
 	</lemma>
 	<lemma name="few">
 		<document id="1" weight="0.020774194506409244"/>
-		<document id="7" weight="0.002452313327079517"/>
-		<document id="10" weight="0.0031875748184437462"/>
 		<document id="13" weight="0.009822581098139153"/>
+		<document id="10" weight="0.0031875748184437462"/>
+		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="less">
 		<document id="1" weight="0.025544740475131587"/>
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="6" weight="0.005329478228624575"/>
 	</lemma>
 	<lemma name="expensive">
 		<document id="1" weight="0.01613422368998623"/>
 		<document id="13" weight="0.007628681853417403"/>
 	</lemma>
 	<lemma name="demand">
-		<document id="1" weight="0.007025243800784184"/>
 		<document id="4" weight="0.012645438841411533"/>
 		<document id="6" weight="0.008794190081557181"/>
-		<document id="7" weight="0.003317211455458475"/>
+		<document id="1" weight="0.007025243800784184"/>
 		<document id="8" weight="0.004047657024292875"/>
+		<document id="7" weight="0.003317211455458475"/>
 		<document id="10" weight="0.0021558949229919717"/>
 	</lemma>
 	<lemma name="compare">
-		<document id="1" weight="0.008536935788334723"/>
 		<document id="6" weight="0.01068652393647656"/>
+		<document id="1" weight="0.008536935788334723"/>
+		<document id="13" weight="0.004036485943397396"/>
 		<document id="7" weight="0.00403100902895588"/>
 		<document id="11" weight="0.0038885519035870204"/>
-		<document id="13" weight="0.004036485943397396"/>
 	</lemma>
 	<lemma name="previous">
 		<document id="1" weight="0.012772370237565793"/>
-		<document id="7" weight="0.0030154578308499973"/>
 		<document id="11" weight="0.011635562415374074"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="size">
 		<document id="1" weight="0.025544740475131587"/>
-		<document id="11" weight="0.005817781207687037"/>
 		<document id="12" weight="0.01696482764378968"/>
+		<document id="11" weight="0.005817781207687037"/>
 	</lemma>
 	<lemma name="shrank">
 		<document id="1" weight="0.02188135012676784"/>
 	</lemma>
 	<lemma name="well">
-		<document id="1" weight="0.010387097253204622"/>
 		<document id="4" weight="0.01869677505576832"/>
-		<document id="10" weight="0.0031875748184437462"/>
+		<document id="1" weight="0.010387097253204622"/>
 		<document id="13" weight="0.004911290549069577"/>
+		<document id="10" weight="0.0031875748184437462"/>
 	</lemma>
 	<lemma name="application">
 		<document id="1" weight="0.04376270025353568"/>
@@ -1388,9 +1388,9 @@
 		<document id="1" weight="0.021075731402352554"/>
 		<document id="3" weight="0.014313728587077848"/>
 		<document id="5" weight="0.007688002649914768"/>
+		<document id="13" weight="0.006643437072480696"/>
 		<document id="6" weight="0.0029313966938523933"/>
 		<document id="7" weight="0.0016586057277292374"/>
-		<document id="13" weight="0.006643437072480696"/>
 	</lemma>
 	<lemma name="bankers">
 		<document id="1" weight="0.02188135012676784"/>
@@ -1405,44 +1405,44 @@
 		<document id="1" weight="0.02188135012676784"/>
 	</lemma>
 	<lemma name="index">
+		<document id="11" weight="0.01166565571076106"/>
+		<document id="8" weight="0.009837263756094316"/>
 		<document id="1" weight="0.008536935788334723"/>
 		<document id="7" weight="0.0060465135434338195"/>
-		<document id="8" weight="0.009837263756094316"/>
-		<document id="11" weight="0.01166565571076106"/>
 		<document id="13" weight="0.004036485943397396"/>
 	</lemma>
 	<lemma name="mba">
 		<document id="1" weight="0.04376270025353568"/>
 	</lemma>
 	<lemma name="adjustment">
-		<document id="1" weight="0.01613422368998623"/>
 		<document id="11" weight="0.022047289963803174"/>
+		<document id="1" weight="0.01613422368998623"/>
 	</lemma>
 	<lemma name="july">
-		<document id="1" weight="0.008536935788334723"/>
 		<document id="2" weight="0.012175629730903621"/>
-		<document id="6" weight="0.007124349290984372"/>
+		<document id="1" weight="0.008536935788334723"/>
 		<document id="7" weight="0.00806201805791176"/>
+		<document id="6" weight="0.007124349290984372"/>
 		<document id="13" weight="0.004036485943397396"/>
 	</lemma>
 	<lemma name="fourth">
-		<document id="1" weight="0.010387097253204622"/>
 		<document id="2" weight="0.014814384607029543"/>
-		<document id="6" weight="0.004334184465365957"/>
+		<document id="1" weight="0.010387097253204622"/>
 		<document id="13" weight="0.004911290549069577"/>
+		<document id="6" weight="0.004334184465365957"/>
 	</lemma>
 	<lemma name="holiday">
 		<document id="1" weight="0.01613422368998623"/>
 		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="part">
+		<document id="11" weight="0.023271124830748148"/>
 		<document id="1" weight="0.012772370237565793"/>
 		<document id="10" weight="0.007839126706654138"/>
-		<document id="11" weight="0.023271124830748148"/>
 	</lemma>
 	<lemma name="hold">
-		<document id="1" weight="0.008536935788334723"/>
 		<document id="2" weight="0.012175629730903621"/>
+		<document id="1" weight="0.008536935788334723"/>
 		<document id="4" weight="0.005122161473000834"/>
 		<document id="7" weight="0.00403100902895588"/>
 		<document id="10" weight="0.0026198004006529837"/>
@@ -1459,9 +1459,9 @@
 	<lemma name="remain">
 		<document id="1" weight="0.017073871576669446"/>
 		<document id="2" weight="0.012175629730903621"/>
+		<document id="8" weight="0.004918631878047158"/>
 		<document id="3" weight="0.0034787513516867487"/>
 		<document id="7" weight="0.00201550451447794"/>
-		<document id="8" weight="0.004918631878047158"/>
 	</lemma>
 	<lemma name="decrease">
 		<document id="1" weight="0.01613422368998623"/>
@@ -1471,8 +1471,8 @@
 		<document id="1" weight="0.02188135012676784"/>
 	</lemma>
 	<lemma name="fee">
-		<document id="1" weight="0.01613422368998623"/>
 		<document id="2" weight="0.023011105918504953"/>
+		<document id="1" weight="0.01613422368998623"/>
 	</lemma>
 	<lemma name="conventional">
 		<document id="1" weight="0.02188135012676784"/>
@@ -1482,18 +1482,18 @@
 		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="continue">
-		<document id="1" weight="0.010387097253204622"/>
 		<document id="2" weight="0.014814384607029543"/>
-		<document id="7" weight="0.004904626654159034"/>
+		<document id="1" weight="0.010387097253204622"/>
 		<document id="10" weight="0.0063751496368874925"/>
+		<document id="7" weight="0.004904626654159034"/>
 	</lemma>
 	<lemma name="weak">
 		<document id="1" weight="0.06564405038030352"/>
 	</lemma>
 	<lemma name="combination">
-		<document id="1" weight="0.012772370237565793"/>
 		<document id="2" weight="0.018216331322429904"/>
 		<document id="12" weight="0.01696482764378968"/>
+		<document id="1" weight="0.012772370237565793"/>
 	</lemma>
 	<lemma name="worsen">
 		<document id="1" weight="0.02188135012676784"/>
@@ -1515,10 +1515,10 @@
 		<document id="1" weight="0.02188135012676784"/>
 	</lemma>
 	<lemma name="record">
+		<document id="11" weight="0.014193886822441918"/>
 		<document id="1" weight="0.010387097253204622"/>
 		<document id="3" weight="0.004232681316294155"/>
 		<document id="7" weight="0.002452313327079517"/>
-		<document id="11" weight="0.014193886822441918"/>
 	</lemma>
 	<lemma name="potential">
 		<document id="1" weight="0.01613422368998623"/>
@@ -1542,11 +1542,11 @@
 		<document id="1" weight="0.02188135012676784"/>
 	</lemma>
 	<lemma name="end">
-		<document id="1" weight="0.008536935788334723"/>
 		<document id="5" weight="0.02802692126736305"/>
+		<document id="1" weight="0.008536935788334723"/>
 		<document id="6" weight="0.007124349290984372"/>
-		<document id="7" weight="0.00201550451447794"/>
 		<document id="8" weight="0.004918631878047158"/>
+		<document id="7" weight="0.00201550451447794"/>
 	</lemma>
 	<lemma name="applications">
 		<document id="1" weight="0.02188135012676784"/>
@@ -1558,15 +1558,15 @@
 		<document id="1" weight="0.02188135012676784"/>
 	</lemma>
 	<lemma name="time">
-		<document id="1" weight="0.008536935788334723"/>
-		<document id="2" weight="0.012175629730903621"/>
-		<document id="3" weight="0.0034787513516867487"/>
-		<document id="6" weight="0.003562174645492186"/>
 		<document id="10" weight="0.015718802403917903"/>
+		<document id="2" weight="0.012175629730903621"/>
+		<document id="1" weight="0.008536935788334723"/>
+		<document id="6" weight="0.003562174645492186"/>
+		<document id="3" weight="0.0034787513516867487"/>
 	</lemma>
 	<lemma name="very">
-		<document id="1" weight="0.012772370237565793"/>
 		<document id="2" weight="0.018216331322429904"/>
+		<document id="1" weight="0.012772370237565793"/>
 		<document id="3" weight="0.0052046660921228295"/>
 	</lemma>
 	<lemma name="borrower">
@@ -1579,18 +1579,18 @@
 		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="benefit">
-		<document id="1" weight="0.010387097253204622"/>
-		<document id="3" weight="0.004232681316294155"/>
-		<document id="6" weight="0.004334184465365957"/>
 		<document id="11" weight="0.047312956074806393"/>
+		<document id="1" weight="0.010387097253204622"/>
+		<document id="6" weight="0.004334184465365957"/>
+		<document id="3" weight="0.004232681316294155"/>
 	</lemma>
 	<lemma name="spirit">
 		<document id="2" weight="0.24966261783984292"/>
 	</lemma>
 	<lemma name="airlines">
 		<document id="2" weight="0.05464899396728971"/>
-		<document id="6" weight="0.01065895645724915"/>
 		<document id="8" weight="0.01471783060487714"/>
+		<document id="6" weight="0.01065895645724915"/>
 	</lemma>
 	<lemma name="delay">
 		<document id="2" weight="0.046022211837009906"/>
@@ -1598,8 +1598,8 @@
 	</lemma>
 	<lemma name="vote">
 		<document id="2" weight="0.05464899396728971"/>
-		<document id="7" weight="0.0030154578308499973"/>
 		<document id="10" weight="0.003919563353327069"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="plan">
 		<document id="2" weight="0.03643266264485981"/>
@@ -1615,8 +1615,8 @@
 	<lemma name="concern">
 		<document id="2" weight="0.014814384607029543"/>
 		<document id="4" weight="0.006232258351922773"/>
-		<document id="7" weight="0.002452313327079517"/>
 		<document id="11" weight="0.0047312956074806395"/>
+		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="mount">
 		<document id="2" weight="0.023011105918504953"/>
@@ -1635,20 +1635,20 @@
 	</lemma>
 	<lemma name="wednesday">
 		<document id="2" weight="0.010449670829758883"/>
-		<document id="3" weight="0.0014928101185369832"/>
-		<document id="5" weight="0.00400899321141693"/>
-		<document id="6" weight="0.004585826767016488"/>
-		<document id="7" weight="0.0008648981283789577"/>
-		<document id="8" weight="0.004221390202750277"/>
-		<document id="11" weight="0.0016686647136525965"/>
 		<document id="12" weight="0.004865877256605281"/>
+		<document id="6" weight="0.004585826767016488"/>
+		<document id="8" weight="0.004221390202750277"/>
+		<document id="5" weight="0.00400899321141693"/>
 		<document id="13" weight="0.001732146523411119"/>
+		<document id="11" weight="0.0016686647136525965"/>
+		<document id="3" weight="0.0014928101185369832"/>
+		<document id="7" weight="0.0008648981283789577"/>
 	</lemma>
 	<lemma name="most">
 		<document id="2" weight="0.029628769214059086"/>
-		<document id="6" weight="0.004334184465365957"/>
 		<document id="8" weight="0.00598461894721061"/>
 		<document id="11" weight="0.0047312956074806395"/>
+		<document id="6" weight="0.004334184465365957"/>
 	</lemma>
 	<lemma name="recently">
 		<document id="2" weight="0.06241565445996073"/>
@@ -1685,10 +1685,10 @@
 	</lemma>
 	<lemma name="question">
 		<document id="2" weight="0.012175629730903621"/>
-		<document id="3" weight="0.0034787513516867487"/>
-		<document id="6" weight="0.003562174645492186"/>
-		<document id="11" weight="0.0038885519035870204"/>
 		<document id="13" weight="0.004036485943397396"/>
+		<document id="11" weight="0.0038885519035870204"/>
+		<document id="6" weight="0.003562174645492186"/>
+		<document id="3" weight="0.0034787513516867487"/>
 	</lemma>
 	<lemma name="weekend">
 		<document id="2" weight="0.023011105918504953"/>
@@ -1696,12 +1696,12 @@
 	</lemma>
 	<lemma name="ceo">
 		<document id="2" weight="0.00819672131147541"/>
-		<document id="4" weight="0.0034482758620689655"/>
-		<document id="5" weight="0.006289308176100629"/>
-		<document id="6" weight="0.002398081534772182"/>
-		<document id="8" weight="0.006622516556291391"/>
-		<document id="10" weight="0.003527336860670194"/>
 		<document id="12" weight="0.007633587786259542"/>
+		<document id="8" weight="0.006622516556291391"/>
+		<document id="5" weight="0.006289308176100629"/>
+		<document id="10" weight="0.003527336860670194"/>
+		<document id="4" weight="0.0034482758620689655"/>
+		<document id="6" weight="0.002398081534772182"/>
 	</lemma>
 	<lemma name="barry">
 		<document id="2" weight="0.031207827229980365"/>
@@ -1730,8 +1730,8 @@
 	</lemma>
 	<lemma name="stockholder">
 		<document id="2" weight="0.018216331322429904"/>
-		<document id="10" weight="0.007839126706654138"/>
 		<document id="12" weight="0.01696482764378968"/>
+		<document id="10" weight="0.007839126706654138"/>
 	</lemma>
 	<lemma name="letter">
 		<document id="2" weight="0.023011105918504953"/>
@@ -1745,9 +1745,9 @@
 	</lemma>
 	<lemma name="first">
 		<document id="2" weight="0.014814384607029543"/>
+		<document id="8" weight="0.01196923789442122"/>
 		<document id="5" weight="0.011367012088412605"/>
 		<document id="6" weight="0.008668368930731914"/>
-		<document id="8" weight="0.01196923789442122"/>
 	</lemma>
 	<lemma name="agree">
 		<document id="2" weight="0.023011105918504953"/>
@@ -1759,8 +1759,8 @@
 	</lemma>
 	<lemma name="find">
 		<document id="2" weight="0.018216331322429904"/>
-		<document id="7" weight="0.0030154578308499973"/>
 		<document id="11" weight="0.011635562415374074"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="superior">
 		<document id="2" weight="0.031207827229980365"/>
@@ -1783,13 +1783,13 @@
 	</lemma>
 	<lemma name="takeover">
 		<document id="2" weight="0.018216331322429904"/>
-		<document id="4" weight="0.007663422142539476"/>
 		<document id="10" weight="0.007839126706654138"/>
+		<document id="4" weight="0.007663422142539476"/>
 	</lemma>
 	<lemma name="light">
 		<document id="2" weight="0.018216331322429904"/>
-		<document id="7" weight="0.0030154578308499973"/>
 		<document id="10" weight="0.003919563353327069"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="repeatedly">
 		<document id="2" weight="0.031207827229980365"/>
@@ -1805,15 +1805,15 @@
 		<document id="10" weight="0.004951243248778843"/>
 	</lemma>
 	<lemma name="airline">
+		<document id="6" weight="0.039007660188293616"/>
 		<document id="2" weight="0.029628769214059086"/>
 		<document id="4" weight="0.006232258351922773"/>
-		<document id="6" weight="0.039007660188293616"/>
 		<document id="7" weight="0.004904626654159034"/>
 	</lemma>
 	<lemma name="raise">
 		<document id="2" weight="0.018216331322429904"/>
-		<document id="7" weight="0.0030154578308499973"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="doubt">
 		<document id="2" weight="0.031207827229980365"/>
@@ -1832,21 +1832,21 @@
 	</lemma>
 	<lemma name="create">
 		<document id="2" weight="0.014814384607029543"/>
-		<document id="7" weight="0.002452313327079517"/>
-		<document id="10" weight="0.0031875748184437462"/>
 		<document id="12" weight="0.013796602458454993"/>
+		<document id="10" weight="0.0031875748184437462"/>
+		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="fifth-largest">
 		<document id="2" weight="0.031207827229980365"/>
 	</lemma>
 	<lemma name="u.s.">
-		<document id="2" weight="0.00819672131147541"/>
+		<document id="13" weight="0.010869565217391304"/>
 		<document id="3" weight="0.00936768149882904"/>
+		<document id="2" weight="0.00819672131147541"/>
 		<document id="5" weight="0.006289308176100629"/>
-		<document id="6" weight="0.002398081534772182"/>
 		<document id="7" weight="0.004070556309362279"/>
 		<document id="8" weight="0.0033112582781456954"/>
-		<document id="13" weight="0.010869565217391304"/>
+		<document id="6" weight="0.002398081534772182"/>
 	</lemma>
 	<lemma name="carrier">
 		<document id="2" weight="0.018216331322429904"/>
@@ -1857,14 +1857,14 @@
 		<document id="3" weight="0.01783304413141735"/>
 	</lemma>
 	<lemma name="need">
+		<document id="12" weight="0.01696482764378968"/>
 		<document id="3" weight="0.015613998276368488"/>
 		<document id="8" weight="0.01471783060487714"/>
-		<document id="12" weight="0.01696482764378968"/>
 	</lemma>
 	<lemma name="bring">
-		<document id="3" weight="0.0052046660921228295"/>
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="11" weight="0.005817781207687037"/>
+		<document id="6" weight="0.005329478228624575"/>
+		<document id="3" weight="0.0052046660921228295"/>
 	</lemma>
 	<lemma name="use">
 		<document id="3" weight="0.010409332184245659"/>
@@ -1919,18 +1919,18 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="tuesday">
-		<document id="3" weight="0.004232681316294155"/>
-		<document id="4" weight="0.006232258351922773"/>
 		<document id="8" weight="0.01196923789442122"/>
+		<document id="4" weight="0.006232258351922773"/>
+		<document id="3" weight="0.004232681316294155"/>
 		<document id="10" weight="0.0031875748184437462"/>
 	</lemma>
 	<lemma name="insight">
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="recent">
+		<document id="11" weight="0.01745334362306111"/>
 		<document id="3" weight="0.0052046660921228295"/>
 		<document id="10" weight="0.003919563353327069"/>
-		<document id="11" weight="0.01745334362306111"/>
 	</lemma>
 	<lemma name="winter">
 		<document id="3" weight="0.008916522065708674"/>
@@ -1939,11 +1939,11 @@
 		<document id="3" weight="0.01783304413141735"/>
 	</lemma>
 	<lemma name="period">
-		<document id="3" weight="0.0034787513516867487"/>
 		<document id="5" weight="0.018684614178242034"/>
-		<document id="6" weight="0.003562174645492186"/>
-		<document id="7" weight="0.00403100902895588"/>
 		<document id="13" weight="0.004036485943397396"/>
+		<document id="7" weight="0.00403100902895588"/>
+		<document id="6" weight="0.003562174645492186"/>
+		<document id="3" weight="0.0034787513516867487"/>
 	</lemma>
 	<lemma name="long">
 		<document id="3" weight="0.01783304413141735"/>
@@ -1955,9 +1955,9 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="manage">
+		<document id="12" weight="0.01696482764378968"/>
 		<document id="3" weight="0.0052046660921228295"/>
 		<document id="7" weight="0.0030154578308499973"/>
-		<document id="12" weight="0.01696482764378968"/>
 	</lemma>
 	<lemma name="distribute">
 		<document id="3" weight="0.008916522065708674"/>
@@ -1980,20 +1980,20 @@
 	</lemma>
 	<lemma name="value">
 		<document id="3" weight="0.02602333046061415"/>
-		<document id="4" weight="0.007663422142539476"/>
 		<document id="12" weight="0.01696482764378968"/>
+		<document id="4" weight="0.007663422142539476"/>
 	</lemma>
 	<lemma name="only">
 		<document id="3" weight="0.01314920338200283"/>
 		<document id="10" weight="0.004951243248778843"/>
 	</lemma>
 	<lemma name="pay">
-		<document id="3" weight="0.002862745717415569"/>
-		<document id="4" weight="0.004215146280470511"/>
 		<document id="6" weight="0.008794190081557181"/>
-		<document id="7" weight="0.0016586057277292374"/>
-		<document id="11" weight="0.0031999801605666184"/>
 		<document id="13" weight="0.006643437072480696"/>
+		<document id="4" weight="0.004215146280470511"/>
+		<document id="11" weight="0.0031999801605666184"/>
+		<document id="3" weight="0.002862745717415569"/>
+		<document id="7" weight="0.0016586057277292374"/>
 	</lemma>
 	<lemma name="therefore">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2009,8 +2009,8 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="sentiment">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="8" weight="0.009295877225356306"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="prone">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2022,56 +2022,56 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="hit">
-		<document id="3" weight="0.0052046660921228295"/>
 		<document id="4" weight="0.007663422142539476"/>
 		<document id="7" weight="0.006030915661699995"/>
+		<document id="3" weight="0.0052046660921228295"/>
 	</lemma>
 	<lemma name="november">
 		<document id="3" weight="0.01314920338200283"/>
 		<document id="7" weight="0.007618330860400553"/>
 	</lemma>
 	<lemma name="trade">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="level">
 		<document id="3" weight="0.010436254055060247"/>
-		<document id="4" weight="0.005122161473000834"/>
 		<document id="6" weight="0.007124349290984372"/>
+		<document id="4" weight="0.005122161473000834"/>
 		<document id="8" weight="0.004918631878047158"/>
 		<document id="10" weight="0.0026198004006529837"/>
 	</lemma>
 	<lemma name="december">
-		<document id="3" weight="0.004232681316294155"/>
 		<document id="9" weight="0.10631499541515319"/>
-		<document id="11" weight="0.0047312956074806395"/>
 		<document id="13" weight="0.004911290549069577"/>
+		<document id="11" weight="0.0047312956074806395"/>
+		<document id="3" weight="0.004232681316294155"/>
 	</lemma>
 	<lemma name="coindesk">
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="data">
-		<document id="3" weight="0.0034787513516867487"/>
-		<document id="6" weight="0.003562174645492186"/>
+		<document id="11" weight="0.01166565571076106"/>
 		<document id="7" weight="0.0060465135434338195"/>
 		<document id="8" weight="0.004918631878047158"/>
-		<document id="11" weight="0.01166565571076106"/>
+		<document id="6" weight="0.003562174645492186"/>
+		<document id="3" weight="0.0034787513516867487"/>
 	</lemma>
 	<lemma name="investor">
-		<document id="3" weight="0.0052046660921228295"/>
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="8" weight="0.01471783060487714"/>
+		<document id="6" weight="0.005329478228624575"/>
+		<document id="3" weight="0.0052046660921228295"/>
 	</lemma>
 	<lemma name="dump">
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="broad">
-		<document id="3" weight="0.002862745717415569"/>
-		<document id="6" weight="0.0029313966938523933"/>
-		<document id="7" weight="0.0016586057277292374"/>
 		<document id="8" weight="0.004047657024292875"/>
-		<document id="10" weight="0.0021558949229919717"/>
 		<document id="13" weight="0.003321718536240348"/>
+		<document id="6" weight="0.0029313966938523933"/>
+		<document id="3" weight="0.002862745717415569"/>
+		<document id="10" weight="0.0021558949229919717"/>
+		<document id="7" weight="0.0016586057277292374"/>
 	</lemma>
 	<lemma name="sell-off">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2080,10 +2080,10 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="peak">
-		<document id="3" weight="0.004232681316294155"/>
-		<document id="6" weight="0.004334184465365957"/>
 		<document id="7" weight="0.007356939981238551"/>
 		<document id="8" weight="0.00598461894721061"/>
+		<document id="6" weight="0.004334184465365957"/>
+		<document id="3" weight="0.004232681316294155"/>
 	</lemma>
 	<lemma name="cryptocurrencies">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2183,17 +2183,17 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="transaction">
-		<document id="3" weight="0.004232681316294155"/>
-		<document id="4" weight="0.006232258351922773"/>
-		<document id="10" weight="0.0031875748184437462"/>
 		<document id="12" weight="0.013796602458454993"/>
+		<document id="4" weight="0.006232258351922773"/>
+		<document id="3" weight="0.004232681316294155"/>
+		<document id="10" weight="0.0031875748184437462"/>
 	</lemma>
 	<lemma name="safe">
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="form">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="stablecoins">
 		<document id="3" weight="0.026749566197126026"/>
@@ -2215,8 +2215,8 @@
 		<document id="3" weight="0.026749566197126026"/>
 	</lemma>
 	<lemma name="many">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="6" weight="0.02019679800041442"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="attempt">
 		<document id="3" weight="0.01314920338200283"/>
@@ -2231,8 +2231,8 @@
 	</lemma>
 	<lemma name="dollar">
 		<document id="3" weight="0.020818664368491318"/>
-		<document id="7" weight="0.0030154578308499973"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="fiat">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2241,21 +2241,21 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="such">
-		<document id="3" weight="0.01314920338200283"/>
 		<document id="13" weight="0.015257363706834805"/>
+		<document id="3" weight="0.01314920338200283"/>
 	</lemma>
 	<lemma name="bond">
 		<document id="3" weight="0.006574601691001415"/>
 		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="design">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="4" weight="0.009680534213991739"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="store">
-		<document id="3" weight="0.0052046660921228295"/>
 		<document id="5" weight="0.013977310826015398"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="3" weight="0.0052046660921228295"/>
 	</lemma>
 	<lemma name="minimize">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2264,10 +2264,10 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="however">
+		<document id="13" weight="0.009822581098139153"/>
+		<document id="11" weight="0.0047312956074806395"/>
 		<document id="3" weight="0.004232681316294155"/>
 		<document id="7" weight="0.002452313327079517"/>
-		<document id="11" weight="0.0047312956074806395"/>
-		<document id="13" weight="0.009822581098139153"/>
 	</lemma>
 	<lemma name="terrausd">
 		<document id="3" weight="0.026749566197126026"/>
@@ -2283,15 +2283,15 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="send">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="shockwaves">
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="instead">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="govern">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2306,12 +2306,12 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="legal">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="8" weight="0.009295877225356306"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="claim">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="10" weight="0.054463675736567276"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="enable">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2323,18 +2323,18 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="day">
-		<document id="3" weight="0.004232681316294155"/>
-		<document id="7" weight="0.002452313327079517"/>
 		<document id="8" weight="0.01196923789442122"/>
 		<document id="13" weight="0.004911290549069577"/>
+		<document id="3" weight="0.004232681316294155"/>
+		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="par">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="4" weight="0.009680534213991739"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="loss">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="8" weight="0.009295877225356306"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="central">
 		<document id="3" weight="0.006574601691001415"/>
@@ -2359,8 +2359,8 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="cent">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="maintain">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2375,8 +2375,8 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="serve">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="4" weight="0.009680534213991739"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="kind">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2389,8 +2389,8 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="nearly">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="12" weight="0.021430190244714535"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="implicit">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2415,8 +2415,8 @@
 		<document id="3" weight="0.01783304413141735"/>
 	</lemma>
 	<lemma name="exactly">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="11" weight="0.014698193309202117"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="achieve">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2434,19 +2434,19 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="possible">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="official">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="7" weight="0.007618330860400553"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="approach">
 		<document id="3" weight="0.01783304413141735"/>
 	</lemma>
 	<lemma name="effective">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="12" weight="0.021430190244714535"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="forward">
 		<document id="3" weight="0.006574601691001415"/>
@@ -2456,8 +2456,8 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="domestic">
-		<document id="3" weight="0.0052046660921228295"/>
 		<document id="6" weight="0.01065895645724915"/>
+		<document id="3" weight="0.0052046660921228295"/>
 		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="regime">
@@ -2467,10 +2467,10 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="board">
-		<document id="3" weight="0.004232681316294155"/>
 		<document id="4" weight="0.006232258351922773"/>
-		<document id="7" weight="0.002452313327079517"/>
+		<document id="3" weight="0.004232681316294155"/>
 		<document id="10" weight="0.0031875748184437462"/>
+		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="publish">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2480,18 +2480,18 @@
 		<document id="10" weight="0.004951243248778843"/>
 	</lemma>
 	<lemma name="report">
-		<document id="3" weight="0.0018907609415868948"/>
+		<document id="8" weight="0.010693442676259657"/>
 		<document id="4" weight="0.008351947469561421"/>
 		<document id="6" weight="0.0038722058611875493"/>
-		<document id="7" weight="0.0021909224479175144"/>
-		<document id="8" weight="0.010693442676259657"/>
-		<document id="10" weight="0.0014239063881086491"/>
-		<document id="11" weight="0.00211349456036022"/>
 		<document id="13" weight="0.0021938992447217503"/>
+		<document id="7" weight="0.0021909224479175144"/>
+		<document id="11" weight="0.00211349456036022"/>
+		<document id="3" weight="0.0018907609415868948"/>
+		<document id="10" weight="0.0014239063881086491"/>
 	</lemma>
 	<lemma name="later">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="10" weight="0.009902486497557686"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="recommendation">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2506,17 +2506,17 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="exchange">
+		<document id="12" weight="0.01696482764378968"/>
 		<document id="3" weight="0.0052046660921228295"/>
 		<document id="10" weight="0.003919563353327069"/>
-		<document id="12" weight="0.01696482764378968"/>
 	</lemma>
 	<lemma name="innovators">
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="public">
-		<document id="3" weight="0.0052046660921228295"/>
 		<document id="5" weight="0.013977310826015398"/>
 		<document id="10" weight="0.007839126706654138"/>
+		<document id="3" weight="0.0052046660921228295"/>
 	</lemma>
 	<lemma name="authority">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2525,8 +2525,8 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="appropriate">
-		<document id="3" weight="0.006574601691001415"/>
 		<document id="6" weight="0.006732266000138139"/>
+		<document id="3" weight="0.006574601691001415"/>
 	</lemma>
 	<lemma name="managing">
 		<document id="3" weight="0.008916522065708674"/>
@@ -2541,17 +2541,17 @@
 		<document id="3" weight="0.008916522065708674"/>
 	</lemma>
 	<lemma name="check">
-		<document id="4" weight="0.009680534213991739"/>
 		<document id="11" weight="0.014698193309202117"/>
+		<document id="4" weight="0.009680534213991739"/>
 	</lemma>
 	<lemma name="company">
-		<document id="4" weight="0.017241379310344827"/>
 		<document id="5" weight="0.031446540880503145"/>
-		<document id="6" weight="0.004796163069544364"/>
-		<document id="7" weight="0.004070556309362279"/>
-		<document id="8" weight="0.009933774834437087"/>
 		<document id="10" weight="0.024691358024691357"/>
 		<document id="12" weight="0.022900763358778626"/>
+		<document id="4" weight="0.017241379310344827"/>
+		<document id="8" weight="0.009933774834437087"/>
+		<document id="6" weight="0.004796163069544364"/>
+		<document id="7" weight="0.004070556309362279"/>
 	</lemma>
 	<lemma name="headline">
 		<document id="4" weight="0.009680534213991739"/>
@@ -2562,19 +2562,19 @@
 		<document id="8" weight="0.009295877225356306"/>
 	</lemma>
 	<lemma name="delta">
-		<document id="4" weight="0.015326844285078953"/>
 		<document id="6" weight="0.07994217342936863"/>
+		<document id="4" weight="0.015326844285078953"/>
 		<document id="8" weight="0.01471783060487714"/>
 	</lemma>
 	<lemma name="air">
 		<document id="4" weight="0.007663422142539476"/>
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="6" weight="0.005329478228624575"/>
 	</lemma>
 	<lemma name="lines">
 		<document id="4" weight="0.007663422142539476"/>
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="6" weight="0.005329478228624575"/>
 	</lemma>
 	<lemma name="dal">
 		<document id="4" weight="0.013128810076060704"/>
@@ -2589,11 +2589,11 @@
 		<document id="4" weight="0.013128810076060704"/>
 	</lemma>
 	<lemma name="quarter">
-		<document id="4" weight="0.010244322946001668"/>
 		<document id="6" weight="0.014248698581968745"/>
-		<document id="7" weight="0.00201550451447794"/>
+		<document id="4" weight="0.010244322946001668"/>
 		<document id="8" weight="0.004918631878047158"/>
 		<document id="11" weight="0.0038885519035870204"/>
+		<document id="7" weight="0.00201550451447794"/>
 	</lemma>
 	<lemma name="earn">
 		<document id="4" weight="0.009680534213991739"/>
@@ -2611,71 +2611,71 @@
 		<document id="4" weight="0.013128810076060704"/>
 	</lemma>
 	<lemma name="estimate">
-		<document id="4" weight="0.008430292560941022"/>
-		<document id="6" weight="0.0058627933877047865"/>
-		<document id="7" weight="0.004975817183187712"/>
 		<document id="9" weight="0.07190543654920283"/>
 		<document id="11" weight="0.009599940481699853"/>
+		<document id="4" weight="0.008430292560941022"/>
 		<document id="13" weight="0.006643437072480696"/>
+		<document id="6" weight="0.0058627933877047865"/>
+		<document id="7" weight="0.004975817183187712"/>
 	</lemma>
 	<lemma name="revenue">
-		<document id="4" weight="0.012464516703845546"/>
-		<document id="6" weight="0.013002553396097873"/>
-		<document id="8" weight="0.00598461894721061"/>
 		<document id="12" weight="0.013796602458454993"/>
+		<document id="6" weight="0.013002553396097873"/>
+		<document id="4" weight="0.012464516703845546"/>
+		<document id="8" weight="0.00598461894721061"/>
 	</lemma>
 	<lemma name="exceed">
 		<document id="4" weight="0.013128810076060704"/>
 	</lemma>
 	<lemma name="strong">
+		<document id="9" weight="0.08737804865707305"/>
 		<document id="4" weight="0.005122161473000834"/>
+		<document id="8" weight="0.004918631878047158"/>
 		<document id="6" weight="0.003562174645492186"/>
 		<document id="7" weight="0.00201550451447794"/>
-		<document id="8" weight="0.004918631878047158"/>
-		<document id="9" weight="0.08737804865707305"/>
 	</lemma>
 	<lemma name="travel">
-		<document id="4" weight="0.007663422142539476"/>
 		<document id="6" weight="0.047965304057621186"/>
+		<document id="4" weight="0.007663422142539476"/>
 		<document id="8" weight="0.00735891530243857"/>
 	</lemma>
 	<lemma name="margin">
 		<document id="4" weight="0.013128810076060704"/>
 	</lemma>
 	<lemma name="fuel">
-		<document id="4" weight="0.007663422142539476"/>
 		<document id="6" weight="0.01065895645724915"/>
+		<document id="4" weight="0.007663422142539476"/>
 		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="operational">
 		<document id="4" weight="0.013128810076060704"/>
 	</lemma>
 	<lemma name="twitter">
+		<document id="10" weight="0.12150646395313913"/>
 		<document id="4" weight="0.02299026642761843"/>
 		<document id="8" weight="0.01471783060487714"/>
-		<document id="10" weight="0.12150646395313913"/>
 	</lemma>
 	<lemma name="twtr">
 		<document id="4" weight="0.013128810076060704"/>
 	</lemma>
 	<lemma name="trading">
 		<document id="4" weight="0.02299026642761843"/>
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="6" weight="0.005329478228624575"/>
 	</lemma>
 	<lemma name="sue">
 		<document id="4" weight="0.009680534213991739"/>
 		<document id="8" weight="0.009295877225356306"/>
 	</lemma>
 	<lemma name="elon">
-		<document id="4" weight="0.007663422142539476"/>
 		<document id="8" weight="0.01471783060487714"/>
 		<document id="10" weight="0.007839126706654138"/>
+		<document id="4" weight="0.007663422142539476"/>
 	</lemma>
 	<lemma name="musk">
+		<document id="10" weight="0.12150646395313913"/>
 		<document id="4" weight="0.015326844285078953"/>
 		<document id="8" weight="0.01471783060487714"/>
-		<document id="10" weight="0.12150646395313913"/>
 	</lemma>
 	<lemma name="force">
 		<document id="4" weight="0.009680534213991739"/>
@@ -2686,25 +2686,25 @@
 	</lemma>
 	<lemma name="earlier">
 		<document id="4" weight="0.007663422142539476"/>
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="6" weight="0.005329478228624575"/>
 	</lemma>
 	<lemma name="allege">
-		<document id="4" weight="0.009680534213991739"/>
 		<document id="10" weight="0.019804972995115373"/>
+		<document id="4" weight="0.009680534213991739"/>
 	</lemma>
 	<lemma name="violate">
-		<document id="4" weight="0.009680534213991739"/>
 		<document id="10" weight="0.009902486497557686"/>
+		<document id="4" weight="0.009680534213991739"/>
 	</lemma>
 	<lemma name="snap">
 		<document id="4" weight="0.03938643022818211"/>
 	</lemma>
 	<lemma name="social">
+		<document id="11" weight="0.05204425168228703"/>
 		<document id="4" weight="0.006232258351922773"/>
 		<document id="8" weight="0.00598461894721061"/>
 		<document id="10" weight="0.0031875748184437462"/>
-		<document id="11" weight="0.05204425168228703"/>
 	</lemma>
 	<lemma name="medium">
 		<document id="4" weight="0.009680534213991739"/>
@@ -2720,10 +2720,10 @@
 		<document id="4" weight="0.013128810076060704"/>
 	</lemma>
 	<lemma name="allow">
-		<document id="4" weight="0.006232258351922773"/>
 		<document id="6" weight="0.008668368930731914"/>
-		<document id="7" weight="0.002452313327079517"/>
+		<document id="4" weight="0.006232258351922773"/>
 		<document id="10" weight="0.0031875748184437462"/>
+		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="nft">
 		<document id="4" weight="0.013128810076060704"/>
@@ -2742,12 +2742,12 @@
 	</lemma>
 	<lemma name="situation">
 		<document id="4" weight="0.007663422142539476"/>
-		<document id="7" weight="0.0030154578308499973"/>
 		<document id="10" weight="0.003919563353327069"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="speak">
-		<document id="4" weight="0.009680534213991739"/>
 		<document id="10" weight="0.009902486497557686"/>
+		<document id="4" weight="0.009680534213991739"/>
 	</lemma>
 	<lemma name="times">
 		<document id="4" weight="0.013128810076060704"/>
@@ -2762,8 +2762,8 @@
 		<document id="10" weight="0.003919563353327069"/>
 	</lemma>
 	<lemma name="gain">
-		<document id="4" weight="0.009680534213991739"/>
 		<document id="7" weight="0.01142749629060083"/>
+		<document id="4" weight="0.009680534213991739"/>
 	</lemma>
 	<lemma name="stitch">
 		<document id="4" weight="0.026257620152121408"/>
@@ -2782,9 +2782,9 @@
 	</lemma>
 	<lemma name="follow">
 		<document id="4" weight="0.010244322946001668"/>
+		<document id="8" weight="0.009837263756094316"/>
 		<document id="5" weight="0.009342307089121017"/>
 		<document id="7" weight="0.00403100902895588"/>
-		<document id="8" weight="0.009837263756094316"/>
 		<document id="10" weight="0.0026198004006529837"/>
 	</lemma>
 	<lemma name="news">
@@ -2811,21 +2811,21 @@
 		<document id="10" weight="0.004951243248778843"/>
 	</lemma>
 	<lemma name="own">
-		<document id="4" weight="0.007663422142539476"/>
-		<document id="5" weight="0.013977310826015398"/>
 		<document id="12" weight="0.01696482764378968"/>
+		<document id="5" weight="0.013977310826015398"/>
+		<document id="4" weight="0.007663422142539476"/>
 	</lemma>
 	<lemma name="prior">
 		<document id="4" weight="0.013128810076060704"/>
 	</lemma>
 	<lemma name="late">
-		<document id="4" weight="0.007663422142539476"/>
 		<document id="8" weight="0.02207674590731571"/>
+		<document id="4" weight="0.007663422142539476"/>
 		<document id="10" weight="0.003919563353327069"/>
 	</lemma>
 	<lemma name="unity">
-		<document id="4" weight="0.029041602641975216"/>
 		<document id="12" weight="0.19287171220243082"/>
+		<document id="4" weight="0.029041602641975216"/>
 	</lemma>
 	<lemma name="software">
 		<document id="4" weight="0.03938643022818211"/>
@@ -2840,23 +2840,23 @@
 		<document id="4" weight="0.013128810076060704"/>
 	</lemma>
 	<lemma name="announce">
+		<document id="12" weight="0.01696482764378968"/>
 		<document id="4" weight="0.015326844285078953"/>
 		<document id="6" weight="0.005329478228624575"/>
-		<document id="12" weight="0.01696482764378968"/>
 	</lemma>
 	<lemma name="all-stock">
-		<document id="4" weight="0.009680534213991739"/>
 		<document id="12" weight="0.021430190244714535"/>
+		<document id="4" weight="0.009680534213991739"/>
 	</lemma>
 	<lemma name="merger">
-		<document id="4" weight="0.006232258351922773"/>
+		<document id="12" weight="0.027593204916909985"/>
 		<document id="5" weight="0.011367012088412605"/>
 		<document id="10" weight="0.0063751496368874925"/>
-		<document id="12" weight="0.027593204916909985"/>
+		<document id="4" weight="0.006232258351922773"/>
 	</lemma>
 	<lemma name="ironsource">
-		<document id="4" weight="0.029041602641975216"/>
 		<document id="12" weight="0.12858114146828722"/>
+		<document id="4" weight="0.029041602641975216"/>
 	</lemma>
 	<lemma name="is">
 		<document id="4" weight="0.013128810076060704"/>
@@ -2872,18 +2872,18 @@
 	</lemma>
 	<lemma name="cut">
 		<document id="4" weight="0.015326844285078953"/>
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="11" weight="0.005817781207687037"/>
+		<document id="6" weight="0.005329478228624575"/>
 	</lemma>
 	<lemma name="full-year">
+		<document id="12" weight="0.01696482764378968"/>
 		<document id="4" weight="0.007663422142539476"/>
 		<document id="6" weight="0.005329478228624575"/>
-		<document id="12" weight="0.01696482764378968"/>
 	</lemma>
 	<lemma name="guidance">
-		<document id="4" weight="0.007663422142539476"/>
-		<document id="5" weight="0.013977310826015398"/>
 		<document id="12" weight="0.03392965528757936"/>
+		<document id="5" weight="0.013977310826015398"/>
+		<document id="4" weight="0.007663422142539476"/>
 	</lemma>
 	<lemma name="slump">
 		<document id="4" weight="0.007663422142539476"/>
@@ -2892,8 +2892,8 @@
 	</lemma>
 	<lemma name="soar">
 		<document id="4" weight="0.007663422142539476"/>
-		<document id="7" weight="0.006030915661699995"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="7" weight="0.006030915661699995"/>
 	</lemma>
 	<lemma name="novavax">
 		<document id="4" weight="0.013128810076060704"/>
@@ -2910,23 +2910,23 @@
 	</lemma>
 	<lemma name="stock">
 		<document id="4" weight="0.03739355011153664"/>
+		<document id="12" weight="0.013796602458454993"/>
 		<document id="8" weight="0.01196923789442122"/>
 		<document id="10" weight="0.0063751496368874925"/>
-		<document id="12" weight="0.013796602458454993"/>
 	</lemma>
 	<lemma name="politico">
 		<document id="4" weight="0.013128810076060704"/>
 	</lemma>
 	<lemma name="covid-19">
-		<document id="4" weight="0.009680534213991739"/>
 		<document id="5" weight="0.017656320264513234"/>
+		<document id="4" weight="0.009680534213991739"/>
 	</lemma>
 	<lemma name="vaccine">
 		<document id="4" weight="0.013128810076060704"/>
 	</lemma>
 	<lemma name="receive">
-		<document id="4" weight="0.019361068427983477"/>
 		<document id="11" weight="0.022047289963803174"/>
+		<document id="4" weight="0.019361068427983477"/>
 	</lemma>
 	<lemma name="fda">
 		<document id="4" weight="0.013128810076060704"/>
@@ -2963,20 +2963,20 @@
 		<document id="4" weight="0.013128810076060704"/>
 	</lemma>
 	<lemma name="sell">
-		<document id="4" weight="0.009680534213991739"/>
 		<document id="5" weight="0.017656320264513234"/>
+		<document id="4" weight="0.009680534213991739"/>
 	</lemma>
 	<lemma name="move">
 		<document id="4" weight="0.007663422142539476"/>
-		<document id="7" weight="0.006030915661699995"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="7" weight="0.006030915661699995"/>
 	</lemma>
 	<lemma name="base">
-		<document id="4" weight="0.005122161473000834"/>
 		<document id="5" weight="0.009342307089121017"/>
-		<document id="7" weight="0.0060465135434338195"/>
-		<document id="11" weight="0.0038885519035870204"/>
 		<document id="13" weight="0.008072971886794792"/>
+		<document id="7" weight="0.0060465135434338195"/>
+		<document id="4" weight="0.005122161473000834"/>
+		<document id="11" weight="0.0038885519035870204"/>
 	</lemma>
 	<lemma name="expectation">
 		<document id="4" weight="0.009680534213991739"/>
@@ -2996,9 +2996,9 @@
 	</lemma>
 	<lemma name="past">
 		<document id="4" weight="0.006232258351922773"/>
-		<document id="10" weight="0.0031875748184437462"/>
-		<document id="11" weight="0.0047312956074806395"/>
 		<document id="13" weight="0.004911290549069577"/>
+		<document id="11" weight="0.0047312956074806395"/>
+		<document id="10" weight="0.0031875748184437462"/>
 	</lemma>
 	<lemma name="gap">
 		<document id="4" weight="0.026257620152121408"/>
@@ -3049,10 +3049,10 @@
 		<document id="4" weight="0.013128810076060704"/>
 	</lemma>
 	<lemma name="step">
-		<document id="4" weight="0.006232258351922773"/>
-		<document id="5" weight="0.011367012088412605"/>
-		<document id="11" weight="0.0047312956074806395"/>
 		<document id="12" weight="0.027593204916909985"/>
+		<document id="5" weight="0.011367012088412605"/>
+		<document id="4" weight="0.006232258351922773"/>
+		<document id="11" weight="0.0047312956074806395"/>
 	</lemma>
 	<lemma name="fastenal">
 		<document id="4" weight="0.026257620152121408"/>
@@ -3072,34 +3072,34 @@
 		<document id="8" weight="0.009295877225356306"/>
 	</lemma>
 	<lemma name="come">
-		<document id="4" weight="0.004215146280470511"/>
-		<document id="6" weight="0.0029313966938523933"/>
 		<document id="7" weight="0.009951634366375424"/>
 		<document id="8" weight="0.00809531404858575"/>
-		<document id="10" weight="0.0021558949229919717"/>
+		<document id="4" weight="0.004215146280470511"/>
 		<document id="13" weight="0.003321718536240348"/>
+		<document id="6" weight="0.0029313966938523933"/>
+		<document id="10" weight="0.0021558949229919717"/>
 	</lemma>
 	<lemma name="quarterly">
 		<document id="4" weight="0.007663422142539476"/>
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="6" weight="0.005329478228624575"/>
 	</lemma>
 	<lemma name="number">
-		<document id="4" weight="0.005122161473000834"/>
-		<document id="6" weight="0.003562174645492186"/>
 		<document id="7" weight="0.00806201805791176"/>
-		<document id="10" weight="0.0026198004006529837"/>
+		<document id="4" weight="0.005122161473000834"/>
 		<document id="11" weight="0.0038885519035870204"/>
+		<document id="6" weight="0.003562174645492186"/>
+		<document id="10" weight="0.0026198004006529837"/>
 	</lemma>
 	<lemma name="line">
-		<document id="4" weight="0.006232258351922773"/>
 		<document id="5" weight="0.02273402417682521"/>
-		<document id="7" weight="0.002452313327079517"/>
+		<document id="4" weight="0.006232258351922773"/>
 		<document id="11" weight="0.0047312956074806395"/>
+		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="analyst">
-		<document id="4" weight="0.007663422142539476"/>
 		<document id="6" weight="0.01065895645724915"/>
+		<document id="4" weight="0.007663422142539476"/>
 		<document id="11" weight="0.005817781207687037"/>
 	</lemma>
 	<lemma name="forecast">
@@ -3122,11 +3122,11 @@
 	</lemma>
 	<lemma name="expect">
 		<document id="5" weight="0.0230640079497443"/>
+		<document id="8" weight="0.0161906280971715"/>
 		<document id="6" weight="0.011725586775409573"/>
 		<document id="7" weight="0.003317211455458475"/>
-		<document id="8" weight="0.0161906280971715"/>
-		<document id="10" weight="0.0021558949229919717"/>
 		<document id="11" weight="0.0031999801605666184"/>
+		<document id="10" weight="0.0021558949229919717"/>
 	</lemma>
 	<lemma name="deliver">
 		<document id="5" weight="0.03531264052902647"/>
@@ -3202,12 +3202,12 @@
 	</lemma>
 	<lemma name="corporate">
 		<document id="5" weight="0.013977310826015398"/>
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="7" weight="0.006030915661699995"/>
+		<document id="6" weight="0.005329478228624575"/>
 	</lemma>
 	<lemma name="parent">
-		<document id="5" weight="0.017656320264513234"/>
 		<document id="8" weight="0.01859175445071261"/>
+		<document id="5" weight="0.017656320264513234"/>
 	</lemma>
 	<lemma name="automaker">
 		<document id="5" weight="0.023945628440613865"/>
@@ -3292,9 +3292,9 @@
 		<document id="5" weight="0.023945628440613865"/>
 	</lemma>
 	<lemma name="grow">
+		<document id="12" weight="0.01696482764378968"/>
 		<document id="5" weight="0.013977310826015398"/>
 		<document id="8" weight="0.00735891530243857"/>
-		<document id="12" weight="0.01696482764378968"/>
 	</lemma>
 	<lemma name="retail">
 		<document id="5" weight="0.04789125688122773"/>
@@ -3347,8 +3347,8 @@
 		<document id="6" weight="0.027391042604730968"/>
 	</lemma>
 	<lemma name="industry">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="7" weight="0.015236661720801107"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="starve">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3363,8 +3363,8 @@
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="cnbc">
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="8" weight="0.02207674590731571"/>
+		<document id="6" weight="0.005329478228624575"/>
 		<document id="10" weight="0.003919563353327069"/>
 	</lemma>
 	<lemma name="squawk">
@@ -3374,17 +3374,17 @@
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="release">
+		<document id="11" weight="0.011635562415374074"/>
 		<document id="6" weight="0.005329478228624575"/>
 		<document id="7" weight="0.0030154578308499973"/>
-		<document id="11" weight="0.011635562415374074"/>
 	</lemma>
 	<lemma name="push">
 		<document id="6" weight="0.006732266000138139"/>
 		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="too">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="13" weight="0.015257363706834805"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="hard">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3393,8 +3393,8 @@
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="great">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="8" weight="0.009295877225356306"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="operation">
 		<document id="6" weight="0.006732266000138139"/>
@@ -3405,16 +3405,16 @@
 	</lemma>
 	<lemma name="earnings">
 		<document id="6" weight="0.01065895645724915"/>
-		<document id="7" weight="0.0030154578308499973"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="rivals">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="8" weight="0.009295877225356306"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="drop">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="7" weight="0.007618330860400553"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="third-quarter">
 		<document id="6" weight="0.02019679800041442"/>
@@ -3443,34 +3443,34 @@
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="see">
-		<document id="6" weight="0.003562174645492186"/>
-		<document id="7" weight="0.00403100902895588"/>
-		<document id="8" weight="0.004918631878047158"/>
-		<document id="10" weight="0.0026198004006529837"/>
 		<document id="11" weight="0.007777103807174041"/>
+		<document id="8" weight="0.004918631878047158"/>
+		<document id="7" weight="0.00403100902895588"/>
+		<document id="6" weight="0.003562174645492186"/>
+		<document id="10" weight="0.0026198004006529837"/>
 	</lemma>
 	<lemma name="increased">
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="united">
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="8" weight="0.00735891530243857"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="6" weight="0.005329478228624575"/>
 	</lemma>
 	<lemma name="american">
-		<document id="6" weight="0.005329478228624575"/>
-		<document id="8" weight="0.00735891530243857"/>
 		<document id="13" weight="0.018117329521764522"/>
+		<document id="8" weight="0.00735891530243857"/>
+		<document id="6" weight="0.005329478228624575"/>
 	</lemma>
 	<lemma name="here">
-		<document id="6" weight="0.004334184465365957"/>
 		<document id="8" weight="0.00598461894721061"/>
-		<document id="10" weight="0.0031875748184437462"/>
 		<document id="13" weight="0.004911290549069577"/>
+		<document id="6" weight="0.004334184465365957"/>
+		<document id="10" weight="0.0031875748184437462"/>
 	</lemma>
 	<lemma name="perform">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="12" weight="0.021430190244714535"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="compile">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3483,8 +3483,8 @@
 		<document id="8" weight="0.009295877225356306"/>
 	</lemma>
 	<lemma name="business">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="10" weight="0.024756216243894215"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="leisure">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3497,8 +3497,8 @@
 		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="percentage">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="7" weight="0.007618330860400553"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="seat">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3513,42 +3513,42 @@
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="help">
-		<document id="6" weight="0.0029313966938523933"/>
-		<document id="7" weight="0.0016586057277292374"/>
-		<document id="8" weight="0.004047657024292875"/>
-		<document id="10" weight="0.0021558949229919717"/>
 		<document id="12" weight="0.009331239857530137"/>
+		<document id="8" weight="0.004047657024292875"/>
 		<document id="13" weight="0.003321718536240348"/>
+		<document id="6" weight="0.0029313966938523933"/>
+		<document id="10" weight="0.0021558949229919717"/>
+		<document id="7" weight="0.0016586057277292374"/>
 	</lemma>
 	<lemma name="post">
+		<document id="8" weight="0.01471783060487714"/>
 		<document id="6" weight="0.005329478228624575"/>
 		<document id="7" weight="0.0030154578308499973"/>
-		<document id="8" weight="0.01471783060487714"/>
 	</lemma>
 	<lemma name="net">
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="income">
+		<document id="13" weight="0.024156439362352695"/>
 		<document id="6" weight="0.005329478228624575"/>
 		<document id="7" weight="0.0030154578308499973"/>
-		<document id="13" weight="0.024156439362352695"/>
 	</lemma>
 	<lemma name="measure">
-		<document id="6" weight="0.005329478228624575"/>
-		<document id="7" weight="0.006030915661699995"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="7" weight="0.006030915661699995"/>
+		<document id="6" weight="0.005329478228624575"/>
 	</lemma>
 	<lemma name="fare">
 		<document id="6" weight="0.01065895645724915"/>
-		<document id="7" weight="0.0030154578308499973"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="generate">
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="note">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="10" weight="0.009902486497557686"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="log">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3561,11 +3561,11 @@
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="show">
+		<document id="12" weight="0.01133913608526902"/>
+		<document id="10" weight="0.005239600801305967"/>
+		<document id="8" weight="0.004918631878047158"/>
 		<document id="6" weight="0.003562174645492186"/>
 		<document id="7" weight="0.00201550451447794"/>
-		<document id="8" weight="0.004918631878047158"/>
-		<document id="10" weight="0.005239600801305967"/>
-		<document id="12" weight="0.01133913608526902"/>
 	</lemma>
 	<lemma name="pre-pandemic">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3595,24 +3595,24 @@
 		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="bad">
-		<document id="6" weight="0.004334184465365957"/>
-		<document id="7" weight="0.002452313327079517"/>
 		<document id="8" weight="0.00598461894721061"/>
+		<document id="6" weight="0.004334184465365957"/>
 		<document id="10" weight="0.0031875748184437462"/>
+		<document id="7" weight="0.002452313327079517"/>
 	</lemma>
 	<lemma name="weather">
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="drive">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="13" weight="0.015257363706834805"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="flight">
 		<document id="6" weight="0.027391042604730968"/>
 	</lemma>
 	<lemma name="rough">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="apologize">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3625,9 +3625,9 @@
 		<document id="6" weight="0.018260695069820643"/>
 	</lemma>
 	<lemma name="'ve">
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="8" weight="0.00735891530243857"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="6" weight="0.005329478228624575"/>
 	</lemma>
 	<lemma name="compensation">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3639,8 +3639,8 @@
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="difference">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="unusual">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3652,22 +3652,22 @@
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="executive">
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="8" weight="0.00735891530243857"/>
+		<document id="6" weight="0.005329478228624575"/>
 		<document id="10" weight="0.003919563353327069"/>
 	</lemma>
 	<lemma name="aviation">
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="administration">
-		<document id="6" weight="0.004334184465365957"/>
-		<document id="7" weight="0.007356939981238551"/>
 		<document id="11" weight="0.014193886822441918"/>
+		<document id="7" weight="0.007356939981238551"/>
 		<document id="13" weight="0.004911290549069577"/>
+		<document id="6" weight="0.004334184465365957"/>
 	</lemma>
 	<lemma name="blame">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="7" weight="0.007618330860400553"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="others">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3676,15 +3676,15 @@
 		<document id="6" weight="0.018260695069820643"/>
 	</lemma>
 	<lemma name="contribute">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="8" weight="0.009295877225356306"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="transportation">
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="secretary">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="pete">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3700,14 +3700,14 @@
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="prepare">
-		<document id="6" weight="0.005329478228624575"/>
-		<document id="11" weight="0.005817781207687037"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="11" weight="0.005817781207687037"/>
+		<document id="6" weight="0.005329478228624575"/>
 	</lemma>
 	<lemma name="employee">
 		<document id="6" weight="0.026647391143122878"/>
-		<document id="8" weight="0.00735891530243857"/>
 		<document id="10" weight="0.007839126706654138"/>
+		<document id="8" weight="0.00735891530243857"/>
 	</lemma>
 	<lemma name="urge">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3722,8 +3722,8 @@
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="retirement">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="package">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3742,15 +3742,15 @@
 		<document id="6" weight="0.009130347534910321"/>
 	</lemma>
 	<lemma name="hire">
-		<document id="6" weight="0.005329478228624575"/>
 		<document id="8" weight="0.01471783060487714"/>
 		<document id="10" weight="0.007839126706654138"/>
+		<document id="6" weight="0.005329478228624575"/>
 	</lemma>
 	<lemma name="close">
+		<document id="12" weight="0.013796602458454993"/>
+		<document id="10" weight="0.009562724455331238"/>
 		<document id="6" weight="0.004334184465365957"/>
 		<document id="7" weight="0.002452313327079517"/>
-		<document id="10" weight="0.009562724455331238"/>
-		<document id="12" weight="0.013796602458454993"/>
 	</lemma>
 	<lemma name="retire">
 		<document id="6" weight="0.018260695069820643"/>
@@ -3785,8 +3785,8 @@
 		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="premium">
-		<document id="6" weight="0.006732266000138139"/>
 		<document id="11" weight="0.029396386618404234"/>
+		<document id="6" weight="0.006732266000138139"/>
 	</lemma>
 	<lemma name="overtime">
 		<document id="6" weight="0.009130347534910321"/>
@@ -3801,47 +3801,47 @@
 		<document id="7" weight="0.010332035066642074"/>
 	</lemma>
 	<lemma name="slow">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="8" weight="0.009295877225356306"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="economy">
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="bureau">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="13" weight="0.015257363706834805"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="labor">
-		<document id="7" weight="0.007618330860400553"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="7" weight="0.007618330860400553"/>
 	</lemma>
 	<lemma name="statistics">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="everyday">
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="service">
-		<document id="7" weight="0.019045827151001386"/>
 		<document id="13" weight="0.022886045560252206"/>
+		<document id="7" weight="0.019045827151001386"/>
 	</lemma>
 	<lemma name="living">
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="dow">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="8" weight="0.009295877225356306"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="jones">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="8" weight="0.009295877225356306"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="pace">
-		<document id="7" weight="0.004904626654159034"/>
 		<document id="9" weight="0.10631499541515319"/>
-		<document id="11" weight="0.0047312956074806395"/>
 		<document id="13" weight="0.004911290549069577"/>
+		<document id="7" weight="0.004904626654159034"/>
+		<document id="11" weight="0.0047312956074806395"/>
 	</lemma>
 	<lemma name="excluding">
 		<document id="7" weight="0.005166017533321037"/>
@@ -3851,12 +3851,12 @@
 		<document id="13" weight="0.007628681853417403"/>
 	</lemma>
 	<lemma name="energy">
-		<document id="7" weight="0.015236661720801107"/>
 		<document id="9" weight="0.1651385248269179"/>
+		<document id="7" weight="0.015236661720801107"/>
 	</lemma>
 	<lemma name="core">
-		<document id="7" weight="0.01142749629060083"/>
 		<document id="9" weight="0.1651385248269179"/>
+		<document id="7" weight="0.01142749629060083"/>
 	</lemma>
 	<lemma name="cpi">
 		<document id="7" weight="0.03616212273324726"/>
@@ -3878,8 +3878,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="seem">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="10" weight="0.004951243248778843"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="counter">
 		<document id="7" weight="0.005166017533321037"/>
@@ -3909,8 +3909,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="credit">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="union">
 		<document id="7" weight="0.005166017533321037"/>
@@ -3919,9 +3919,9 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="lead">
-		<document id="7" weight="0.006030915661699995"/>
 		<document id="8" weight="0.00735891530243857"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="7" weight="0.006030915661699995"/>
 	</lemma>
 	<lemma name="largely">
 		<document id="7" weight="0.005166017533321037"/>
@@ -3954,9 +3954,9 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="meeting">
-		<document id="7" weight="0.0030154578308499973"/>
-		<document id="8" weight="0.00735891530243857"/>
 		<document id="10" weight="0.007839126706654138"/>
+		<document id="8" weight="0.00735891530243857"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="full">
 		<document id="7" weight="0.005166017533321037"/>
@@ -3971,8 +3971,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="tool">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="12" weight="0.04286038048942907"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="a.m">
 		<document id="7" weight="0.005166017533321037"/>
@@ -3984,8 +3984,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="pressure">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="10" weight="0.004951243248778843"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="james">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4009,8 +4009,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="threat">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="8" weight="0.009295877225356306"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="12-month">
 		<document id="7" weight="0.010332035066642074"/>
@@ -4031,12 +4031,12 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="large">
-		<document id="7" weight="0.007618330860400553"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="7" weight="0.007618330860400553"/>
 	</lemma>
 	<lemma name="april">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="10" weight="0.004951243248778843"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="bls">
 		<document id="7" weight="0.010332035066642074"/>
@@ -4051,8 +4051,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="gasoline">
-		<document id="7" weight="0.007618330860400553"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="7" weight="0.007618330860400553"/>
 	</lemma>
 	<lemma name="electricity">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4064,8 +4064,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="climb">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="propel">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4077,15 +4077,15 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="sector">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="8" weight="0.009295877225356306"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="area">
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="decline">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="10" weight="0.014853729746336529"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="meat">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4100,9 +4100,9 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="annual">
-		<document id="7" weight="0.0030154578308499973"/>
-		<document id="11" weight="0.011635562415374074"/>
 		<document id="13" weight="0.018117329521764522"/>
+		<document id="11" weight="0.011635562415374074"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="tough">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4144,8 +4144,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="answer">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="root">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4155,8 +4155,8 @@
 		<document id="10" weight="0.004951243248778843"/>
 	</lemma>
 	<lemma name="factor">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="clog">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4177,16 +4177,16 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="spending">
-		<document id="7" weight="0.0030154578308499973"/>
-		<document id="8" weight="0.00735891530243857"/>
 		<document id="13" weight="0.012078219681176347"/>
+		<document id="8" weight="0.00735891530243857"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="flush">
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="cash">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="confront">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4216,9 +4216,9 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="white">
-		<document id="7" weight="0.0030154578308499973"/>
-		<document id="11" weight="0.005817781207687037"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="11" weight="0.005817781207687037"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="uptick">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4239,16 +4239,16 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="joe">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="biden">
-		<document id="7" weight="0.007618330860400553"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="7" weight="0.007618330860400553"/>
 	</lemma>
 	<lemma name="gas">
-		<document id="7" weight="0.007618330860400553"/>
 		<document id="13" weight="0.015257363706834805"/>
+		<document id="7" weight="0.007618330860400553"/>
 	</lemma>
 	<lemma name="station">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4257,8 +4257,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="lower">
-		<document id="7" weight="0.007618330860400553"/>
 		<document id="12" weight="0.021430190244714535"/>
+		<document id="7" weight="0.007618330860400553"/>
 	</lemma>
 	<lemma name="democrats">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4270,8 +4270,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="excuse">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="10" weight="0.004951243248778843"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="after-tax">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4298,8 +4298,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="reduce">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="12" weight="0.021430190244714535"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="various">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4308,13 +4308,13 @@
 		<document id="7" weight="0.010332035066642074"/>
 	</lemma>
 	<lemma name="reason">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="cool">
-		<document id="7" weight="0.0030154578308499973"/>
-		<document id="11" weight="0.005817781207687037"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="11" weight="0.005817781207687037"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="gallon">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4323,8 +4323,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="information">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="10" weight="0.014853729746336529"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="s">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4345,8 +4345,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="future">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="8" weight="0.009295877225356306"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="soybean">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4358,19 +4358,19 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="brian">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="antonellis">
 		<document id="7" weight="0.020664070133284147"/>
 	</lemma>
 	<lemma name="senior">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="11" weight="0.03674548327300529"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="vice">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="10" weight="0.004951243248778843"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="fleet">
 		<document id="7" weight="0.010332035066642074"/>
@@ -4403,13 +4403,13 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="competitive">
-		<document id="7" weight="0.0030154578308499973"/>
-		<document id="10" weight="0.003919563353327069"/>
 		<document id="12" weight="0.01696482764378968"/>
+		<document id="10" weight="0.003919563353327069"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="environment">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="12" weight="0.021430190244714535"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="felt">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4427,8 +4427,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="ability">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="10" weight="0.004951243248778843"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="shelf">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4449,9 +4449,9 @@
 		<document id="7" weight="0.015498052599963109"/>
 	</lemma>
 	<lemma name="budget">
-		<document id="7" weight="0.0030154578308499973"/>
 		<document id="11" weight="0.011635562415374074"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="7" weight="0.0030154578308499973"/>
 	</lemma>
 	<lemma name="build">
 		<document id="7" weight="0.005166017533321037"/>
@@ -4514,8 +4514,8 @@
 		<document id="7" weight="0.005166017533321037"/>
 	</lemma>
 	<lemma name="date">
-		<document id="7" weight="0.0038091654302002767"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="7" weight="0.0038091654302002767"/>
 	</lemma>
 	<lemma name="item">
 		<document id="8" weight="0.009295877225356306"/>
@@ -4566,8 +4566,8 @@
 		<document id="8" weight="0.012607135503502"/>
 	</lemma>
 	<lemma name="americans">
-		<document id="8" weight="0.009295877225356306"/>
 		<document id="13" weight="0.015257363706834805"/>
+		<document id="8" weight="0.009295877225356306"/>
 	</lemma>
 	<lemma name="investors">
 		<document id="8" weight="0.012607135503502"/>
@@ -4647,8 +4647,8 @@
 		<document id="8" weight="0.012607135503502"/>
 	</lemma>
 	<lemma name="e-commerce">
-		<document id="8" weight="0.009295877225356306"/>
 		<document id="12" weight="0.021430190244714535"/>
+		<document id="8" weight="0.009295877225356306"/>
 	</lemma>
 	<lemma name="leader">
 		<document id="8" weight="0.012607135503502"/>
@@ -4663,8 +4663,8 @@
 		<document id="8" weight="0.012607135503502"/>
 	</lemma>
 	<lemma name="file">
-		<document id="8" weight="0.009295877225356306"/>
 		<document id="10" weight="0.009902486497557686"/>
+		<document id="8" weight="0.009295877225356306"/>
 	</lemma>
 	<lemma name="suit">
 		<document id="8" weight="0.009295877225356306"/>
@@ -4732,17 +4732,17 @@
 		<document id="10" weight="0.004951243248778843"/>
 	</lemma>
 	<lemma name="saga">
-		<document id="8" weight="0.009295877225356306"/>
 		<document id="10" weight="0.014853729746336529"/>
+		<document id="8" weight="0.009295877225356306"/>
 	</lemma>
 	<lemma name="taste">
 		<document id="8" weight="0.012607135503502"/>
 	</lemma>
 	<lemma name="jump">
-		<document id="8" weight="0.00598461894721061"/>
 		<document id="9" weight="0.10631499541515319"/>
-		<document id="11" weight="0.0047312956074806395"/>
 		<document id="13" weight="0.009822581098139153"/>
+		<document id="8" weight="0.00598461894721061"/>
+		<document id="11" weight="0.0047312956074806395"/>
 	</lemma>
 	<lemma name="overwhelming">
 		<document id="8" weight="0.012607135503502"/>
@@ -4839,15 +4839,15 @@
 		<document id="10" weight="0.0671491167911394"/>
 	</lemma>
 	<lemma name="platform">
-		<document id="10" weight="0.019804972995115373"/>
 		<document id="12" weight="0.021430190244714535"/>
+		<document id="10" weight="0.019804972995115373"/>
 	</lemma>
 	<lemma name="proceed">
 		<document id="10" weight="0.00671491167911394"/>
 	</lemma>
 	<lemma name="ordinary">
-		<document id="10" weight="0.009902486497557686"/>
 		<document id="12" weight="0.021430190244714535"/>
+		<document id="10" weight="0.009902486497557686"/>
 	</lemma>
 	<lemma name="course">
 		<document id="10" weight="0.01342982335822788"/>
@@ -4869,8 +4869,8 @@
 	</lemma>
 	<lemma name="impact">
 		<document id="10" weight="0.007839126706654138"/>
-		<document id="11" weight="0.005817781207687037"/>
 		<document id="13" weight="0.006039109840588174"/>
+		<document id="11" weight="0.005817781207687037"/>
 	</lemma>
 	<lemma name="chairman">
 		<document id="10" weight="0.00671491167911394"/>
@@ -4894,8 +4894,8 @@
 		<document id="10" weight="0.00671491167911394"/>
 	</lemma>
 	<lemma name="tweet">
-		<document id="10" weight="0.014853729746336529"/>
 		<document id="13" weight="0.015257363706834805"/>
+		<document id="10" weight="0.014853729746336529"/>
 	</lemma>
 	<lemma name="irony">
 		<document id="10" weight="0.00671491167911394"/>
@@ -5015,8 +5015,8 @@
 		<document id="10" weight="0.00671491167911394"/>
 	</lemma>
 	<lemma name="occur">
-		<document id="10" weight="0.004951243248778843"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="10" weight="0.004951243248778843"/>
 	</lemma>
 	<lemma name="purge">
 		<document id="10" weight="0.00671491167911394"/>
@@ -5103,8 +5103,8 @@
 		<document id="10" weight="0.00671491167911394"/>
 	</lemma>
 	<lemma name="above">
-		<document id="10" weight="0.004951243248778843"/>
 		<document id="13" weight="0.015257363706834805"/>
+		<document id="10" weight="0.004951243248778843"/>
 	</lemma>
 	<lemma name="successfully">
 		<document id="10" weight="0.00671491167911394"/>
@@ -5194,12 +5194,12 @@
 		<document id="10" weight="0.00671491167911394"/>
 	</lemma>
 	<lemma name="deteriorate">
-		<document id="10" weight="0.004951243248778843"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="10" weight="0.004951243248778843"/>
 	</lemma>
 	<lemma name="rather">
-		<document id="10" weight="0.004951243248778843"/>
 		<document id="11" weight="0.0073490966546010585"/>
+		<document id="10" weight="0.004951243248778843"/>
 	</lemma>
 	<lemma name="bear">
 		<document id="10" weight="0.00671491167911394"/>
@@ -5271,8 +5271,8 @@
 		<document id="11" weight="0.06976828391205034"/>
 	</lemma>
 	<lemma name="comparison">
-		<document id="11" weight="0.0073490966546010585"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="11" weight="0.0073490966546010585"/>
 	</lemma>
 	<lemma name="indicate">
 		<document id="11" weight="0.009966897701721477"/>
@@ -5287,8 +5287,8 @@
 		<document id="11" weight="0.019933795403442953"/>
 	</lemma>
 	<lemma name="consumers">
-		<document id="11" weight="0.0073490966546010585"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="11" weight="0.0073490966546010585"/>
 	</lemma>
 	<lemma name="cpi-u">
 		<document id="11" weight="0.009966897701721477"/>
@@ -5304,8 +5304,8 @@
 		<document id="13" weight="0.007628681853417403"/>
 	</lemma>
 	<lemma name="wage">
-		<document id="11" weight="0.0073490966546010585"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="11" weight="0.0073490966546010585"/>
 	</lemma>
 	<lemma name="earners">
 		<document id="11" weight="0.009966897701721477"/>
@@ -5356,8 +5356,8 @@
 		<document id="11" weight="0.009966897701721477"/>
 	</lemma>
 	<lemma name="multiply">
-		<document id="11" weight="0.0073490966546010585"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="11" weight="0.0073490966546010585"/>
 	</lemma>
 	<lemma name="gross">
 		<document id="11" weight="0.019933795403442953"/>
@@ -5375,8 +5375,8 @@
 		<document id="11" weight="0.03986759080688591"/>
 	</lemma>
 	<lemma name="policy">
-		<document id="11" weight="0.0073490966546010585"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="11" weight="0.0073490966546010585"/>
 	</lemma>
 	<lemma name="actually">
 		<document id="11" weight="0.009966897701721477"/>
@@ -5391,8 +5391,8 @@
 		<document id="11" weight="0.009966897701721477"/>
 	</lemma>
 	<lemma name="program">
-		<document id="11" weight="0.014698193309202117"/>
 		<document id="12" weight="0.021430190244714535"/>
+		<document id="11" weight="0.014698193309202117"/>
 	</lemma>
 	<lemma name="history">
 		<document id="11" weight="0.009966897701721477"/>
@@ -5407,8 +5407,8 @@
 		<document id="11" weight="0.009966897701721477"/>
 	</lemma>
 	<lemma name="individual">
-		<document id="11" weight="0.0073490966546010585"/>
 		<document id="13" weight="0.007628681853417403"/>
+		<document id="11" weight="0.0073490966546010585"/>
 	</lemma>
 	<lemma name="d">
 		<document id="11" weight="0.009966897701721477"/>

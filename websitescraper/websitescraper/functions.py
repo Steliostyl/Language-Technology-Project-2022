@@ -1,7 +1,6 @@
 import json
 from xml.dom import minidom
 import math
-
 import xml.etree.ElementTree as ET
 
 # Function to read the articles from the JSON file
@@ -25,18 +24,20 @@ def saveListToJSON(input_list, filename):
 # Calculate weights for all lemmas (using tf_idf)
 def calculateTFidf(lemmas, article_w_count):
     article_count = len(article_w_count)
-    max_tf_idf = 0
     for lemma in lemmas:
         idf = math.log2(article_count/len(lemmas[lemma].keys()))
-        for index, key in enumerate(lemmas[lemma].keys()):
+        for key in lemmas[lemma].keys():
             tf = lemmas[lemma][key]/article_w_count[key]
             tf_idf = tf*idf
             lemmas[lemma][key] = tf_idf
-            # Sort documents by weight
-            #sort_index = index
-            #while(sort_index > 0 and ):
+        
+        # Sort lemma documents by weight
+        sorted_dict = {}
+        sorted_keys = sorted(lemmas[lemma], key=lemmas[lemma].get, reverse=True)
+        for key in sorted_keys:
+            sorted_dict[key] = lemmas[lemma][key]
 
-
+        lemmas[lemma] = sorted_dict           
 
     return lemmas
 
@@ -48,6 +49,7 @@ def createXML(lemmas_dict):
     for word in lemmas_dict.keys():
         new_lemma = root.createElement('lemma')
         new_lemma.setAttribute('name', word)
+        #new_lemma.setAttribute('avg_weight', avg_weight)
         for key in lemmas_dict[word].keys():
             new_document = root.createElement('document')
             new_document.setAttribute('id', str(key))
@@ -75,7 +77,7 @@ def readXML(filename):
             #print(id,weight)
         #print()
         lemma_dict[name] = docs
-    print(lemma_dict)
+    #print(lemma_dict)
     return lemma_dict
 
-readXML('lemmas.xml')
+#readXML('lemmas.xml')
