@@ -32,10 +32,12 @@ query_words = [
     "prospective", "be","having","second","fell","estate","adjustment","value","recovery","owner","midst","press","wharton"
 ]
 start_time = perf_counter()
-query_response = nltk_functions.nltk_query(lemmas, query_words)
+query_response = {}
+for query in query_words:
+    query_response[query] = nltk_functions.nltk_query(lemmas, query)
 finish_time = perf_counter()
 e_time = finish_time - start_time
-for item in query_response:
+for item in query_response.items():
     print(item)
 print("Elapsed time: %.6f" % e_time)
 

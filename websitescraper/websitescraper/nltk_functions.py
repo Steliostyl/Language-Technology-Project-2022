@@ -3,7 +3,8 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 import functions
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
-#from thefuzz import fuzz
+from pprint import pprint
+from thefuzz import fuzz
 
 cc_categories = ['CD', 'CC', 'DT', 'EX', 'IN', 'LS', 'MD', 'PDT',
 'POS', 'PRP', 'PRP$', 'RP', 'TO', 'UH', 'WDT', 'WP', 'WP$', 'WRB']
@@ -111,38 +112,22 @@ def dict_sort(dict):
         sorted_dict[key] = dict[key]
     return sorted_dict   
 
-def nltk_query(lemmas, query_words):
+def nltk_query(lemmas, query):
     lemmatizer = WordNetLemmatizer()
     answer = {}
-    for word in list(query_words):
+    for word in [query]:
         token = nltk.tag.pos_tag([word])[0]
-        qword_lemma = lemmatizer.lemmatize(token[0], pos= get_wordnet_pos(token[1]))
+        qword_lemma = lemmatizer.lemmatize(token[0], pos= get_wordnet_pos(token[1]))            
         #print(word, ' -> ', qword_lemma)
-        for key, value in lemmas.items():
-            #ratio = fuzz.ratio(qword_lemma, lemma)
-            #if not lemma in qword_lemma:
-            if key != qword_lemma:
+        for lemmas_key, lemmas_value in lemmas.items():
+            ratio = fuzz.ratio(qword_lemma, lemmas_key)
+            if ratio < 90:
                 continue
-            #print('Similarity between the words ', qword_lemma, ' and ', lemma)#, ': ', ratio)
-            answer[word] = dict_sort(value)
-       
-    return answer
-
-lemmas = functions.readXML('lemmas.xml')
-#for key in list(lemmas.keys())[:5]:
-#    print(lemmas[key])
-
-# Make queries and benchmark 
-# time required to find the article ids
-query_words = [
-    "prospective", "be", "having", "second", "fell", "estate", "adjustment", 
-    "values", "recoveries", "owner", "midst", "pressing", "wharton"
-]
-query_response = nltk_query(lemmas, query_words)
-
-#print(query_response)
-for key, value in query_response.items():
-    print(key, ' found in articles:')
-    for article_id, tf_idf in value.items():
-        print(article_id, ' with weight: ', tf_idf)
-    print()
+            #print('Similarity between the words ', qword_lemma, ' and ', lemmas_key)#, ': ', ratio)
+            for article, weight in lemmas_value.items():
+                if article in answer:
+                    answer[article] += weight
+                else:
+                    answer[article] = weight
+                    
+    return dict_sort(answer)
