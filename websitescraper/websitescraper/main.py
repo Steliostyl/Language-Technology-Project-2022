@@ -26,17 +26,16 @@ functions.createXML(lemmas)
 ## Save the loaded lemmas to file to check that loading was succesful
 #functions.createXML(lemmas_from_file)
 
+# Make queries and benchmark 
+# time required to find the article ids
 query_words = [
-    "prospective", "be","have","second","fell","estate","adjustment","value","recovery","owner","midst","press","wharton"
+    "prospective", "be","having","second","fell","estate","adjustment","value","recovery","owner","midst","press","wharton"
 ]
-# Make queries and benchmark time required
-query_answer = []
 start_time = perf_counter()
-for word in query_words:
-    query_answer.append(functions.query(lemmas, word))
+query_response = nltk_functions.nltk_query(lemmas, query_words)
 finish_time = perf_counter()
 e_time = finish_time - start_time
-for item in query_answer:
+for item in query_response:
     print(item)
 print("Elapsed time: %.6f" % e_time)
 
