@@ -2,6 +2,7 @@ import functions
 import nltk_functions
 import random
 from time import perf_counter
+from pprint import pprint
 
 # Read JSON created by the crawler
 articles = functions.readJSON('articles.json')
@@ -49,6 +50,7 @@ for query in query_words:
     query_response[query] = nltk_functions.nltk_query(lemmas, query)
 finish_time = perf_counter()
 e_time = finish_time - start_time
-for item in query_response.items():
-    print(item)
+pprint(query_response, indent=4, sort_dicts=False)
+#for item in query_response.items():
+#    print(item)
 print("Elapsed time: %.6f" % e_time)

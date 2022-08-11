@@ -73,7 +73,6 @@ def filter_stop_words(pos_tags):
                         temp.append(byte)
                     #                    Numbers                      Capital Letters                    Small Letters
                     if temp[0] not in range(48, 58) and temp[0] not in range(64, 91) and temp[0] not in range(97, 123):
-                        #print(tag[0])
                         continue
 
                 # Add tag to filtered_pos
@@ -123,38 +122,36 @@ def dict_sort(dict):
 def nltk_query(lemmas, query):
     lemmatizer = WordNetLemmatizer()
     answer = {}
+    articles_containing_query = []
 
     # Split the query into words and search for them in the articles
     for word in query.split():
         # Try finding answer by directly looking for query word in the dictionary keys. 
         if word in lemmas:
-            for article, weight in lemmas[word].items():
-                    if article in answer:
-                        answer[article] += weight
-                    else:
-                        answer[article] = weight
+            articles_containing_query = lemmas[word].items() 
         # If this doesn't work, try finding answer by lemmatizing query words.
         else:
             token = nltk.tag.pos_tag([word])[0]
             qword_lemma = lemmatizer.lemmatize(token[0], pos= get_wordnet_pos(token[1]))
             if qword_lemma in lemmas:
-                for article, weight in lemmas[qword_lemma].items():
-                    if article in answer:
-                        answer[article] += weight
-                    else:
-                        answer[article] = weight
+                articles_containing_query = lemmas[qword_lemma].items()
             # If this doesn't work either, try finding answer using string matching
             else:
                 for lemmas_key, lemmas_value in lemmas.items():
                     ratio = fuzz.ratio(qword_lemma, lemmas_key)
                 if ratio < 90:
                     continue
-                print('Similarity between the words ', word, '(', qword_lemma, ') and ', lemmas_key, ': ', ratio)
-                for article, weight in lemmas_value.items():
-                    if article in answer:
-                        answer[article] += weight
-                    else:
-                        answer[article] = weight
+                #print('Similarity between the words ', word, '(', qword_lemma, ') and ', lemmas_key, ': ', ratio)
+                articles_containing_query = lemmas_value.items()
+        
+        # Add the weight of the word in each article to the answer[article] 
+        # so that if multiple words of a single query are found in the 
+        # same articles their weights get summed
+        for article, weight in articles_containing_query:
+                if article in answer:
+                    answer[article] += weight
+                else:
+                    answer[article] = weight
 
     # Answer not found by lemmatizing OR string matching
     if len(answer.keys()) == 0:
