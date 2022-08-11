@@ -115,19 +115,36 @@ def dict_sort(dict):
 def nltk_query(lemmas, query):
     lemmatizer = WordNetLemmatizer()
     answer = {}
-    for word in [query]:
+    # Split the query into words and search for them in the articles
+    for word in query.split():
         token = nltk.tag.pos_tag([word])[0]
         qword_lemma = lemmatizer.lemmatize(token[0], pos= get_wordnet_pos(token[1]))            
         #print(word, ' -> ', qword_lemma)
-        for lemmas_key, lemmas_value in lemmas.items():
-            ratio = fuzz.ratio(qword_lemma, lemmas_key)
-            if ratio < 90:
-                continue
-            #print('Similarity between the words ', qword_lemma, ' and ', lemmas_key)#, ': ', ratio)
-            for article, weight in lemmas_value.items():
-                if article in answer:
-                    answer[article] += weight
-                else:
-                    answer[article] = weight
+
+        # Without string matching (query words get lemmatized anyway)
+        if qword_lemma not in lemmas.keys():
+            print(qword_lemma, 'not found in articles.')
+            continue
+        for article, weight in lemmas[qword_lemma].items():
+            if article in answer:
+                answer[article] += weight
+            else:
+                answer[article] = weight
+
+    if len(answer.keys()) == 0:
+        return 'Not found'
+
+        # With string matching
+
+        #for lemmas_key, lemmas_value in lemmas.items():
+        #    ratio = fuzz.ratio(qword_lemma, lemmas_key)
+        #    if ratio < 90:
+        #       continue
+        #    print('Similarity between the words ', word, '(', qword_lemma, ') and ', lemmas_key, ': ', ratio)
+        #    for article, weight in lemmas_value.items():
+        #        if article in answer:
+        #            answer[article] += weight
+        #        else:
+        #            answer[article] = weight
                     
     return dict_sort(answer)

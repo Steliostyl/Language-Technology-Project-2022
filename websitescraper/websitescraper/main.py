@@ -1,4 +1,3 @@
-from tracemalloc import start
 import functions
 import nltk_functions
 from time import perf_counter
@@ -29,7 +28,7 @@ functions.createXML(lemmas)
 # Make queries and benchmark 
 # time required to find the article ids
 query_words = [
-    "prospective", "be","having","second","fell","estate","adjustment","value","recovery","owner","midst","press","wharton"
+    "randomnonexistingword", "prospective buyer", "be","having","second","fell","estate","adjustment","value","recovery","owner","midst","press","wharton"
 ]
 start_time = perf_counter()
 query_response = {}
