@@ -1,16 +1,15 @@
-from audioop import avg
 import json
 from xml.dom import minidom
 import math
 import xml.etree.ElementTree as ET
-from nltk.tokenize import word_tokenize
 
-# Function to read the articles from the JSON file
+# Read the articles from JSON file
 def readJSON(filename):
     with open(filename, 'r') as file:
         articles = json.load(file)
     return articles
 
+# Write article list to JSON file
 def saveListToJSON(input_list, filename):
     # Open the file with filename (if it exists, it gets 
     # overwritten because of the use of w instead of a)
@@ -35,6 +34,7 @@ def calculateTFidf(lemmas, article_w_count):
 
     return lemmas
 
+# Create and save XML file from lemmas dict
 def createXML(lemmas_dict):
     root = minidom.Document()
     inv_index = root.createElement('inverted_index')
@@ -55,6 +55,7 @@ def createXML(lemmas_dict):
     with open('lemmas.xml', "w") as file:
         file.write(xml_str) 
 
+# Read XML file containing lemmas and load it to a dict
 def readXML(filename):
     lemma_dict = {}
     root_node = ET.parse(filename).getroot()
@@ -70,6 +71,3 @@ def readXML(filename):
         lemma_dict[lemma_name] = docs
         
     return lemma_dict
-
-
-#readXML('lemmas.xml')

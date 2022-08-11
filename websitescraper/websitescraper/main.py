@@ -1,5 +1,6 @@
 import functions
 import nltk_functions
+import random
 from time import perf_counter
 
 # Read JSON created by the crawler
@@ -17,19 +18,31 @@ functions.saveListToJSON(pos_tags_no_sw, 'pos_tags_no_stopwords.json')
 
 # Calculate TFidf and save them as weights to the lemma dictionary
 lemmas = functions.calculateTFidf(lemmas, articles_w_count)
-#print(lemmas)
 functions.createXML(lemmas)
 
-## Load lemmas from XML file to a dictionary
-#lemmas_from_file = functions.readXML('lemmas.xml')
-## Save the loaded lemmas to file to check that loading was succesful
-#functions.createXML(lemmas_from_file)
+
+#query_words = [
+#    "randomnonexistingword", "prospective buyer", "be","having","second","fell","estate","adjustment","value","recovery","owner","midst","press","wharton"
+#]
+
+# Create queries
+lemmaKeys = list(lemmas.keys())
+# 20 1-word queries
+query_words = random.sample(lemmaKeys, 20)
+# 20 2-word queries
+for i in range(0,20):
+    query_words.append(' '.join(random.sample(lemmaKeys, 2)))
+# 30-triple word queries
+for i in range(0,30):
+    query_words.append(' '.join(random.sample(lemmaKeys, 3)))
+# 30-quad word queries
+for i in range(0,30):
+    query_words.append(' '.join(random.sample(lemmaKeys, 4)))
+
+#print(query_words[:2], query_words[20:22], query_words[40:42], query_words[70:72])
 
 # Make queries and benchmark 
 # time required to find the article ids
-query_words = [
-    "randomnonexistingword", "prospective buyer", "be","having","second","fell","estate","adjustment","value","recovery","owner","midst","press","wharton"
-]
 start_time = perf_counter()
 query_response = {}
 for query in query_words:
@@ -39,9 +52,3 @@ e_time = finish_time - start_time
 for item in query_response.items():
     print(item)
 print("Elapsed time: %.6f" % e_time)
-
-
-#first_dict_keys = list(lemmas.keys())[:10]
-#for key in first_dict_keys:
-#    print(key, '\n', lemmas[key])
-#    print(article['id'], article['title'],'\n')
