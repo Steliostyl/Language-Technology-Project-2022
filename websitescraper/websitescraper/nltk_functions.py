@@ -2,7 +2,7 @@ import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
-#from thefuzz import fuzz
+from thefuzz import fuzz
 
 #cc_categories = ['CD', 'CC', 'DT', 'EX', 'IN', 'LS', 'MD', 'PDT',
 #'POS', 'PRP', 'PRP$', 'RP', 'TO', 'UH', 'WDT', 'WP', 'WP$', 'WRB']
@@ -126,33 +126,37 @@ def nltk_query(lemmas, query):
 
     # Split the query into words and search for them in the articles
     for word in query.split():
-        token = nltk.tag.pos_tag([word])[0]
-        qword_lemma = lemmatizer.lemmatize(token[0], pos= get_wordnet_pos(token[1]))            
-        #print(word, ' -> ', qword_lemma)
-
-        # Without string matching (query words get lemmatized anyway)
-        if qword_lemma not in lemmas.keys():
-            print(qword_lemma, 'not found in articles.')
-            continue
-        for article, weight in lemmas[qword_lemma].items():
-            if article in answer:
-                answer[article] += weight
+        # Try finding answer by directly looking for query word in the dictionary keys. 
+        if word in lemmas:
+            for article, weight in lemmas[word].items():
+                    if article in answer:
+                        answer[article] += weight
+                    else:
+                        answer[article] = weight
+        # If this doesn't work, try finding answer by lemmatizing query words.
+        else:
+            token = nltk.tag.pos_tag([word])[0]
+            qword_lemma = lemmatizer.lemmatize(token[0], pos= get_wordnet_pos(token[1]))
+            if qword_lemma in lemmas:
+                for article, weight in lemmas[qword_lemma].items():
+                    if article in answer:
+                        answer[article] += weight
+                    else:
+                        answer[article] = weight
+            # If this doesn't work either, try finding answer using string matching
             else:
-                answer[article] = weight
+                for lemmas_key, lemmas_value in lemmas.items():
+                    ratio = fuzz.ratio(qword_lemma, lemmas_key)
+                if ratio < 90:
+                    continue
+                print('Similarity between the words ', word, '(', qword_lemma, ') and ', lemmas_key, ': ', ratio)
+                for article, weight in lemmas_value.items():
+                    if article in answer:
+                        answer[article] += weight
+                    else:
+                        answer[article] = weight
 
-        # With string matching - Very slow & unnecessary
-
-        #for lemmas_key, lemmas_value in lemmas.items():
-        #    ratio = fuzz.ratio(qword_lemma, lemmas_key)
-        #    if ratio < 90:
-        #       continue
-        #    print('Similarity between the words ', word, '(', qword_lemma, ') and ', lemmas_key, ': ', ratio)
-        #    for article, weight in lemmas_value.items():
-        #        if article in answer:
-        #            answer[article] += weight
-        #        else:
-        #            answer[article] = weight
-
+    # Answer not found by lemmatizing OR string matching
     if len(answer.keys()) == 0:
         return 'Not found'
                     
