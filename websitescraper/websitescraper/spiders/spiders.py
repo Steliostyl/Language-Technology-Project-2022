@@ -1,6 +1,8 @@
 import scrapy
+import re
 from html_text import extract_text
 from datetime import datetime
+
 
 def readDateTimeFromString(datetimeString):
     return datetime.fromisoformat(datetimeString[:-2] + ":" + datetimeString[len(datetimeString)-2:])
@@ -38,32 +40,46 @@ class CnbcSpider(scrapy.Spider):
 
 class CnnSpider(scrapy.Spider):
     name = 'cnn_spider'
-    start_urls = ['https://edition.cnn.com/world/']
+    start_urls = ['https://edition.cnn.com/']
+    allowed_domains = ['cnn.com']
     article_id = 0
 
     def parse(self, response):
-        #for link in response.xpath('//ul[@class="LatestNews-list"]//a[@class="LatestNews-headline"]/@href'):
-        #for link in response.css('[class^="column zn__column"]//@href'):
-
-        #print(response.xpath('//*[starts-with(@class, "l-container")]').getall())
+        categories = response.xpath('//footer//nav/ul[@type="expanded"]/li/a/@href')
+        #print(categories)
+        for category in categories:
+            if category.get() == '/more' or category.get() == '/videos':
+                continue
+            print(category)
+            print(category.get())
+            yield response.follow(category.get(), callback=self.parse_category)
+    
+    def parse_category(self, response):
         containers = response.xpath('//div[starts-with(@class, "l-container")]')
-        print(len(containers))
+        #print(len(containers))
 
         for container in containers:
-            t = container.xpath('./div[@class="zn-header"]/h2[@class="zn-header__text"]/text()').extract_first()
-            if t == None or "partner content" in t:
+            section = container.xpath('./div[@class="zn-header"]/h2[@class="zn-header__text"]/text()').extract_first()
+            if section == None or "partner content" in section.lower():
                 continue
-            print(t)
-            for link in container.xpath('//*[starts-with(@class, "column zn__column")]//h3[@class="cd__headline"]/@href'):
-                print('Article ID: ',self.article_id,' Article url: ', link, '') 
+            print(section)
+            for link in container.xpath('//*[starts-with(@class, "column zn__column")]//@href'):
+                #print('Article ID: ',self.article_id,' Article url: ', link, '') 
                 self.article_id += 1
-                yield response.follow(link.get(), callback=self.parse_article)
-    
+                yield response.follow(link.get(), callback=self.parse_article, meta={'section': section})
+
+
     def parse_article(self, response):
         article = { 
-            'title': response.xpath('//h1/text()').extract_first(),
+            'section': response.meta.get('section'),
+            'title': response.xpath('//h1/text()').extract(),
             'url': response.url
         }
-        for key, value in article.items():
-            print(key, value)
+
+        invalid_titles = [ None, '']
+        if article['title'] in invalid_titles:
+            return
+
+        #for key, value in article.items():
+        #    print(key, value)
         return article
