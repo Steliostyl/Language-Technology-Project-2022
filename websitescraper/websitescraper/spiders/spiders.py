@@ -1,8 +1,19 @@
 import scrapy
-import re
 from html_text import extract_text
 from datetime import datetime
 
+def printDict(dictionary):
+    for key, value in dictionary.items():
+        print(key, value)
+    return
+
+def isLegalTitle(title):
+    if title is None:
+        return False
+    elif len(title.split()) <= 2 or "in pictures" in title.lower() or "video" in title.lower():
+        print(title, len(title.split()))
+        return False
+    return True
 
 def readDateTimeFromString(datetimeString):
     return datetime.fromisoformat(datetimeString[:-2] + ":" + datetimeString[len(datetimeString)-2:])
@@ -50,34 +61,39 @@ class CnnSpider(scrapy.Spider):
         for category in categories:
             if category.get() == '/more' or category.get() == '/videos':
                 continue
-            print(category)
-            print(category.get())
+            #print(category)
+            #print(category.get())
             yield response.follow(category.get(), callback=self.parse_category)
     
     def parse_category(self, response):
-        containers = response.xpath('//div[starts-with(@class, "l-container")]')
+        containers = response.xpath('//section/div[starts-with(@class, "l-container")]')
         #print(len(containers))
 
         for container in containers:
             section = container.xpath('./div[@class="zn-header"]/h2[@class="zn-header__text"]/text()').extract_first()
-            if section == None or "partner content" in section.lower():
+            if section == None:
                 continue
-            print(section)
+            section = section.lower()
+            if "partner content" in section:
+                continue
+            #print(section)
+            
             for link in container.xpath('//*[starts-with(@class, "column zn__column")]//@href'):
-                #print('Article ID: ',self.article_id,' Article url: ', link, '') 
                 self.article_id += 1
+                if 'video' in link.get() or 'gallery' in link.get():
+                    print('Video/gallery link not followed', link.get())
+                    continue
                 yield response.follow(link.get(), callback=self.parse_article, meta={'section': section})
 
 
     def parse_article(self, response):
         article = { 
             'section': response.meta.get('section'),
-            'title': response.xpath('//h1/text()').extract(),
+            'title': response.xpath('//h1/text()').extract_first(),
             'url': response.url
         }
 
-        invalid_titles = [ None, '']
-        if article['title'] in invalid_titles:
+        if isLegalTitle(article['title']) == False:
             return
 
         #for key, value in article.items():
