@@ -87,10 +87,16 @@ class CnnSpider(scrapy.Spider):
 
 
     def parse_article(self, response):
+        par = response.xpath('//*[starts-with(@class, "zn-body__paragraph")]/text()').extract()
+        if par == []:
+            return
+        paragraphs = ''
+        for paragraph in par:
+            paragraphs += ' ' + extract_text(paragraph)
         article = { 
-            'section': response.meta.get('section'),
+            'url': response.url,
             'title': response.xpath('//h1/text()').extract_first(),
-            'url': response.url
+            'paragraphs': paragraphs
         }
 
         if isLegalTitle(article['title']) == False:
