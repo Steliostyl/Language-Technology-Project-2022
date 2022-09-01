@@ -16,7 +16,7 @@ cnn_proc = subprocess.run(
 )
 
 # Cleanup file so that it contains 1 instead of 2 lists
-with open('articles_temp.json', 'r') as infile, open('articles.json', 'w', encoding="utf-8") as outfile:
+with open('articles_temp.json', 'r', encoding="utf-8") as infile, open('articles.json', 'w', encoding="utf-8") as outfile:
     temp = re.sub("\n\]\[", ",", infile.read())
     outfile.write(temp)
 

@@ -55,7 +55,7 @@ def createXML(lemmas_dict):
 
     xml_str = root.toprettyxml(indent ='\t')
     
-    with open('lemmas.xml', "w") as file:
+    with open('lemmas.xml', "w", encoding='utf-8') as file:
         file.write(xml_str) 
 
 # Read XML file containing lemmas and load it to a dict
