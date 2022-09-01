@@ -20,11 +20,17 @@ def readDateTimeFromString(datetimeString):
 
 class CnbcSpider(scrapy.Spider):
     name = 'cnbc_spider'
-    start_urls = ['https://www.cnbc.com/world/?region=world']
+    start_urls = [
+        'https://www.cnbc.com/world',
+        'https://www.cnbc.com/business',
+        'https://www.cnbc.com/technology',
+        'https://www.cnbc.com/politics'
+    
+    ]
     article_id = 0
 
     def parse(self, response):
-        for link in response.xpath('//ul[@class="LatestNews-list"]//a[@class="LatestNews-headline"]/@href'):
+        for link in response.xpath('//div[@class="Card-titleContainer"]/a/@href'):
             yield response.follow(link.get(), callback=self.parse_article)
     
     def parse_article(self, response):
@@ -36,13 +42,12 @@ class CnbcSpider(scrapy.Spider):
             paragraphs += ' ' + extract_text(paragraph)
 
         article = { 
-            'id': self.article_id,
+            'url': response.url,
             'title': response.xpath('//h1/text()').extract_first(),
             'tag': response.xpath('//a[@class="ArticleHeader-eyebrow"]/text()').extract_first(),
             'author': response.xpath('//div[@class="Author-authorNameAndSocial"]//text()').extract_first(),
             'datetime': readDateTimeFromString(response.css('time::attr(datetime)').get()),
-            'paragraphs': paragraphs,
-            'url': response.url
+            'paragraphs': paragraphs
         }
         self.article_id += 1
 

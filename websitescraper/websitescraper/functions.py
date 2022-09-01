@@ -26,6 +26,9 @@ def saveListToJSON(input_list, filename):
 def calculateTFidf(lemmas, article_w_count):
     article_count = len(article_w_count)
     for lemma in lemmas:
+        # IDF of each lemma is equal to the base 2 log of the
+        # article count of our database devided by the count
+        # of articles the lemma is present in
         idf = math.log2(article_count/len(lemmas[lemma].keys()))
         for key in lemmas[lemma].keys():
             tf = lemmas[lemma][key]/article_w_count[key]
@@ -45,7 +48,7 @@ def createXML(lemmas_dict):
         new_lemma.setAttribute('name', word)
         for key in lemmas_dict[word].keys():
             new_document = root.createElement('document')
-            new_document.setAttribute('id', str(key))
+            new_document.setAttribute('url', str(key))
             new_document.setAttribute('weight', str(lemmas_dict[word][key]))
             new_lemma.appendChild(new_document)
         inv_index.appendChild(new_lemma)

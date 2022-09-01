@@ -12,14 +12,14 @@ oc_categories = ['JJ', 'JJR', 'JJS', 'RB', 'RBR', 'RBS', 'NN', 'NNS',
 
 # PoS Tagging
 def pos_tag(articles):
-    pos_tags = []
+    pos_tags = {}
     for article in articles:
         # Tokenize words in each sentence of the paragraphs
         tokenized = sent_tokenize(article['paragraphs'])
         # Send the tokenized words of each sentence for PoS tagging
         pos_tag = process_content(tokenized)
         # Add the tags of each sentence to the pos tags list
-        pos_tags.append(pos_tag)
+        pos_tags[article['url']] = pos_tag
     return pos_tags, filter_stop_words(pos_tags)
 
 # Function where each word of the input sentence gets tokenized
@@ -48,16 +48,18 @@ def get_wordnet_pos(tag):
 # Function to filter stop words from pos tags,
 # lemmatize them and create final lemmas dictionary
 def filter_stop_words(pos_tags):
-    pos_no_stopwords = []
+    pos_no_stopwords = {}
     lemmas = {}
-    articles_w_count = []
+    articles_w_count = {}
     lemmatizer = WordNetLemmatizer()
     
-    for id, article in enumerate(pos_tags):
+    # article[0] -> article url
+    # article[1] -> article tags
+    for article in pos_tags.items():
         article_pos_no_sw = []
         filtered_pos = []
         article_w_count = 0
-        for sent in article:
+        for sent in article[1]:
             for tag in sent:
                 # Filter words that have not
                 # been tagged with a closed 
@@ -86,22 +88,22 @@ def filter_stop_words(pos_tags):
                 # corresponding article to 1
                 if lemma not in lemmas.keys():
                     lemmas[lemma] = {
-                        id: 1
+                        article[0]: 1
                     }
                 # If lemma has already been added
                 # to the dict
                 else:
                     # If lemma has previously been found in 
                     # the same article, increase its count
-                    if id in lemmas[lemma].keys():
-                        lemmas[lemma][id] += 1
+                    if article[0] in lemmas[lemma].keys():
+                        lemmas[lemma][article[0]] += 1
                     # Otherwise, create a new entry for this
                     # article and initialize its count to 1
                     else:
-                        lemmas[lemma][id] = 1
+                        lemmas[lemma][article[0]] = 1
             article_pos_no_sw.append(filtered_pos)
-        articles_w_count.append(article_w_count)
-        pos_no_stopwords.append(article_pos_no_sw)
+        articles_w_count[article[0]] = article_w_count
+        pos_no_stopwords[article[0]] = article_pos_no_sw
 
     return pos_no_stopwords, articles_w_count, lemmas
 
