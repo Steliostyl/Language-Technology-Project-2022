@@ -2,19 +2,6 @@ import scrapy
 from html_text import extract_text
 from datetime import datetime
 
-def printDict(dictionary):
-    for key, value in dictionary.items():
-        print(key, value)
-    return
-
-def isLegalTitle(title):
-    if title is None:
-        return False
-    elif len(title.split()) <= 2 or "in pictures" in title.lower() or "video" in title.lower():
-        print(title, len(title.split()))
-        return False
-    return True
-
 def readDateTimeFromString(datetimeString):
     return datetime.fromisoformat(datetimeString[:-2] + ":" + datetimeString[len(datetimeString)-2:])
 
@@ -25,15 +12,15 @@ class CnbcSpider(scrapy.Spider):
         'https://www.cnbc.com/business',
         'https://www.cnbc.com/technology',
         'https://www.cnbc.com/politics'
-    
     ]
-    article_id = 0
 
     def parse(self, response):
+        # Get article URLs
         for link in response.xpath('//div[@class="Card-titleContainer"]/a/@href'):
             yield response.follow(link.get(), callback=self.parse_article)
     
     def parse_article(self, response):
+        # Extract article paragraphs
         par = response.xpath('//div[@class="ArticleBody-articleBody"]/div[@class="group"]/p').extract()
         if par == []:
             return
@@ -41,6 +28,7 @@ class CnbcSpider(scrapy.Spider):
         for paragraph in par:
             paragraphs += ' ' + extract_text(paragraph)
 
+        # Create article dictionary by extracting required information
         article = { 
             'url': response.url,
             'title': response.xpath('//h1/text()').extract_first(),
@@ -49,7 +37,6 @@ class CnbcSpider(scrapy.Spider):
             'datetime': readDateTimeFromString(response.css('time::attr(datetime)').get()),
             'paragraphs': paragraphs
         }
-        self.article_id += 1
 
         return article
 
@@ -58,55 +45,52 @@ class CnnSpider(scrapy.Spider):
     name = 'cnn_spider'
     start_urls = ['https://edition.cnn.com/']
     allowed_domains = ['cnn.com']
-    article_id = 0
 
     def parse(self, response):
+        # Get the top level article categories from footer (World, Politics etc.)
         categories = response.xpath('//footer//nav/ul[@type="expanded"]/li/a/@href')
-        #print(categories)
         for category in categories:
+            # Ignore categories more and videos (continue to next loop iteration)
             if category.get() == '/more' or category.get() == '/videos':
                 continue
-            #print(category)
-            #print(category.get())
             yield response.follow(category.get(), callback=self.parse_category)
     
     def parse_category(self, response):
+        # Get the section containers
         containers = response.xpath('//section/div[starts-with(@class, "l-container")]')
-        #print(len(containers))
-
         for container in containers:
+            # Get section title (Around the world, Latest Headlines, Editor's Pick etc.)
             section = container.xpath('./div[@class="zn-header"]/h2[@class="zn-header__text"]/text()').extract_first()
+
+            # Ignore empty and paid sections (ads)
             if section == None:
                 continue
             section = section.lower()
             if "partner content" in section:
                 continue
-            #print(section)
             
+            # Get article URLs from filtered sections
             for link in container.xpath('//*[starts-with(@class, "column zn__column")]//@href'):
-                self.article_id += 1
+                # Ignore links to videos and gallery style articles
                 if 'video' in link.get() or 'gallery' in link.get():
-                    print('Video/gallery link not followed', link.get())
                     continue
                 yield response.follow(link.get(), callback=self.parse_article, meta={'section': section})
 
 
     def parse_article(self, response):
+        # Extract article paragraphs
         par = response.xpath('//*[starts-with(@class, "zn-body__paragraph")]/text()').extract()
         if par == []:
             return
         paragraphs = ''
         for paragraph in par:
             paragraphs += ' ' + extract_text(paragraph)
+
+        # Create article dictionary by extracting required information
         article = { 
             'url': response.url,
             'title': response.xpath('//h1/text()').extract_first(),
             'paragraphs': paragraphs
         }
 
-        if isLegalTitle(article['title']) == False:
-            return
-
-        #for key, value in article.items():
-        #    print(key, value)
         return article

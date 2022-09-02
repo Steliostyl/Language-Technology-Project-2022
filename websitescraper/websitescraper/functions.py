@@ -10,16 +10,11 @@ def readJSON(filename):
     return articles
 
 # Write article list to JSON file
-def saveListToJSON(input_list, filename):
+def saveDictToJSON(input_Dict, filename):
     # Open the file with filename (if it exists, it gets 
     # overwritten because of the use of w instead of a)
     with open(filename, 'w') as file:
-        file.write('[\n')
-        for index, list_el in enumerate(input_list):
-            json.dump(list_el, file, indent=4, default=str)
-            if index < len(input_list) - 1:
-                file.write(',\n')
-        file.write('\n]')
+        json.dump(input_Dict, file, indent=2, default=str)
     file.close()
 
 # Calculate weights for all lemmas (using tf_idf)

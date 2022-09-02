@@ -48,7 +48,7 @@ def get_wordnet_pos(tag):
 # Function to filter stop words from pos tags,
 # lemmatize them and create final lemmas dictionary
 def filter_stop_words(pos_tags):
-    pos_no_stopwords = {}
+    pos_no_stopwords = {}   
     lemmas = {}
     articles_w_count = {}
     lemmatizer = WordNetLemmatizer()
@@ -57,9 +57,9 @@ def filter_stop_words(pos_tags):
     # article[1] -> article tags
     for article in pos_tags.items():
         article_pos_no_sw = []
-        filtered_pos = []
         article_w_count = 0
         for sent in article[1]:
+            filtered_pos = []
             for tag in sent:
                 # Filter words that have not
                 # been tagged with a closed 

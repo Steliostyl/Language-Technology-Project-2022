@@ -2,7 +2,10 @@ import functions
 import nltk_functions
 import random
 from time import perf_counter
-from pprint import pprint
+#import run_Spiders
+
+# Run the spiders and crawl news websites
+#run_Spiders.run()
 
 # Read JSON created by the crawler
 articles = functions.readJSON('articles.json')
@@ -14,13 +17,12 @@ articles_w_count = temp[1]
 lemmas = temp[2]
 
 # Save pos tags to seperate files
-functions.saveListToJSON(pos_tags, 'pos_tags.json')
-functions.saveListToJSON(pos_tags_no_sw, 'pos_tags_no_stopwords.json')
+functions.saveDictToJSON(pos_tags, 'pos_tags.json')
+functions.saveDictToJSON(pos_tags_no_sw, 'pos_tags_no_stopwords.json')
 
 # Calculate TFidf and save them as weights to the lemma dictionary
 lemmas = functions.calculateTFidf(lemmas, articles_w_count)
 functions.createXML(lemmas)
-
 
 #query_words = [
 #    "randomnonexistingword", "prospective buyer", "be","having","second","fell","estate","adjustment","value","recovery","owner","midst","press","wharton"
@@ -50,7 +52,13 @@ for query in query_words:
     query_response[query] = nltk_functions.nltk_query(lemmas, query)
 finish_time = perf_counter()
 e_time = finish_time - start_time
-pprint(query_response, indent=4, sort_dicts=False)
-#for item in query_response.items():
-#    print(item)
+
+#pprint(query_response, indent=2, sort_dicts=False, compact=True)
+
+# Custom pretty print
+for item in query_response.items():
+    print(item[0], ': {', sep="")
+    for article in item[1].items():
+        print('   ', article[0], ': ', article[1], ',', sep="")
+    print('}')
 print("Elapsed time: %.6f" % e_time)
