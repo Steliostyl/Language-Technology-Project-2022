@@ -30,5 +30,3 @@ def run(verbose=0):
         if verbose == 2:
             print("Errors:\n")
             print(cnn_proc.stderr)
-
-run(2)

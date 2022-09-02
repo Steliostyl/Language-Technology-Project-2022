@@ -2,10 +2,10 @@ import functions
 import nltk_functions
 import random
 from time import perf_counter
-#import run_Spiders
+import run_Spiders
 
 # Run the spiders and crawl news websites
-#run_Spiders.run()
+run_Spiders.run()
 
 # Read JSON created by the crawler
 articles = functions.readJSON('articles.json')
