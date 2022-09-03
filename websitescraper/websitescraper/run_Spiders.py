@@ -16,7 +16,7 @@ def run(verbose=0):
         text=True
     )
 
-    # Cleanup file so that it contains 1 instead of 2 lists
+    # Cleanup file by merging article lists into 1
     with open('articles_temp.json', 'r', encoding="utf-8") as infile, open('articles.json', 'w', encoding="utf-8") as outfile:
         temp = re.sub("\n\]\[", ",", infile.read())
         outfile.write(temp)

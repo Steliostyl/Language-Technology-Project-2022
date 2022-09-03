@@ -22,9 +22,11 @@ class CnbcSpider(scrapy.Spider):
     def parse_article(self, response):
         # Extract article paragraphs
         par = response.xpath('//div[@class="ArticleBody-articleBody"]/div[@class="group"]/p').extract()
+        # Ignore articles with empty paragraphs
         if par == []:
             return
         paragraphs = ''
+        # Extract only the text of the paragraphs and add it to paragraphs string
         for paragraph in par:
             paragraphs += ' ' + extract_text(paragraph)
 
@@ -32,9 +34,6 @@ class CnbcSpider(scrapy.Spider):
         article = { 
             'url': response.url,
             'title': response.xpath('//h1/text()').extract_first(),
-            'tag': response.xpath('//a[@class="ArticleHeader-eyebrow"]/text()').extract_first(),
-            'author': response.xpath('//div[@class="Author-authorNameAndSocial"]//text()').extract_first(),
-            'datetime': readDateTimeFromString(response.css('time::attr(datetime)').get()),
             'paragraphs': paragraphs
         }
 

@@ -14,7 +14,7 @@ oc_categories = ['JJ', 'JJR', 'JJS', 'RB', 'RBR', 'RBS', 'NN', 'NNS',
 def pos_tag(articles):
     pos_tags = {}
     for article in articles:
-        # Tokenize words in each sentence of the paragraphs
+        # Split article paragraphs into sentences
         tokenized = sent_tokenize(article['paragraphs'])
         # Send the tokenized words of each sentence for PoS tagging
         pos_tag = process_content(tokenized)

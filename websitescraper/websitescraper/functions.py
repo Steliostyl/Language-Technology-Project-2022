@@ -2,6 +2,7 @@ import json
 from xml.dom import minidom
 import math
 import xml.etree.ElementTree as ET
+import pprint
 
 # Read the articles from JSON file
 def readJSON(filename):
@@ -62,9 +63,9 @@ def readXML(filename):
         lemma_name = lemma.get('name')
         docs = {}
         for document in lemma.findall('document'):
-            id = document.get('id')
+            url = document.get('url')[:2]
             weight = document.get('weight')
-            docs[id] = weight
+            docs[url] = weight
         
         lemma_dict[lemma_name] = docs
         
