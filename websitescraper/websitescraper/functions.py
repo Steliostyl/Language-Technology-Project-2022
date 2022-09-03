@@ -2,7 +2,9 @@ import json
 from xml.dom import minidom
 import math
 import xml.etree.ElementTree as ET
-import pprint
+import random
+
+#import pprint
 
 # Read the articles from JSON file
 def readJSON(filename):
@@ -70,3 +72,19 @@ def readXML(filename):
         lemma_dict[lemma_name] = docs
         
     return lemma_dict
+
+def generateRandomQueries(lemmas):
+    # Create queries
+    lemmaKeys = list(lemmas.keys())
+    # 20 1-word queries
+    queries = random.sample(lemmaKeys, 20)
+    # 20 2-word queries
+    for i in range(0,20):
+        queries.append(' '.join(random.sample(lemmaKeys, 2)))
+    # 30-triple word queries
+    for i in range(0,30):
+        queries.append(' '.join(random.sample(lemmaKeys, 3)))
+    # 30-quad word queries
+    for i in range(0,30):
+        queries.append(' '.join(random.sample(lemmaKeys, 4)))
+    return queries
