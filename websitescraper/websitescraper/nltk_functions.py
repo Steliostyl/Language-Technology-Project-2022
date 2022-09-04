@@ -147,10 +147,9 @@ def nltk_query(lemmas, query):
             else:
                 for lemmas_key, lemmas_value in lemmas.items():
                     ratio = fuzz.ratio(qword_lemma, lemmas_key)
-                if ratio < 90:
-                    continue
-                #print('Similarity between the words ', word, '(', qword_lemma, ') and ', lemmas_key, ': ', ratio)
-                articles_containing_query = lemmas_value.items()
+                    if ratio > 90:
+                        articles_containing_query.append(lemmas_value.items())
+                        #print('Similarity between the words ', word, '(', qword_lemma, ') and ', lemmas_key, ': ', ratio)
         
         # Add the weight of the word in each article to the answer[article] 
         # so that if multiple words of a single query are found in the 
