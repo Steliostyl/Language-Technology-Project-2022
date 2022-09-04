@@ -4,24 +4,25 @@ import math
 import xml.etree.ElementTree as ET
 import random
 
-#import pprint
-
-# Read the articles from JSON file
 def readJSON(filename):
+    """Read articles from JSON file"""
+
     with open(filename, 'r') as file:
         articles = json.load(file)
     return articles
 
-# Write article list to JSON file
 def saveDictToJSON(input_Dict, filename):
-    # Open the file with filename (if it exists, it gets 
-    # overwritten because of the use of w instead of a)
+    """Write article list to JSON file"""
+
+    # Open the file with filename in w (write) mode
+    # If it already exists, it gets overwritten
     with open(filename, 'w') as file:
         json.dump(input_Dict, file, indent=2, default=str)
     file.close()
 
-# Calculate weights for all lemmas (using tf_idf)
 def calculateTFidf(lemmas, article_w_count):
+    """Calculate weights for all lemmas (using tf_idf)"""
+    
     article_count = len(article_w_count)
     for lemma in lemmas:
         # IDF of each lemma is equal to the base 2 log of the
@@ -35,8 +36,9 @@ def calculateTFidf(lemmas, article_w_count):
 
     return lemmas
 
-# Create and save XML file from lemmas dict
 def createXML(lemmas_dict):
+    """Create and save XML file from lemmas dict"""
+
     root = minidom.Document()
     inv_index = root.createElement('inverted_index')
     root.appendChild(inv_index)
@@ -56,8 +58,9 @@ def createXML(lemmas_dict):
     with open('lemmas.xml', "w", encoding='utf-8') as file:
         file.write(xml_str) 
 
-# Read XML file containing lemmas and load it to a dict
 def readXML(filename):
+    """Read XML file containing lemmas and load it to a dict"""
+
     lemma_dict = {}
     root_node = ET.parse(filename).getroot()
     # Get all lemmas
@@ -65,7 +68,7 @@ def readXML(filename):
         lemma_name = lemma.get('name')
         docs = {}
         for document in lemma.findall('document'):
-            url = document.get('url')[:2]
+            url = document.get('url')
             weight = document.get('weight')
             docs[url] = weight
         
@@ -74,6 +77,8 @@ def readXML(filename):
     return lemma_dict
 
 def generateRandomQueries(lemmas):
+    """Generate random queries"""
+
     # Create queries
     lemmaKeys = list(lemmas.keys())
     # 20 1-word queries

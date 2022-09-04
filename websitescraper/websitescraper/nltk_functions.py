@@ -10,8 +10,9 @@ from thefuzz import fuzz
 oc_categories = ['JJ', 'JJR', 'JJS', 'RB', 'RBR', 'RBS', 'NN', 'NNS',
 'NNP', 'NNPS', 'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ', 'FW']
 
-# PoS Tagging
 def pos_tag(articles):
+    """PoS Tag articles"""
+
     pos_tags = {}
     for article in articles:
         # Split article paragraphs into sentences
@@ -22,8 +23,10 @@ def pos_tag(articles):
         pos_tags[article['url']] = pos_tag
     return pos_tags, filter_stop_words(pos_tags)
 
-# Function where each word of the input sentence gets tokenized
 def process_content(tokenized):
+    """Tokenize each word of the
+    input (tokenized) sentence"""
+
     try:
         tagged = []
         # PoS tag every tokenized sentence
@@ -35,8 +38,8 @@ def process_content(tokenized):
     except Exception as ex:
         print(str(ex))
 
-# Function to convert nltk pos_tags to wordnet pos tags
 def get_wordnet_pos(tag):
+    """Convert nltk pos_tags to wordnet pos tags"""
     proper_tag = [tag][0][0][0]
     tag_dict = {"J": wordnet.ADJ,
                 "N": wordnet.NOUN,
@@ -45,9 +48,10 @@ def get_wordnet_pos(tag):
 
     return tag_dict.get(proper_tag, wordnet.NOUN)
 
-# Function to filter stop words from pos tags,
-# lemmatize them and create final lemmas dictionary
 def filter_stop_words(pos_tags):
+    """Filter stop words from pos tags,
+    lemmatize them and create lemmas dictionary"""
+
     pos_no_stopwords = {}   
     lemmas = {}
     articles_w_count = {}
@@ -107,10 +111,11 @@ def filter_stop_words(pos_tags):
 
     return pos_no_stopwords, articles_w_count, lemmas
 
-# Function to sort a dictionary by its values (and not the keys).
-# Used in the query function, where we want the articles of the answer
-# to be sorted according to their weight sum.
 def dict_sort(dict):
+    """Sort a dictionary by its values (and not the keys).
+    Used in the query function, where we want the articles of the answer
+    to be sorted according to their weight sum."""
+    
     # Sort answer documents by weight
     sorted_dict = {}
     sorted_keys = sorted(dict, key=dict.get, reverse=True)
@@ -118,10 +123,11 @@ def dict_sort(dict):
         sorted_dict[key] = dict[key]
     return sorted_dict   
 
-# Query function that takes as input the lemmas dict as well as a query
-# (which can be one or multiple words) and returns the articles in which
-# the query word(s) can be found, sorted by their weight sums.
 def nltk_query(lemmas, query):
+    """Query function that takes as input the lemmas dict as well as a query
+    (which can be one or multiple words) and returns the articles in which
+    the query word(s) can be found, sorted by their weight sums."""
+
     lemmatizer = WordNetLemmatizer()
     answer = {}
     articles_containing_query = []
@@ -157,6 +163,6 @@ def nltk_query(lemmas, query):
 
     # Answer not found by lemmatizing OR string matching
     if len(answer.keys()) == 0:
-        return 'Not found'
+        return {query :'Not found'}
                     
     return dict_sort(answer)

@@ -2,6 +2,8 @@ import subprocess
 import re
 
 def run(verbose=0):
+    """Run all spiders"""
+    
     cnbc_proc = subprocess.run(
         ["scrapy", "crawl", "cnbc_spider", "-o", "articles_temp.json"],
         stdout=subprocess.PIPE,
