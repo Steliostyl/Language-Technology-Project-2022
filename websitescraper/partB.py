@@ -37,6 +37,18 @@ def predict_Category_Clf(documents, classifier, print=False):
         for doc, category in zip(documents, predicted):
             print('%r\n%s\n' % (doc, twenty_news_train.target_names[category]))
 
+def vector_Compare(vector1, vector2):
+    diff = 0
+    return diff
+
+def predict_Category_custom(test_data, train_vector):
+    features_count = count_Vectorizer.transform(test_data)
+    features_tfidf = tf_idf_Transformer.transform(features_count)
+    for doc in features_tfidf:
+        vector_Compare(train_vector, doc)
+
+    return
+
 # Read dataset and load it into variable
 twenty_news_train = fetch_20newsgroups(subset='train', shuffle=True, random_state=21)
 
@@ -49,6 +61,7 @@ classifier = train_Classifier(twenty_news_train.target, tf_idf_vect)
 # Predict category of test documents from the dataset
 twenty_news_test = fetch_20newsgroups(subset='test', shuffle=True, random_state=21)
 predict_Category_Clf(twenty_news_test.data, classifier)
+print(type(tf_idf_vect))
 #predict_Category_custom(twenty_news_test.data, tf_idf_vect)
 
 # Measure the performance of model
