@@ -2,6 +2,7 @@ from sklearn.datasets import fetch_20newsgroups
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics.pairwise import cosine_similarity
 from time import perf_counter
 
 start_time = perf_counter()
@@ -37,7 +38,13 @@ def predict_Category_Clf(documents, classifier, print=False):
         for doc, category in zip(documents, predicted):
             print('%r\n%s\n' % (doc, twenty_news_train.target_names[category]))
 
-def vector_Compare(vector1, vector2):
+def find_Category(train, doc):
+    max_sim = 0
+    for document in train:
+        sim = cosine_similarity(document, doc)
+        if sim > max_sim:
+            max_sim = sim
+    print(max_sim)
     diff = 0
     return diff
 
@@ -45,7 +52,7 @@ def predict_Category_custom(test_data, train_vector):
     features_count = count_Vectorizer.transform(test_data)
     features_tfidf = tf_idf_Transformer.transform(features_count)
     for doc in features_tfidf:
-        vector_Compare(train_vector, doc)
+        find_Category(train_vector, doc)
 
     return
 
@@ -60,9 +67,9 @@ classifier = train_Classifier(twenty_news_train.target, tf_idf_vect)
 
 # Predict category of test documents from the dataset
 twenty_news_test = fetch_20newsgroups(subset='test', shuffle=True, random_state=21)
-predict_Category_Clf(twenty_news_test.data, classifier)
-print(type(tf_idf_vect))
-#predict_Category_custom(twenty_news_test.data, tf_idf_vect)
+#predict_Category_Clf(twenty_news_test.data, classifier)
+print(tf_idf_vect.shape)
+predict_Category_custom(twenty_news_test.data, tf_idf_vect)
 
 # Measure the performance of model
 finish_time = perf_counter()
